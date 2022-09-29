@@ -29,7 +29,7 @@ Calvin Harris
 Kendrick Lamar
 Sam Smith
 Queen
-BeyoncÈ
+Beyonc√©
 Adele
 Future
 One Direction
@@ -114,7 +114,7 @@ Frank Ocean
 A$AP Rocky
 YoungBoy Never Broke Again
 NF
-TiÎsto
+Ti√´sto
 5 Seconds of Summer
 A Boogie Wit da Hoodie
 Zedd
@@ -137,7 +137,7 @@ Anne-Marie
 Lewis Capaldi
 Clean Bandit
 JAY-Z
-MarÌlia MendonÁa
+Mar√≠lia Mendon√ßa
 Zara Larsson
 Bebe Rexha
 Anitta
@@ -148,7 +148,7 @@ The Rolling Stones
 The Neighbourhood
 Britney Spears
 The Kid LAROI
-Michael BublÈ
+Michael Bubl√©
 Guns N' Roses
 Flo Rida
 Camilo
@@ -173,7 +173,7 @@ Lorde
 Usher
 Hozier
 David Bowie
-Banda MS de Sergio Liz·rraga
+Banda MS de Sergio Liz√°rraga
 Mariah Carey
 Luke Combs
 Skrillex
@@ -256,7 +256,7 @@ Alesso
 Arijit Singh
 Glass Animals
 The Script
-ZÈ Neto & Cristiano
+Z√© Neto & Cristiano
 Whitney Houston
 Chance the Rapper
 Piso 21
@@ -265,7 +265,7 @@ Bruce Springsteen
 Arcangel
 Fifth Harmony
 Nickelback
-Lenny Tav·rez
+Lenny Tav√°rez
 Jason Mraz
 Galantis
 Avril Lavigne
@@ -291,12 +291,12 @@ Wisin
 Aerosmith
 Vance Joy
 Kelly Clarkson
-Alejandro Fern·ndez
+Alejandro Fern√°ndez
 Stevie Wonder
 Jennifer Lopez
 Thomas Rhett
 Johnny Cash
-Man·
+Man√°
 Ryan Lewis
 Hans Zimmer
 NAV
@@ -319,7 +319,7 @@ Dr. Dre
 Miguel
 Jul
 Lizzo
-ROSALÕA
+ROSAL√çA
 Billy Joel
 Calibre 50
 Phil Collins
@@ -334,7 +334,7 @@ Prince Royce
 The Offspring
 24kGoldn
 Three Days Grace
-Wesley Safad„o
+Wesley Safad√£o
 Anderson .Paak
 The Strokes
 Don Toliver
@@ -345,9 +345,9 @@ Jeremih
 benny blanco
 Cartel De Santa
 Avenged Sevenfold
-CÈline Dion
+C√©line Dion
 Ricardo Arjona
-MÂneskin
+M√•neskin
 Alejandro Sanz
 Lin-Manuel Miranda
 Ricky Martin
@@ -361,7 +361,7 @@ Marc Anthony
 H.E.R.
 Nelly
 Charli XCX
-Pablo Albor·n
+Pablo Albor√°n
 2 Chainz
 Train
 Passenger
@@ -389,7 +389,7 @@ R3HAB
 LANY
 Tainy
 PARTYNEXTDOOR
-La Arrolladora Banda El LimÛn De Rene Camacho
+La Arrolladora Banda El Lim√≥n De Rene Camacho
 James Blunt
 The Police
 Cage The Elephant
@@ -404,7 +404,7 @@ Becky Hill
 Sam Hunt
 Sigala
 Carlos Vives
-JhenÈ Aiko
+Jhen√© Aiko
 Rudimental
 Marvin Gaye
 Offset
@@ -425,7 +425,7 @@ alt-J
 Chris Stapleton
 Lil Yachty
 Quavo
-Los ¡ngeles Azules
+Los √Ångeles Azules
 NLE Choppa
 Feid
 Journey
@@ -451,7 +451,7 @@ Bon Iver
 Lunay
 Carly Rae Jepsen
 Why Don't We
-Vicente Fern·ndez
+Vicente Fern√°ndez
 A$AP Ferg
 PNL
 Juan Gabriel
@@ -492,7 +492,7 @@ The Game
 Bibi und Tina
 Ufo361
 R.E.M.
-AminÈ
+Amin√©
 Normani
 AJR
 Christina Perri
@@ -545,7 +545,7 @@ Aitana
 Luan Santana
 Andy Grammer
 Rage Against The Machine
-Juan Mag·n
+Juan Mag√°n
 KYLE
 Keith Urban
 Joel Corry
@@ -572,10 +572,10 @@ League of Legends
 Eladio Carrion
 Lofi Fruits Music
 Prince
-Os Barıes Da Pisadinha
+Os Bar√µes Da Pisadinha
 Brytiago
 Casper Magico
-JosÈ JosÈ
+Jos√© Jos√©
 Evanescence
 Sublime
 Die drei !!!
@@ -591,7 +591,7 @@ George Strait
 Carlos Rivera
 Carrie Underwood
 Enya
-Pedro CapÛ
+Pedro Cap√≥
 girl in red
 Ozzy Osbourne
 Scorpions
@@ -601,7 +601,7 @@ Joyner Lucas
 Ali Gatie
 Mustard
 PnB Rock
-ZoÈ
+Zo√©
 Goodboys
 KISS
 WALK THE MOON
@@ -615,7 +615,7 @@ Junior H
 The Smashing Pumpkins
 Sum 41
 Alan Jackson
-Marco Antonio SolÌs
+Marco Antonio Sol√≠s
 WILLOW
 Ella Mai
 Marilyn Manson
@@ -653,7 +653,7 @@ David Bisbal
 Pharrell Williams
 Kacey Musgraves
 Gera MX
-LuÌsa Sonza
+Lu√≠sa Sonza
 Leon Bridges
 Chief Keef
 Martin Jensen
@@ -682,7 +682,7 @@ Dilsinho
 Charlie Brown Jr.
 Ha*Ash
 Gwen Stefani
-Mˆtley Cr¸e
+M√∂tley Cr√ºe
 Jessie Reyez
 Owl City
 Apache 207
@@ -737,7 +737,7 @@ Calle 13
 Booba
 Ciara
 Incubus
-Mÿ
+M√ò
 Mon Laferte
 Conor Maynard
 Ella Fitzgerald
@@ -758,7 +758,7 @@ Oliver Tree
 John Newman
 CRO
 PNAU
-ANAVIT”RIA
+ANAVIT√ìRIA
 Sara Bareilles
 Burna Boy
 Michael Silverman
@@ -769,7 +769,7 @@ The Jackson 5
 Fergie
 The Pussycat Dolls
 Leona Lewis
-MatuÍ
+Matu√™
 LUDMILLA
 Natalia Lafourcade
 Mora
@@ -816,7 +816,7 @@ Kina
 MAGIC!
 Greeicy
 Simple Plan
-SofÌa Reyes
+Sof√≠a Reyes
 Dido
 Paul Simon
 Dennis Lloyd
@@ -831,11 +831,11 @@ Summer Cem
 Sade
 Eslabon Armado
 Juan Luis Guerra 4.40
-La Adictiva Banda San JosÈ de Mesillas
+La Adictiva Banda San Jos√© de Mesillas
 KSI
 Bullet For My Valentine
 Selena
-Jack ‹
+Jack √ú
 Nina Simone
 Kollegah
 Bea Miller
@@ -859,7 +859,7 @@ Sasha Alex Sloan
 Dadju
 Silk Sonic
 deadmau5
-Benjamin Bl¸mchen
+Benjamin Bl√ºmchen
 Beastie Boys
 Ferrugem
 Trueno
@@ -881,11 +881,11 @@ Los Enanitos Verdes
 Gavin James
 Lenny Kravitz
 Tungevaag
-FrÈdÈric Chopin
+Fr√©d√©ric Chopin
 Ramin Djawadi
 Tyler Childers
 Brett Young
-BÿRNS
+B√òRNS
 Audioslave
 Olivia O'Brien
 Sleepy Hallow
@@ -898,7 +898,7 @@ Alvaro Soler
 Pink Sweat$
 King Von
 Diego & Victor Hugo
-JoaquÌn Sabina
+Joaqu√≠n Sabina
 Ella Henderson
 (G)I-DLE
 Blur
@@ -919,7 +919,7 @@ YOASOBI
 ITZY
 Pusha T
 Spice Girls
-RÌo Roma
+R√≠o Roma
 Bo Burnham
 Oh Wonder
 UB40
@@ -961,7 +961,7 @@ Brantley Gilbert
 Tori Kelly
 Counting Crows
 Marracash
-AndrÈs Calamaro
+Andr√©s Calamaro
 Tom Petty and the Heartbreakers
 Hombres G
 Lupe Fiasco
@@ -986,7 +986,7 @@ ONE OK ROCK
 Melim
 PLK
 Jacquees
-R‹F‹S DU SOL
+R√úF√úS DU SOL
 Young the Giant
 Gemitaiz
 Central Cee
