@@ -1,0 +1,7 @@
+name,isrc,album,artists
+Umbrella,USUM70736771,Good Girl Gone Bad: Reloaded,Rihanna;JAY-Z
+In Da Club,USIR10300033,Get Rich Or Die Tryin',50 Cent
+Just Dance,USUM70807646,The Fame,Lady Gaga;Colby O'Donis
+The Sweet Escape,USUM70618684,The Sweet Escape,Gwen Stefani;Akon
+Hips Don't Lie (feat. Wyclef Jean),USSM10600677,Oral Fixation, Vol. 2 (Expanded Edition),Shakira;Wyclef Jean
+Yeah! (feat. Lil Jon & Ludacris),USAR10301423,Confessions (Expanded Edition),Usher;Lil Jon;Ludacris

@@ -1,4 +1,5 @@
 # https://chartmasters.org/most-streamed-artists-ever-on-spotify/
+# 23/09/2022
 with open("1000_raw_artists.txt", "r", encoding='utf8') as f:
     data = f.readlines()
 
