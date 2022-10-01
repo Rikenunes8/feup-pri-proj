@@ -60,26 +60,7 @@ with open("tracks.txt", "w") as f:
 
 
 with open("artists.txt", "w") as f:
-    f.writelines('\n'.join((list(data_albums))))
+    f.writelines('\n'.join((list(data_artists))))
 
 with open("albums.txt", "w") as f:
-    f.writelines('\n'.join(list(data_artists)))
-
-
-"""
-client_id = os.getenv("SPOTIPY_CLIENT_ID")
-client_key = os.getenv("SPOTIPY_CLIENT_SECRET")
-
-url = 'https://accounts.spotify.com/api/token'
-headers = {
-'Authorization': 'Basic ' + str(base64.b64decode(client_id + ':' + client_key))
-}
-form = {
-"grant_type": 'client_credentials'
-}
-json = True
-
-token_data = requests.post(url, data = form, headers = headers)
-
-input()
-"""
+    f.writelines('\n'.join(list(data_albums)))
