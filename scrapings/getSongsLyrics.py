@@ -22,7 +22,7 @@ def get_url(artist, song):
     song_format = song.lower()
     final_string = artist_format + " " + song_format
     final_string = "".join(c for c in final_string 
-        if is_alpha(c) or c == " ")
+        if is_alpha(c) or c == " " or c.isnumeric())
     
     return 'https://genius.com/' + final_string.replace(" ", "-") + "-lyrics"
 
@@ -30,6 +30,7 @@ def get_url(artist, song):
 
 def get_lyrics(artist, song):
     url = get_url(artist, song)
+    print(url)
     html = requests.get(url).content
     outter_soup = BeautifulSoup(html, 'html.parser')
     outter_html = outter_soup.find_all('div', {'data-lyrics-container': 'true'})
@@ -45,4 +46,8 @@ def get_lyrics(artist, song):
         raise Exception("not known")
     return out
 
-print(get_lyrics("demondice", "DEMONDICEは"))
+# print(get_lyrics("Britney Spears", "...Baby One More Time"))
+# print(get_lyrics("Yui Ninomiya", "Dark seeks light"))
+# print(get_lyrics("Lukas Graham", "7 years"))
+# print(get_lyrics("chase atlantic", "23"))
+# print(get_lyrics("Whitaker", "5,000,000,000 Years"))
