@@ -23,7 +23,7 @@ def get_url(artist, song):
     final_string = artist_format + " " + song_format
     final_string = "".join(c for c in final_string 
         if is_alpha(c) or c == " " or c.isnumeric())
-    
+    final_string = " ".join(final_string.split())
     return 'https://genius.com/' + final_string.replace(" ", "-") + "-lyrics"
 
 
@@ -51,3 +51,5 @@ def get_lyrics(artist, song):
 # print(get_lyrics("Lukas Graham", "7 years"))
 # print(get_lyrics("chase atlantic", "23"))
 # print(get_lyrics("Whitaker", "5,000,000,000 Years"))
+# print(get_lyrics("shakira", "Hips Don't Lie"))
+print(get_lyrics("Modjo", "Lady - Hear Me Tonight"))
