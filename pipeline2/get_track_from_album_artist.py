@@ -20,14 +20,16 @@ artist_name = sys.argv[2]
 columns = ['track', 'album', 'artist']
 
 result = sp.search(f"{album_name} {artist_name}", limit=1, type='album')
-album = result['albums']['items'][0]['uri']
+album_items = result['albums']['items']
+if len(album_items) == 0: exit(1)
+album = album_items[0]['uri']
 result = sp.album_tracks(album)
 album_items = result['items']
 albums_tracks = [[item['name'], album_name, artist_name] for item in album_items]
 tracks = pd.DataFrame(albums_tracks, columns=columns)
-print(tracks)
+# print(tracks)
 filename = 'rolling_stones_tracks.csv'
 addHeader = not os.path.isfile(filename)
 mode = 'w' if addHeader else 'a'
-tracks.to_csv(filename,header=addHeader, index=False, mode=mode, encoding='utf8')
+tracks.to_csv(filename,header=addHeader, index=False, mode=mode, encoding='utf8', sep=';')
 
