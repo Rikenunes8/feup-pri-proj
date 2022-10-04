@@ -35,11 +35,9 @@ def get_lyrics(artist, song):
     outter_soup = BeautifulSoup(html, 'html.parser')
     outter_html = outter_soup.find_all('div', {'data-lyrics-container': 'true'})
     out = ""
-    for i in outter_html:
-        inner_html = str(i)
-        internal_soup = BeautifulSoup(inner_html, 'html.parser')
-        intetnal_texts = internal_soup.find_all(text=True)
-        visible_texts = list(filter(is_visible, intetnal_texts))
+    for internal_soup in outter_html:
+        internal_texts = internal_soup.find_all(text=True)
+        visible_texts = list(filter(is_visible, internal_texts))
 
         out += "\n".join(visible_texts)
     if out == "":
