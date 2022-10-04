@@ -50,7 +50,7 @@ for track in tracks:
     data_albums.add(info['album'])
     data_artists.update(info['artists'])
 
-with open("tracks.txt", "w") as f:
+with open("tracks.txt", "w", encoding='utf8') as f:
     f.write("name,isrc,album,artists\n")
     f.writelines(
         '\n'.join(list(map(
@@ -59,8 +59,8 @@ with open("tracks.txt", "w") as f:
     )
 
 
-with open("artists.txt", "w") as f:
+with open("artists.txt", "w", encoding='utf8') as f:
     f.writelines('\n'.join((list(data_artists))))
 
-with open("albums.txt", "w") as f:
+with open("albums.txt", "w", encoding='utf8') as f:
     f.writelines('\n'.join(list(data_albums)))
