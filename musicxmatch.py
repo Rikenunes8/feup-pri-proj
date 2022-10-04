@@ -1,10 +1,13 @@
+from distutils.debug import DEBUG
 import requests
 import os
 import json
 import pandas as pd
 from dotenv import load_dotenv
+import sys
 
 load_dotenv()
+DEBUG = False
 
 base_url = "https://api.musixmatch.com/ws/1.1/"
 
@@ -18,7 +21,8 @@ def load_csv(file):
 
 def print_json(json_data):
     json_formatted_str = json.dumps(json_data, indent=2)
-    print(json_formatted_str)
+    if DEBUG:
+        print(json_formatted_str)
 
 def get_from_json(json, path):
     for x in path:
@@ -44,7 +48,7 @@ def get_artist(apikey, artist_name):
         artist_name = get_from_json(artists_json, [0,'artist','artist_name'])
         return (artist_id, artist_name)
     else:
-        pass
+        raise Exception()
 
 def get_artist_albums(apikey, artist_id, sort_by_release, page_size):
     method = 'artist.albums.get'
@@ -67,7 +71,8 @@ def get_artist_albums(apikey, artist_id, sort_by_release, page_size):
             albums.append((album_id, album_name, album_release_date))
         return albums
     else:
-        pass
+        raise Exception()
+
 
 def get_album_tracks(apikey, album_id):
     method = 'album.tracks.get'
@@ -88,12 +93,12 @@ def get_album_tracks(apikey, album_id):
             tracks.append((track_id, track_name))
         return tracks
     else:
-        pass
+        raise Exception()
 
 
 
-def get_scraping_names():
-    with open("scrapings/1000_artists.txt", "r", encoding='utf8') as f:
+def get_scraping_names(filename):
+    with open(filename, "r", encoding='utf8') as f:
         artists = f.readlines()
         
     artists = list(map(lambda x: x.strip(), artists))
@@ -149,12 +154,17 @@ def build_tracks(albums, tracks_df:pd.DataFrame):
             tracks_d['track_name'].append(track_name)
     save_to_csv(tracks_d, 'tracks.csv', False)
 
+if len(sys.argv)== 1:
+    print("Must take filename for input")
+if len(sys.argv) > 2:
+    if sys.argv[2] == "-debug":
+        DEBUG = True
+filename = sys.argv[1]
+artists_names = get_scraping_names(filename)
+build_artists(artists_names[:15], None, None)
 
-# artists_names = get_scraping_names()
-# build_artists(artists_names[:15])
+d = load_csv('artists.csv')
+build_albums(d.to_dict('list')['artist_id'], None)
 
-# d = load_csv('artists.csv')
-# build_albums(d.to_dict('list')['artist_id'], None)
-
-# d = load_csv('albums.csv')
-# build_tracks(d.to_dict('list')['album_id'], None)
+d = load_csv('albums.csv')
+build_tracks(d.to_dict('list')['album_id'], None)

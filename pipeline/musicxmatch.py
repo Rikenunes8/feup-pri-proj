@@ -45,7 +45,7 @@ def get_artist(apikey, artist_name):
         artist_name = get_from_json(artists_json, [0,'artist','artist_name'])
         return (artist_id, artist_name)
     else:
-        pass
+        raise Exception('bad status')
 
 def get_artist_albums(apikey, artist_id, sort_by_release, page_size):
     method = 'artist.albums.get'
@@ -68,7 +68,7 @@ def get_artist_albums(apikey, artist_id, sort_by_release, page_size):
             albums.append((album_id, album_name, album_release_date))
         return albums
     else:
-        pass
+        raise Exception('bad status')
 
 def get_album_tracks(apikey, album_id):
     method = 'album.tracks.get'
@@ -89,7 +89,7 @@ def get_album_tracks(apikey, album_id):
             tracks.append((track_id, track_name))
         return tracks
     else:
-        pass
+        raise Exception('bad status')
 
 
 
@@ -150,11 +150,12 @@ def build_tracks(albums, tracks_df:pd.DataFrame):
             tracks_d['track_name'].append(track_name)
     save_to_csv(tracks_d, 'tracks.csv', False)
 
-if len(sys.argv)== 1:
-    print("Must take filename for input")
-filename = sys.argv[1]
+# if len(sys.argv)== 1:
+#     print("Must take filename for input")
+# filename = sys.argv[1]
+filename="artists.txt"
 artists_names = get_scraping_names(filename)
-build_artists(artists_names[:15])
+build_artists(artists_names)
 
 d = load_csv('artists.csv')
 build_albums(d.to_dict('list')['artist_id'], None)
