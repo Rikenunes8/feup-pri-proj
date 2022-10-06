@@ -31,6 +31,7 @@ process:
 	python3 src/normalize_release_date.py $(DATA)$(RS_COMPLETE) $(PROCESSED)$(RS_COMPLETE)
 
 analyze:
+	mkdir -p analyze
 	python3 src/analyze_release_date.py $(PROCESSED)$(RS_COMPLETE)
 # python3 src/analyze_lyrics_existence.py
 
