@@ -1,25 +1,29 @@
 # rs means rolling stones
 
-RS_HTML=rolling_stones.html
-RS_CSV=rolling_stones.csv
+DIR := data/
+RS_HTML := rolling_stones.html
+RS_CSV := rolling_stones.csv
+RST_CSV := rolling_stones_tracks.csv
 
-all: get_rs_html rs_html_to_csv build_artist_album_track
 
-get_rs_html:
-	if [ -f $(RS_HTML) ]; then \
-		echo "$(RS_HTML) already exists."; \
-	else \
-		curl -s 'https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Albums/500' > "$(RS_HTML)"; \
-	fi
-
-rs_html_to_csv:
-	python3 rolling_stones.py $(RS_HTML)
-
-build_artist_album_track:
-	chmod +x build_artist_album_track.sh
-	bash build_artist_album_track.sh $(RS_CSV)
+all: collect process analyze
 
 clean:
-	rm -f $(RS_HTML)
-	rm -f $(RS_CSV)
-	rm -f rolling_stones_tracks.csv
+	rm -rf $(DIR)
+
+collect:
+	mkdir -p data
+	
+	chmod +x src/collect_rs_html.sh
+	chmod +x src/collect_tracks.sh
+	chmod +x src/collect_lyrics.sh
+
+	bash src/collect_rs_html.sh $(DIR)$(RS_HTML)
+	python3 src/rs_html_to_csv.py $(DIR)$(RS_HTML) $(DIR)$(RS_CSV)
+	bash src/collect_tracks.sh $(DIR)$(RS_CSV) $(DIR)$(RST_CSV)
+	bash src/collect_lyrics.sh $(DIR) $(DIR)$(RST_CSV)
+
+process:
+analyze:
+
+
