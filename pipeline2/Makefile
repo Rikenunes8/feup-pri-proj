@@ -1,15 +1,18 @@
 # rs means rolling stones
 
-DIR := data/
+DATA := data/
+PROCESSED := processed/
 RS_HTML := rolling_stones.html
 RS_CSV := rolling_stones.csv
 RST_CSV := rolling_stones_tracks.csv
+RS_COMPLETE := all.csv
+
 
 
 all: collect process analyze
 
 clean:
-	rm -rf $(DIR)
+	rm -rf $(DATA)
 
 collect:
 	mkdir -p data
@@ -18,12 +21,18 @@ collect:
 	chmod +x src/collect_tracks.sh
 	chmod +x src/collect_lyrics.sh
 
-	bash src/collect_rs_html.sh $(DIR)$(RS_HTML)
-	python3 src/rs_html_to_csv.py $(DIR)$(RS_HTML) $(DIR)$(RS_CSV)
-	bash src/collect_tracks.sh $(DIR)$(RS_CSV) $(DIR)$(RST_CSV)
-	bash src/collect_lyrics.sh $(DIR) $(DIR)$(RST_CSV)
+	bash src/collect_rs_html.sh $(DATA)$(RS_HTML)
+	python3 src/rs_html_to_csv.py $(DATA)$(RS_HTML) $(DATA)$(RS_CSV)
+	bash src/collect_tracks.sh $(DATA)$(RS_CSV) $(DATA)$(RST_CSV)
+	bash src/collect_lyrics.sh $(DATA) $(DATA)$(RST_CSV)
 
 process:
+	mkdir -p processed
+	python3 src/normalize_release_date.py $(DATA)$(RS_COMPLETE) $(PROCESSED)$(RS_COMPLETE)
+
 analyze:
+	python3 src/analyze_release_date.py $(PROCESSED)$(RS_COMPLETE)
+# python3 src/analyze_lyrics_existence.py
+
 
 
