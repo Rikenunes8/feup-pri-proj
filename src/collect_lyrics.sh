@@ -9,6 +9,7 @@ if [ -f $FILE_RS_COMPLETE ]; then
     echo "$FILE_RS_COMPLETE already exists."
 else
     {
+        mkdir -p data/lyrics
         OUT=${FILE_RS_COMPLETE}
         touch ${OUT}
         IFS=";"

@@ -55,6 +55,7 @@ def get_lyrics(artist, song):
         if (response.status_code != 200):
             with open('data/log.txt', 'a', encoding='utf-8') as f:
                 f.write(artist + ";" + song + "; lyrics not found\n")
+            exit(1)
     # print(url)
     
     html = response.content
@@ -69,9 +70,6 @@ def get_lyrics(artist, song):
     return out
 
 directory = dir + 'lyrics'
-if not os.path.exists(directory):
-    os.makedirs(directory)
-
 lyrics = get_lyrics(artist, song)
 
 path = dir + 'lyrics/' + filename_to_save + ".txt"
