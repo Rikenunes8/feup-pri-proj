@@ -16,7 +16,7 @@ else
         echo "${header}${IFS}lyrics" >> ${OUT}
         read
         while read -r -a fields; do
-            output=$((python3 "src/get_track_lyrics.py" $DIR ${fields[3]} ${fields[0]}) 2>&1)
+            output=$((python3 "src/get_track_lyrics.py" $DIR ${fields[4]} ${fields[0]}) 2>&1)
             echo "output: ${output}"
             echo "${fields[*]}${IFS}${output}" >> ${OUT}
         done 

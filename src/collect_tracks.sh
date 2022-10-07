@@ -10,7 +10,7 @@ else
         IFS=";"
         read
         while read -r -a fields; do
-            python3 src/get_track_infos.py $FILE_RS_TRACKS ${fields[0]} ${fields[1]}
+            python3 src/get_track_infos.py $FILE_RS_TRACKS ${fields[0]} ${fields[1]} ${fields[2]}
         done 
     } < $FILE_RS
 fi

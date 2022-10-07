@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from bs4.element import Comment
 import requests
 import os
+import unidecode
 
 if len(argv) != 4:
     raise Exception("wrong number of arguments")
@@ -41,14 +42,19 @@ def get_url(artist, song):
 
 
 def get_lyrics(artist, song):
+    artist = unidecode.unidecode(artist)
+    song = unidecode.unidecode(song)
+
     url = get_url(artist, song)
     response = requests.get(url)
     if (response.status_code != 200):
+        
         song = song.split('(')[0].split('-')[0].split('by')[0].strip()
         url = get_url(artist, song)
         response = requests.get(url)
         if (response.status_code != 200):
-            sys.exit('')
+            with open('data/log.txt', 'a', encoding='utf-8') as f:
+                f.write(artist + ";" + song + "; lyrics not found\n")
     # print(url)
     
     html = response.content
