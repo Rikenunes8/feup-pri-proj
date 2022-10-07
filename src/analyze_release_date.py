@@ -6,5 +6,4 @@ filename = argv[1]
 
 df = pd.read_csv(filename, sep=';')
 plt.hist(df['album_release_date'].values, 10, rwidth=0.9)
-plt.savefig('tracks_realeses_hist.png')
-plt.show()
+plt.savefig('analysis/tracks_realeses_hist.png')
