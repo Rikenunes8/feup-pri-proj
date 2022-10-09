@@ -33,8 +33,7 @@ This feels how molly must feel
 This feels how molly must feel
 How molly must feel
 This feels how molly must feel
-How molly must feel
-[Bridge]
+How molly must feel[Bridge]
 This is not my life
 It's just a fond farewell to a friend
 It's just a fond farewell to a friend
@@ -42,7 +41,8 @@ This is not my life
 It's just a fond farewell to a friend
 It's not what I'm like
 It's just a fond farewell
-(Brave)[Verse 3]
+(Brave)
+[Verse 3]
 Speaking of nirvana, it was there
 Rare as the feathers on my dash from a phoenix
 There with my crooked teeth and companion sleeping, yeah
@@ -60,8 +60,7 @@ One solar flare, we're consumed
 So why not spend this flammable paper on the film that's my life?
 High flights, inhale the vapor, exhale once and think twice
 Eat some shrooms, maybe have a good cry about you
-See some colors, light hang glide off the moon
-[Outro]
+See some colors, light hang glide off the moon[Outro]
 (In the dark)
 (In the dark)
 I'd do anything for you

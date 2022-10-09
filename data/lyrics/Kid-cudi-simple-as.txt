@@ -26,8 +26,7 @@ As simple as that for your simple ass (Tried in some)
 As simple as that, as simple as that (Robotic)
 As simple as that for your simple ass (Tried in some)
 As simple as that (Robotic)
-As simple as (1-2-3)
-[Verse 2]
+As simple as (1-2-3)[Verse 2]
 Uh, simple as that for your simple ass
 Simple way I wish you would've called it how it should've been
 They try to tell me they don't get it, they don't underdig
@@ -48,7 +47,8 @@ As simple as that for your simple ass
 As simple as that, as simple as that
 As simple as that for your simple ass (Tried in some) (1-2-3)
 As simple as that (Robotic)
-As simple as (1-2-3)[Narration: Common]
+As simple as (1-2-3)
+[Narration: Common]
 As our hero seems to be dreaming in peace
 A dark chapter unfolds
 Throwing Scott into the most eerie

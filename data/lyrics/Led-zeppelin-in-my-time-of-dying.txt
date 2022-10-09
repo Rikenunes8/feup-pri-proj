@@ -20,7 +20,8 @@ Oh, I never did no harm, did no harm
 I've only made the young ones, I never thought I'd do anybody no wrong
 No, not once, oh no
 Ah good
-[Guitar Solo][Bridge]
+[Guitar Solo]
+[Bridge]
 Oh, I did somebody some good, somebody some good, yeah, oh
 Oh, did somebody some good, yeah, I must of did somebody some good, yeah
 Oh, I believe I did
@@ -32,8 +33,7 @@ And I hear them at my feet and I know it's got to be real
 Oh Lord, deliver me, all the wrong I've done
 Oh, you can deliver me, Lord, I only wanted to have some fun
 Oh, hear the angels marching, they're marching
-Hear them marching, hear them marching, the marching
-[Outro]
+Hear them marching, hear them marching, the marching[Outro]
 Oh my Jesus, oh my Jesus, oh my Jesus
 Oh my Jesus, oh my Jesus, oh my Jesus
 My Jesus, oh my Jesus, oh my Jesus, oh my Jesus, ah, oh
@@ -48,7 +48,8 @@ Oh Georgina, oh Georgina, oh Georgina, oh Georgina, oh Georgina
 Oh, oh, oh, oh, oh, oh, oh yeah
 Ooh, I'll see you again, come on
 Take it, take it, take it, take it, yeah, yeah, hey, hey, ooh yes
-Oh, I'm goin' to make it my dying, dying, dying...[Postscript]
+Oh, I'm goin' to make it my dying, dying, dying...
+[Postscript]
 (Coughing)
 Cough
 That's going to be the one isn't it?

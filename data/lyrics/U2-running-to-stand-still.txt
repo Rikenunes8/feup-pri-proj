@@ -21,7 +21,8 @@ Then I floated out of here, singing
 Ah la la la de day
 Ah la la la de day
 Ah la la la de day
-[Vocalization on Bridge][Verse 3]
+[Vocalization on Bridge]
+[Verse 3]
 She runs through the streets
 With her eyes painted red
 Under a black belly of cloud in the rain
@@ -31,5 +32,4 @@ Stolen from the sea
 She is ragin', she is raging
 And the storm blows up in her eyes
 She will suffer the needle chill
-She's running to stand still
-[Harmonica Solo]
+She's running to stand still[Harmonica Solo]

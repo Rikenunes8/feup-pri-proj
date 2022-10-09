@@ -22,8 +22,7 @@ If you don't stare
 [Pre-Chorus]
 Who wants honey?
 As long as there's some money
-Who wants that honey?
-[Chorus]
+Who wants that honey?[Chorus]
 Let me out
 (Let)
 Let me out
@@ -31,7 +30,8 @@ Let me out
 Let me out
 (Let)
 Let me out
-[Guitar Solo][Bridge]
+[Guitar Solo]
+[Bridge]
 Tell me all of your secrets
 Cannot help but believe this is true
 Tell me all of your secrets

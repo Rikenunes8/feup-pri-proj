@@ -33,7 +33,7 @@ def get_url(artist, song):
     song_format = song.lower()
     final_string = artist_format + " " + song_format
     final_string = "".join(c for c in final_string 
-        if is_alpha(c) or c == " " or c.isnumeric())
+        if is_alpha(c) or c == " " or c == '-' or c.isnumeric())
     final_string = " ".join(final_string.split()).replace(" ", "-")
     global filename_to_save
     filename_to_save = final_string
@@ -49,7 +49,7 @@ def get_lyrics(artist, song):
     response = requests.get(url)
     if (response.status_code != 200):
         
-        song = song.split('(')[0].split('-')[0].split('by')[0].strip()
+        song = song.split('(')[0].split('-')[0].split(' by ')[0].strip()
         url = get_url(artist, song)
         response = requests.get(url)
         if (response.status_code != 200):

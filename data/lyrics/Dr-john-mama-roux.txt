@@ -19,8 +19,7 @@ Mama Roux
 Mama Roux
 (growl)
 The Queen is comin', ooo, un ba may
-Queen is coming to way pocky way
-Better not get in the way
+Queen is coming to way pocky wayBetter not get in the way
 Got the second line fever today
 Singin' wham bam hang ham
 Come on down boy and follow me
@@ -29,7 +28,8 @@ Come on boy and follow me
 Mama Roux
 She was the queen of the little red, white and blue
 Mama Roux
-She was the queen of the little red, white and blueChica chica chica chica
+She was the queen of the little red, white and blue
+Chica chica chica chica
 Chica chica chica chica
 Chica chica chica chica
 Chica chica chica chica

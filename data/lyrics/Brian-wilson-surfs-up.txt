@@ -22,8 +22,7 @@ hall, a costly
  bow
 The music, all is lost for now
 To a muted trumperter swan 
-(bygone, bygone)
-[Bridge]
+(bygone, bygone)[Bridge]
 Columnated ruins domino
 Canvass the town and brush the backdrop
 Are you sleeping, Brother John?
@@ -32,7 +31,8 @@ Are you sleeping, Brother John?
 Dove-nested towers the hour was
 Strike the street quicksilver moon
 Carriage across the fog
-Two-Step to lamp lights cellar tune[Verse 2]
+Two-Step to lamp lights cellar tune
+[Verse 2]
 The laughs come hard in Auld Lang Syne
 The glass was raised, the fired rose
 The fullness of the wine, the dim last toasting
@@ -47,13 +47,13 @@ Come about hard and join
 The young and often spring you gave
 I heard the word
 Wonderful thing
-A children's song
-- Part 3 [Children Is Father Of The Man (Reprise)] -
+A children's song- Part 3 [Children Is Father Of The Man (Reprise)] -
 [Refrain]
 A children's song (Child, child, child, the child, the child, father of child)
 Have you listened as they played? (Child, child, the child, father of child)
 Their song is love (Child, child, child, the child, the child, father of child)
-And the children know the way (Child, child, the child, father of child)A children's song (Child, child, the child, the child, father of child)
+And the children know the way (Child, child, the child, father of child)
+A children's song (Child, child, the child, the child, father of child)
 Have you listened as they played? (Child, child, the child, father of child)
 Their song is love (That's why the child is father of the man)
 And the children know the way (Child, child, the child, father of child)

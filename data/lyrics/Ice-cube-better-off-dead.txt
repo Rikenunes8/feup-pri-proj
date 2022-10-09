@@ -14,8 +14,7 @@ Aiii... Ohh, shit!
 [Prison Guard:]
 Time to go!
 [Ice Cube:]
-Whassup? Ooh, man, shit!
-[Prison Guard:]
+Whassup? Ooh, man, shit![Prison Guard:]
 We goin' for a 'little walk
 Close 7! [footsteps]
 [Ice Cube:]
@@ -23,7 +22,8 @@ Close 7! [footsteps]
 [Prison Guard:]
 What?
 [Ice Cube:]
-I never did like you. [footsteps][Prison Guard:]
+I never did like you. [footsteps]
+[Prison Guard:]
 Open it up!
 [cell door opening]
 [cameras clicking]
@@ -32,8 +32,7 @@ Strap him in! All right... Calm down!
 You got any last words?
 [talking]
 [Ice Cube:]
-Yeah. Yeah, I got some last words... FUCK ALL Y'ALL!
-[Prison Guard:]
+Yeah. Yeah, I got some last words... FUCK ALL Y'ALL![Prison Guard:]
 Switch
 [electric shock]
 [Unknown news anchor speaks:]

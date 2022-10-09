@@ -23,15 +23,15 @@ You're so nice, but tonight, we're gonna be more than just friends
 I recall the days and ways of love we made
 I still feel the heat when we share each other
 Don't you feel the magic? The mystery's in the air
-Let's go down to lover's lane with the love we shared
-[Chorus]
+Let's go down to lover's lane with the love we shared[Chorus]
 Let's make the time tonight
 While the feeling's right
 Reminisce on the love we had
 (Reminisce, reminisce, reminisce)
 Let's make the time tonight
 While the feeling's right
-Reminisce on the love we had[Verse 2]
+Reminisce on the love we had
+[Verse 2]
 I can see you standing there alone, like an angel
 Tryin' to find his way home
 I don't remember, how we fell apart
@@ -48,8 +48,7 @@ Reminisce on the love we had
 (Reminisce, reminisce)
 Let's make the time tonight
 While the feeling's right
-Reminisce on the love we had
-[Bridge]
+Reminisce on the love we had[Bridge]
 Make the time tonight
 The feeling's oh so right
 Reminisce on the love we had
@@ -65,7 +64,8 @@ Make the time tonight
 Make the time tonight
 The feeling's oh so right
 Reminisce on the love we had
-Make the time tonight[Post-Chorus]
+Make the time tonight
+[Post-Chorus]
 Ooh, Mary
 Reminisce
 [Bridge (Background)]
@@ -84,8 +84,7 @@ Make the time tonight
 Let's make the time tonight
 Feeling is oh so right
 Reminisce on the love we had
-Make the time tonight
-[Verse 1 & Bridge]
+Make the time tonight[Verse 1 & Bridge]
 I know that we've been here before
 The candlelight and you, walking softly through my door
 C'mon in my sweet

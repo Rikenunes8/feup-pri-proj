@@ -20,8 +20,7 @@ And through it all
 How could you cry for me?
 'Cause I don't feel bad about it
 So shut your eyes
-Kiss me goodbye
-[Chorus]
+Kiss me goodbye[Chorus]
 And sleep
 Just sleep
 The hardest part
@@ -38,12 +37,12 @@ And through it all
 How could you cry for me?
 'Cause I don't feel bad about it
 So shut your eyes
-Kiss me goodbye[Chorus]
+Kiss me goodbye
+[Chorus]
 And sleep
 Just sleep
 The hardest part's
-The awful things that I've seen
-[Interlude]
+The awful things that I've seen[Interlude]
 "Sometimes, I see flames
 And sometimes, I see the people that I love dying
 And it's always—
@@ -65,6 +64,7 @@ Wake up
 Wake up
 Wake up
 Wake up
-Wake up[Outro]
+Wake up
+[Outro]
 "Falling, and sometimes when I sleep and I can't
 I can't ever wake up"

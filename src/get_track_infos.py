@@ -4,7 +4,6 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 import sys
 import os
-import json
 
 load_dotenv()
 
@@ -21,15 +20,17 @@ album_name = sys.argv[2]
 artist_name = sys.argv[3]
 ranking = sys.argv[4]
 
-columns = ['artist', 'album', 'album_release_date', 'ranking', 'track', 'track_duration (s)']
+columns = ['artist', 'album', 'album_release_date', 'album_rank', 'n_tracks', 'track', 'track_duration (s)']
 
 result = sp.search(f"{album_name} {artist_name}", limit=1, type='album')
+
 albums = result['albums']['items']
 if len(albums) == 0: exit(1)
 album = albums[0]['uri']
+
 result = sp.album_tracks(album)
 album_items = result['items']
-albums_tracks = [[artist_name, album_name, albums[0]['release_date'], ranking, item['name'], round(item['duration_ms']/1000) ] for item in album_items]
+albums_tracks = [[artist_name, album_name, albums[0]['release_date'], ranking, len(album_items), item['name'], round(item['duration_ms']/1000) ] for item in album_items]
 tracks = pd.DataFrame(albums_tracks, columns=columns)
 print(tracks)
 

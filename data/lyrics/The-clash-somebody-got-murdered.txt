@@ -21,8 +21,7 @@ I been very hungry
 But not enough to kill
 [Chorus]
 Somebody got murdered
-Somebody's dead forever
-[Verse 3]
+Somebody's dead forever[Verse 3]
 Somebody got murdered
 His name cannot be found
 A small stain on the pavement
@@ -33,7 +32,8 @@ Somebody got murdered
 And it left me with a touch
 [Chorus]
 Somebody got murdered
-Somebody's dead forever[Outro]
+Somebody's dead forever
+[Outro]
 Sounds like murder
 Those shouts
 Are they drunk down below?

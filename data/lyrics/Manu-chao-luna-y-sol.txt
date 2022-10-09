@@ -20,7 +20,8 @@ Mentira lo que cuece
 Bajo la oscuridad
 [Coro]
 Arriba la luna, Oh-eh-ah
-Arriba la luna, Oh-eh-ah[Verso 3]
+Arriba la luna, Oh-eh-ah
+[Verso 3]
 Todo es mentira en este mundo (Arriba la luna, Oh-eh-ah)
 Todo es mentira la verdad (Arriba la luna, Oh-eh-ah)
 Todo es mentira, yo me digo (Arriba la luna, Oh-eh-ah)
@@ -29,8 +30,7 @@ Todo es mentira, yo me digo (Arriba la luna, Oh-eh-ah)
 Mentira la mentira
 Mentira la verdad
 Mentira lo que cuece
-Bajo la oscuridad
-[Coro]
+Bajo la oscuridad[Coro]
 Arriba la luna, Oh-eh-ah
 Arriba la luna, Oh-eh-ah
 [Verso 5]
@@ -41,7 +41,8 @@ Buscando un ideal
 ¿Cuándo será?
 ¿Cuándo será?
 ¿Por dónde saldrá el sol?
-¿Por dónde saldrá el sol?"Nosotros nacimos de la noche. En ella vivimos. Moriremos en ella. Pero la luz será un mañana para los más, para todos aquellos que hoy lloran la noche, para quienes se niega el día. Para todos la luz. Para todos todo..."
+¿Por dónde saldrá el sol?
+"Nosotros nacimos de la noche. En ella vivimos. Moriremos en ella. Pero la luz será un mañana para los más, para todos aquellos que hoy lloran la noche, para quienes se niega el día. Para todos la luz. Para todos todo..."
 [Coro]
 Arriba la luna, Oh-eh-ah
 Arriba la luna, Oh-eh-ah
@@ -53,5 +54,4 @@ Arriba la luna, Oh-eh-ah
 Arriba la luna, Oh-eh-ah
 Arriba la luna, Oh-eh-ah
 Arriba la luna, Oh-eh-ah
-Arriba la luna, Oh-eh-ah
-"...Para nosotros la dignidad insurrecta, para nosotros el futuro negado. Para nosotros nada. Reforma, Libertad, Justicia y Ley, el General-"
+Arriba la luna, Oh-eh-ah"...Para nosotros la dignidad insurrecta, para nosotros el futuro negado. Para nosotros nada. Reforma, Libertad, Justicia y Ley, el General-"

@@ -22,8 +22,7 @@ Like the little children
 Know how they have fun
 Just like little children
 Like the little children
-Know how they have fun
-Money won't be enough
+Know how they have funMoney won't be enough
 When the going gets tough, it's rough
 Try to cuddle with your business
 And you'll see that love is priceless
@@ -31,7 +30,8 @@ If you don't believe what I say
 Just experiment one day
 I think that you will agree
 That we need some kind of relief
-Relif, reliefHave fun again
+Relif, relief
+Have fun again
 I want you to have fun
 Have fun again
 I want you to have fun
@@ -50,15 +50,15 @@ Like the little children
 Know how they have fun
 Just like little children
 Like the little children
-Know how they have fun
-Money won't be enough
+Know how they have funMoney won't be enough
 When the going gets tough, it's rough
 Try to cuddle with your business
 And you'll see that love is priceless
 If you don't believe what I say
 Then experiment one day
 I think that you will agree
-That we need some kind of reliefHave fun, have fun
+That we need some kind of relief
+Have fun, have fun
 Have fun again
 I want you to have fun
 I want you to have fun again
@@ -74,8 +74,7 @@ Have fun, have fun
 Have fun again
 I want you to have fun
 Fun, fun, fun, fun
-Have fun
-Have fun, have fun, have fun
+Have funHave fun, have fun, have fun
 Have fun, have fun, have fun
 Have fun, have fun, have fun
 Have fun, have fun, have fun

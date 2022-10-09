@@ -21,8 +21,7 @@ Denying all the way
 Shaking through
 Opportune
 Shaking through
-Opportune
-[Bridge]
+Opportune[Bridge]
 In my life
 [Verse 3]
 Ears that are still
@@ -33,7 +32,8 @@ Denying all the way
 Shaking through
 Opportune
 Shaking through
-Opportune[Outro]
+Opportune
+[Outro]
 Shaking through
 Opportune
 Shaking through

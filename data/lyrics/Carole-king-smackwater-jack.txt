@@ -21,8 +21,7 @@ For our wives and our daughters"
 [Chorus]
 You can't talk to a man
 When he don't wanna understand
-No, no, no, no, no, no
-[Verse 3]
+No, no, no, no, no, no[Verse 3]
 The account of the capture wasn't in the papers
 But you know, they hanged ole Smack right then instead of later
 You know the people were quite pleased
@@ -32,7 +31,8 @@ For the undertaker
 [Chorus]
 You know, you know, you can't talk to a man
 With a shotgun in his hand
-A shotgun in his hand[Outro]
+A shotgun in his hand
+[Outro]
 Smackwater Jack, yeah
 Smackwater Jack bought a shotgun
 Yeah, Smackwater Jack bought a shotgun

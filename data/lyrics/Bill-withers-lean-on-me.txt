@@ -20,8 +20,7 @@ Please swallow your pride
 If I have things you need to borrow
 For no one can fill
 Those of your needs
-That you won't let show
-[Bridge]
+That you won't let show[Bridge]
 You just call on me, brother, when you need a hand
 We all need somebody to lean on
 I just might have a problem that you'll understand
@@ -32,7 +31,8 @@ And I'll be your friend
 I'll help you carry on
 For it won't be long
 'Til I'm gonna need
-Somebody to lean on[Bridge]
+Somebody to lean on
+[Bridge]
 You just call on me, brother, when you need a hand
 We all need somebody to lean on
 I just might have a problem that you'll understand
@@ -42,8 +42,7 @@ If there is a load you have to bear
 That you can't carry
 I'm right up the road
 I'll share your load
-If you just call me
-[Outro]
+If you just call me[Outro]
 (Call me) If you need a friend
 (Call me) Call me, uhuh uhuh
 (Call me) If you need a friend

@@ -26,8 +26,7 @@ Hey, that's far out, so you heard him too
 Switch on the TV, we may pick him up on Channel Two
 Look out your window, I can see his light
 If we can sparkle, he may land tonight
-Don't tell your poppa or he'll get us locked up in fright
-[Chorus]
+Don't tell your poppa or he'll get us locked up in fright[Chorus]
 There's a starman waiting in the sky
 He'd like to come and meet us
 But he thinks he'd blow our minds
@@ -37,7 +36,8 @@ He's told us not to blow it
 He told me
 Let the children lose it
 Let the children use it
-Let all the children boogie[Chorus]
+Let all the children boogie
+[Chorus]
 Starman waiting in the sky
 He'd like to come and meet us
 But he thinks he'd blow our minds
