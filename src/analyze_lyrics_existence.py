@@ -8,5 +8,6 @@ df = pd.read_csv(filename, sep=';')
 hasnot = df['lyrics'].isna().sum()
 has = df['lyrics'].shape[0] - hasnot
 
-plt.bar(['has', 'has not'], [has, hasnot], color ='maroon', width = 0.4)
+plt.bar(['has', 'has not'], [has, hasnot], color ='maroon')
+plt.ylabel('# of tracks')
 plt.savefig('analysis/tracks_lyrics_existence.png')
