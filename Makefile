@@ -21,6 +21,17 @@ clean-processed:
 clean-analysis:
 	rm -rf $(ANALYSIS)
 
+collect_test: 
+	mkdir -p data
+	
+	chmod +x src/collect_rs_html.sh
+	chmod +x src/collect_tracks.sh
+	chmod +x src/collect_lyrics.sh
+
+	bash src/collect_rs_html.sh $(DATA)$(RS_HTML)
+	python3 src/rs_html_to_csv.py $(DATA)$(RS_HTML) $(DATA)$(RS_CSV)
+	bash src/collect_tracks.sh $(DATA)$(RS_CSV) $(DATA)$(RST_CSV)
+
 collect:
 	mkdir -p data
 	

@@ -21,9 +21,9 @@ table_lines = wiki.find('div', {'id':'mw-content-text'}).findChild('div', {'clas
 rolling_stones = [['album', 'artist', 'ranking']]
 for line in table_lines[1:]:    
     lineChildrensTd = line.findChildren('td')
-    ranking = lineChildrensTd[0].find(text=True)
-    album = line.findChild('th').findChild('i').find(text=True)
-    artist = lineChildrensTd[1].find(text=True)
+    ranking = lineChildrensTd[0].find(text=True).strip()
+    album = line.findChild('th').findChild('i').find(text=True).strip()
+    artist = lineChildrensTd[1].find(text=True).strip()
     rolling_stones.append([album, artist, ranking])
 
 with open(filename_csv, "w", encoding='utf8') as f:
