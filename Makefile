@@ -43,6 +43,8 @@ analyze:
 	python3 src/analyze_tracks_by_year.py $(PROCESSED)$(RS_COMPLETE)
 	python3 src/analyze_albums_by_year.py $(PROCESSED)$(RS_COMPLETE)
 	python3 src/analyze_albums_and_tracks_by_year.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/analyze_tracks_by_duration.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/analyze_albums_by_duration.py $(PROCESSED)$(RS_COMPLETE)
 	python3 src/analyze_ranking_by_release_and_mean_duration.py $(PROCESSED)$(RS_COMPLETE)
 
 
