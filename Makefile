@@ -41,6 +41,7 @@ analyze:
 	mkdir -p analysis
 	python3 src/analyze_release_date.py $(PROCESSED)$(RS_COMPLETE)
 	python3 src/analyze_lyrics_existence.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/analyze_ranking_by_release_and_mean_duration.py $(PROCESSED)$(RS_COMPLETE)
 
 
 
