@@ -753,3 +753,4 @@ Richard Thompson;I Want To See The Bright Lights; lyrics not found
 The Stooges;Asthma Attack; lyrics not found
 Suicide;SUICIDE YEAR; lyrics not found
 Rufus;Slow Screw Against The Wall; lyrics not found
+The Beatles;Eleanor Rig; lyrics not found
