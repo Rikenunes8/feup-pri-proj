@@ -28,3 +28,4 @@ for line in table_lines[1:]:
 
 with open(filename_csv, "w", encoding='utf8') as f:
     f.write('\n'.join('{};{};{}'.format(pair[0], pair[1], pair[2]).strip() for pair in rolling_stones))
+    f.write('\n')
