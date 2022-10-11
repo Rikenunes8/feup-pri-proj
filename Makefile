@@ -39,13 +39,22 @@ process:
 
 analyze:
 	mkdir -p analysis
-	python3 src/analyze_lyrics_existence.py $(PROCESSED)$(RS_COMPLETE)
-	python3 src/analyze_tracks_by_year.py $(PROCESSED)$(RS_COMPLETE)
-	python3 src/analyze_albums_by_year.py $(PROCESSED)$(RS_COMPLETE)
-	python3 src/analyze_albums_and_tracks_by_year.py $(PROCESSED)$(RS_COMPLETE)
-	python3 src/analyze_tracks_by_duration.py $(PROCESSED)$(RS_COMPLETE)
-	python3 src/analyze_albums_by_duration.py $(PROCESSED)$(RS_COMPLETE)
-	python3 src/analyze_ranking_by_release_and_mean_duration.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization/album_distribution_by_duration.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization/album_distribution_by_mean_song_duration.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization/album_distribution_by_year.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization/album_duration_by_ranking.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization/album_mean_song_duration_by_ranking.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization/album_number_of_songs_by_ranking.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization/album_release_date_by_ranking.py $(PROCESSED)$(RS_COMPLETE)
+	
+
+	python3 src/data_characterization2/lyrics_existence.py $(PROCESSED)$(RS_COMPLETE)
+# python3 src/analyze_albums_by_duration.py $(PROCESSED)$(RS_COMPLETE)
+# python3 src/analyze_albums_by_year.py $(PROCESSED)$(RS_COMPLETE)
+# python3 src/data_characterization2/analyze_tracks_by_duration.py $(PROCESSED)$(RS_COMPLETE)
+# python3 src/data_characterization2/analyze_tracks_by_year.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization2/albums_and_tracks_distribution_by_year.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization2/ranking_by_release_and_mean_duration.py $(PROCESSED)$(RS_COMPLETE)
 
 
 

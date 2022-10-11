@@ -1,9 +1,0 @@
-[Instrumental]
-{0:00 Intro}
-{0:04 Main theme first subject}
-{0:33 Main theme second subject}
-{0:48 Main theme repeated}
-{1:34 Secondary theme - "Treat Street"}
-{2:30 Main theme second subject}
-{2:50 Outro - Main theme first subject}
-{3:14 End}
