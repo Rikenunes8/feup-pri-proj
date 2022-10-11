@@ -62,7 +62,7 @@ artist_name = sys.argv[3]
 ranking = sys.argv[4]
 
 columns = ['artist', 'album', 'album_release_date',
-           'ranking', 'track', 'track_duration (s)']
+           'album_ranking', 'n_tracks', 'track', 'track_duration (s)']
 
 result = sp.search(f"{album_name} {artist_name}", limit=10, type='album')
 albums = result['albums']['items']
@@ -72,7 +72,7 @@ closest_album = get_closest_album(albums, album_name, artist_name)
 album = closest_album['uri']
 # album = albums[0]['uri']
 album_items = get_tracks(album)
-albums_tracks = [[artist_name, album_name, albums[0]['release_date'], ranking,
+albums_tracks = [[artist_name, album_name, albums[0]['release_date'], ranking, len(album_items),
                   item['name'], round(item['duration_ms']/1000)] for item in album_items]
 tracks = pd.DataFrame(albums_tracks, columns=columns)
 print(tracks)

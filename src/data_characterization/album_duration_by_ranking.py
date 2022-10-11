@@ -8,7 +8,7 @@ filename = argv[1]
 def aggr_func(data):
     return pd.Series({
         'album_duration': data['track_duration (s)'].sum(),
-        'ranking':  data['album_rank'].iat[0]
+        'ranking':  data['album_ranking'].iat[0]
     })
 
 

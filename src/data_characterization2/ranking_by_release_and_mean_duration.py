@@ -10,7 +10,7 @@ df_groupby = df.groupby('album')[['track_duration (s)', 'album_release_date', 'a
 
 x = df_groupby['album_release_date'].apply(lambda x: int(x))
 y = df_groupby['track_duration (s)'].apply(lambda x: x/60)
-t = df_groupby['album_rank'].apply(lambda x: int(round(x, 0)))
+t = df_groupby['album_ranking'].apply(lambda x: int(round(x, 0)))
 
 plt.figure(figsize=[10, 6.4])
 plt.scatter(x, y, c=t, cmap='viridis')
