@@ -307,6 +307,7 @@ Bruce Springsteen;Born to Run;1975;21;8;Jungleland;576;data/lyrics/Bruce-springs
 The Notorious B.I.G.;Ready to Die;1994;22;17;Juicy - 2007 Remaster;301;data/lyrics/The-notorious-big-juicy.txt
 The Notorious B.I.G.;Ready to Die;1994;22;17;Big Poppa - 2007 Remaster;250;data/lyrics/The-notorious-big-big-poppa.txt
 The Notorious B.I.G.;Ready to Die;1994;22;17;Hypnotize - 2007 Remaster;230;data/lyrics/The-notorious-big-hypnotize.txt
+The Notorious B.I.G.;Ready to Die;1994;22;17;"One More Chance / Stay with Me - Remix; 2007 Remaster";269;
 The Notorious B.I.G.;Ready to Die;1994;22;17;Get Money (feat. Junior M.A.F.I.A.) - 2007 Remaster;274;
 The Notorious B.I.G.;Ready to Die;1994;22;17;Warning - 2007 Remaster;219;data/lyrics/The-notorious-big-warning.txt
 The Notorious B.I.G.;Ready to Die;1994;22;17;Dead Wrong (feat. Eminem) - 2007 Remaster;297;data/lyrics/The-notorious-big-dead-wrong.txt
@@ -763,6 +764,7 @@ David Bowie;Station to Station;1976;52;11;Future Legend - 2016 Remaster;60;data/
 David Bowie;Station to Station;1976;52;11;Diamond Dogs - 2016 Remaster;364;data/lyrics/David-bowie-diamond-dogs.txt
 David Bowie;Station to Station;1976;52;11;Sweet Thing - 2016 Remaster;219;data/lyrics/David-bowie-sweet-thing.txt
 David Bowie;Station to Station;1976;52;11;Candidate - 2016 Remaster;161;data/lyrics/David-bowie-candidate.txt
+David Bowie;Station to Station;1976;52;11;"Sweet Thing - Reprise; 2016 Remaster";153;data/lyrics/David-bowie-sweet-thing.txt
 David Bowie;Station to Station;1976;52;11;Rebel Rebel - 2016 Remaster;275;data/lyrics/David-bowie-rebel-rebel.txt
 David Bowie;Station to Station;1976;52;11;Rock 'n' Roll with Me - 2016 Remaster;243;data/lyrics/David-bowie-rock-n-roll-with-me.txt
 David Bowie;Station to Station;1976;52;11;We Are the Dead - 2016 Remaster;302;data/lyrics/David-bowie-we-are-the-dead.txt
@@ -2085,13 +2087,17 @@ The Pretenders;Pretenders;1980;152;26;Private Life - 2006 Remaster;383;data/lyri
 The Pretenders;Pretenders;1980;152;26;Brass in Pocket - 2006 Remaster;186;data/lyrics/The-pretenders-brass-in-pocket.txt
 The Pretenders;Pretenders;1980;152;26;Lovers of Today - 2006 Remaster;350;data/lyrics/The-pretenders-lovers-of-today.txt
 The Pretenders;Pretenders;1980;152;26;Mystery Achievement - 2006 Remaster;323;data/lyrics/The-pretenders-mystery-achievement.txt
+The Pretenders;Pretenders;1980;152;26;"Cuban Slide - Single Version; 2006 Remaster";273;data/lyrics/The-pretenders-cuban-slide.txt
+The Pretenders;Pretenders;1980;152;26;"Porcelain - Single Version; 2006 Remaster";233;
 The Pretenders;Pretenders;1980;152;26;The Phone Call - Demo;141;data/lyrics/The-pretenders-the-phone-call.txt
 The Pretenders;Pretenders;1980;152;26;The Wait - Demo;186;data/lyrics/The-pretenders-the-wait.txt
 The Pretenders;Pretenders;1980;152;26;I Can't Control Myself - Demo;261;
+The Pretenders;Pretenders;1980;152;26;"Swinging London - Single Version; 2006 Remaster";114;
 The Pretenders;Pretenders;1980;152;26;Brass in Pocket - Demo;226;data/lyrics/The-pretenders-brass-in-pocket.txt
 The Pretenders;Pretenders;1980;152;26;Kid - Demo;243;data/lyrics/The-pretenders-kid.txt
 The Pretenders;Pretenders;1980;152;26;Stop Your Sobbing - Demo;142;data/lyrics/The-pretenders-stop-your-sobbing.txt
 The Pretenders;Pretenders;1980;152;26;Tequila - Demo;320;data/lyrics/The-pretenders-tequila.txt
+The Pretenders;Pretenders;1980;152;26;"Nervous but Shy - Single Version; 2006 Remaster";104;
 The Pretenders;Pretenders;1980;152;26;Precious - Live at the Paradise Theater, Boston, MA, 23/3/1980;206;data/lyrics/The-pretenders-precious.txt
 The Pretenders;Pretenders;1980;152;26;Tattooed Love Boys - Live Paradise Theatre, 1980;185;data/lyrics/The-pretenders-tattooed-love-boys.txt
 The Pretenders;Pretenders;1980;152;26;Sabre Dance - Live at the Marquee Club, London, 1979;231;
@@ -2454,6 +2460,7 @@ Otis Redding;Otis Blue/Otis Redding Sings Soul;1965;178;11;You Don't Miss Your W
 The Notorious B.I.G.;Life After Death;1997;179;17;Juicy - 2007 Remaster;301;data/lyrics/The-notorious-big-juicy.txt
 The Notorious B.I.G.;Life After Death;1997;179;17;Big Poppa - 2007 Remaster;250;data/lyrics/The-notorious-big-big-poppa.txt
 The Notorious B.I.G.;Life After Death;1997;179;17;Hypnotize - 2007 Remaster;230;data/lyrics/The-notorious-big-hypnotize.txt
+The Notorious B.I.G.;Life After Death;1997;179;17;"One More Chance / Stay with Me - Remix; 2007 Remaster";269;
 The Notorious B.I.G.;Life After Death;1997;179;17;Get Money (feat. Junior M.A.F.I.A.) - 2007 Remaster;274;
 The Notorious B.I.G.;Life After Death;1997;179;17;Warning - 2007 Remaster;219;data/lyrics/The-notorious-big-warning.txt
 The Notorious B.I.G.;Life After Death;1997;179;17;Dead Wrong (feat. Eminem) - 2007 Remaster;297;data/lyrics/The-notorious-big-dead-wrong.txt
@@ -2839,6 +2846,21 @@ David Bowie;Low;1977;206;11;Warszawa - 2017 Remaster;387;data/lyrics/David-bowie
 David Bowie;Low;1977;206;11;Art Decade - 2017 Remaster;228;data/lyrics/David-bowie-art-decade.txt
 David Bowie;Low;1977;206;11;Weeping Wall - 2017 Remaster;209;data/lyrics/David-bowie-weeping-wall.txt
 David Bowie;Low;1977;206;11;Subterraneans - 2017 Remaster;343;data/lyrics/David-bowie-subterraneans.txt
+Eagles;Eagles;1972;207;15;"Hotel California - Live; 1999 Remaster";420;data/lyrics/Eagles-hotel-california.txt
+Eagles;Eagles;1972;207;15;"Heartache Tonight - Live; 1999 Remaster";274;data/lyrics/Eagles-heartache-tonight.txt
+Eagles;Eagles;1972;207;15;"I Can't Tell You Why - Live; 1999 Remaster";318;data/lyrics/Eagles-i-cant-tell-you-why.txt
+Eagles;Eagles;1972;207;15;"The Long Run - Live; 1999 Remaster";351;data/lyrics/Eagles-the-long-run.txt
+Eagles;Eagles;1972;207;15;"New Kid in Town - Live; 1999 Remaster";353;data/lyrics/Eagles-new-kid-in-town.txt
+Eagles;Eagles;1972;207;15;"Life's Been Good - Live; 1999 Remaster";536;data/lyrics/Eagles-lifes-been-good.txt
+Eagles;Eagles;1972;207;15;"Seven Bridges Road - Live; 1999 Remaster";185;data/lyrics/Eagles-seven-bridges-road.txt
+Eagles;Eagles;1972;207;15;"Wasted Time - Live; 1999 Remaster";321;data/lyrics/Eagles-wasted-time.txt
+Eagles;Eagles;1972;207;15;"Take It to the Limit - Live; 1999 Remaster";314;data/lyrics/Eagles-take-it-to-the-limit.txt
+Eagles;Eagles;1972;207;15;"Doolin-Dalton (Reprise II) - Live; 1999 Remaster";42;
+Eagles;Eagles;1972;207;15;"Desperado - Live; 1999 Remaster";238;data/lyrics/Eagles-desperado.txt
+Eagles;Eagles;1972;207;15;"Saturday Night - Live; 1999 Remaster";227;data/lyrics/Eagles-saturday-night.txt
+Eagles;Eagles;1972;207;15;"All Night Long - Live; 1999 Remaster";335;data/lyrics/Eagles-all-night-long.txt
+Eagles;Eagles;1972;207;15;"Life in the Fast Lane - Live; 1999 Remaster";309;data/lyrics/Eagles-life-in-the-fast-lane.txt
+Eagles;Eagles;1972;207;15;"Take It Easy - Live; 1999 Remaster";317;data/lyrics/Eagles-take-it-easy.txt
 Lil Wayne;Tha Carter III;2008;208;16;3 Peat;199;data/lyrics/Lil-wayne-3-peat.txt
 Lil Wayne;Tha Carter III;2008;208;16;Mr. Carter;316;data/lyrics/Lil-wayne-mr-carter.txt
 Lil Wayne;Tha Carter III;2008;208;16;A Milli;222;data/lyrics/Lil-wayne-a-milli.txt
@@ -5477,11 +5499,15 @@ The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;All o
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Wicked Annabella - 2018 Stereo Remaster;165;data/lyrics/The-kinks-wicked-annabella.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Monica - 2018 Stereo Remaster;139;data/lyrics/The-kinks-monica.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;People Take Pictures of Each Other - 2018 Stereo Remaster;131;data/lyrics/The-kinks-people-take-pictures-of-each-other.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Days - Stereo Mix; 2018 - Remaster";174;data/lyrics/The-kinks-days.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"She's Got Everything - Stereo Mix; 2018 Remaster";190;data/lyrics/The-kinks-shes-got-everything.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Mr. Songbird - Stereo Mix; 2018 Remaster";146;data/lyrics/The-kinks-mr-songbird.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Wonderboy - Stereo Mix;165;
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Polly - Stereo Mix;171;data/lyrics/The-kinks-polly.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Berkeley Mews - Stereo Mix;160;data/lyrics/The-kinks-berkeley-mews.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Rosemary Rose - Stereo Mix;121;data/lyrics/The-kinks-rosemary-rose.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Misty Water - Stereo Mix;185;data/lyrics/The-kinks-misty-water.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Did You See His Name? - Stereo Mix; 2018 Remaster";118;data/lyrics/The-kinks-did-you-see-his-name.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Do You Remember Walter? - European Stereo Mix Without Tambourine;147;data/lyrics/The-kinks-do-you-remember-walter.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Animal Farm - Alternate Stereo Mix;183;data/lyrics/The-kinks-animal-farm.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;People Take Pictures of Each Other - European Stereo Mix With Big Band Coda;143;data/lyrics/The-kinks-people-take-pictures-of-each-other.txt
@@ -5496,11 +5522,22 @@ The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Villa
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Lavender Hill - Mono Mix;177;data/lyrics/The-kinks-lavender-hill.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Rosemary Rose - Mono Mix;106;data/lyrics/The-kinks-rosemary-rose.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Pictures in the Sand - Mono Mix;168;data/lyrics/The-kinks-pictures-in-the-sand.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Misty Water - Mono Mix; 2018 Remaster";190;data/lyrics/The-kinks-misty-water.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Did You See His Name? - 2018 Mono Remaster;118;data/lyrics/The-kinks-did-you-see-his-name.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Last of the Steam-Powered Trains - With Alternate Ending; 2018 Mono Remaster";199;
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;The Village Green Preservation Society - Alternate Mix With Session Chat;196;data/lyrics/The-kinks-the-village-green-preservation-society.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Do You Remember Walter? - Backing Track;173;data/lyrics/The-kinks-do-you-remember-walter.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Johnny Thunder - Alternate Mix With Session Chat; 2018 Stereo Remaster";163;data/lyrics/The-kinks-johnny-thunder.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Phenomenal Cat - Alternate Mix With Session Chat; 2018 Stereo Remaster";176;data/lyrics/The-kinks-phenomenal-cat.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Starstruck - Alternate Mix With Session Chat;165;data/lyrics/The-kinks-starstruck.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Misty Water - Alternate Stereo Mix;212;data/lyrics/The-kinks-misty-water.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Easy Come, There You Went - Backing Track / Alternate Mix Stereo; 2018 Remaster";143;data/lyrics/The-kinks-easy-come-there-you-went.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Animal Farm - Live at the BBC, Saturday Club, 26th November 1968; 2018 Mono Remaster";188;data/lyrics/The-kinks-animal-farm.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Last of the Steam-Powered Trains - Live at Julie Felix Show, Recorded 7 January 1969; Mono";273;
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Picture Book - Live TV Pre-Mix; Colour Me Pop, Recorded 22 July 1968";160;data/lyrics/The-kinks-picture-book.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Where Did My Spring Go? - Where Was Spring?, Recorded 1969; 2018 Mono Remaster";129;data/lyrics/The-kinks-where-did-my-spring-go.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"When I Turn Off the Living Room Light - Where Was Spring?, Recorded 1969; 2018 Mono Remaster";140;data/lyrics/The-kinks-when-i-turn-off-the-living-room-light.txt
+The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;"Big Sky - Alternate Mix; Stereo";172;data/lyrics/The-kinks-big-sky.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Days - Acoustic Version;175;data/lyrics/The-kinks-days.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Time Song - Single Stereo Mix 2018 Remaster;134;data/lyrics/The-kinks-time-song.txt
 The Kinks;The Kinks Are the Village Green Preservation Society;1968;384;60;Village Green Overture - Preservation Version - Stereo;111;
@@ -5699,6 +5736,7 @@ Todd Rundgren;Something/Anything?;1972;396;13;Cold Morning Light - 2015 Remaster
 Todd Rundgren;Something/Anything?;1972;396;13;It Takes Two to Tango (This Is for the Girls) - 2015 Remaster;161;
 Todd Rundgren;Something/Anything?;1972;396;13;Sweeter Memories - 2015 Remaster;216;data/lyrics/Todd-rundgren-sweeter-memories.txt
 Todd Rundgren;Something/Anything?;1972;396;13;Intro - 2015 Remaster;71;data/lyrics/Todd-rundgren-intro.txt
+Todd Rundgren;Something/Anything?;1972;396;13;"Breathless - Instrumental; 2015 Remaster";195;data/lyrics/Todd-rundgren-breathless.txt
 Todd Rundgren;Something/Anything?;1972;396;13;The Night the Carousel Burned Down - 2015 Remaster;269;data/lyrics/Todd-rundgren-the-night-the-carousel-burned-down.txt
 Todd Rundgren;Something/Anything?;1972;396;13;Saving Grace - 2015 Remaster;252;data/lyrics/Todd-rundgren-saving-grace.txt
 Todd Rundgren;Something/Anything?;1972;396;13;Marlene - 2015 Remaster;234;data/lyrics/Todd-rundgren-marlene.txt
@@ -6205,6 +6243,7 @@ Pet Shop Boys;Actually;1987;435;35;Suburbia - 2003 Remaster;311;data/lyrics/Pet-
 Pet Shop Boys;Actually;1987;435;35;Se a Vida E (That's the Way Life Is);241;data/lyrics/Pet-shop-boys-se-a-vida-e-thats-the-way-life-is.txt
 Pet Shop Boys;Actually;1987;435;35;What Have I Done to Deserve This? (with Dusty Springfield) - 2001 Remaster;260;data/lyrics/Pet-shop-boys-what-have-i-done-to-deserve-this.txt
 Pet Shop Boys;Actually;1987;435;35;Always on My Mind - 2003 Remaster;238;data/lyrics/Pet-shop-boys-always-on-my-mind.txt
+Pet Shop Boys;Actually;1987;435;35;"I Wouldn't Normally Do This Kind of Thing - Beatmasters Mix; 2001 Remaster";285;data/lyrics/Pet-shop-boys-i-wouldnt-normally-do-this-kind-of-thing.txt
 Pet Shop Boys;Actually;1987;435;35;Home and Dry - 2003 Remaster;238;data/lyrics/Pet-shop-boys-home-and-dry.txt
 Pet Shop Boys;Actually;1987;435;35;Heart - 2003 Remaster;238;data/lyrics/Pet-shop-boys-heart.txt
 Pet Shop Boys;Actually;1987;435;35;Miracles - Radio Edit;235;data/lyrics/Pet-shop-boys-miracles.txt
@@ -6216,11 +6255,13 @@ Pet Shop Boys;Actually;1987;435;35;New York City Boy;201;data/lyrics/Pet-shop-bo
 Pet Shop Boys;Actually;1987;435;35;It's Alright - 2003 Remaster;260;data/lyrics/Pet-shop-boys-its-alright.txt
 Pet Shop Boys;Actually;1987;435;35;Where the Streets Have No Name (I Can't Take My Eyes off You) - 2003 Remaster;272;data/lyrics/Pet-shop-boys-where-the-streets-have-no-name.txt
 Pet Shop Boys;Actually;1987;435;35;A Red Letter Day;272;data/lyrics/Pet-shop-boys-a-red-letter-day.txt
+Pet Shop Boys;Actually;1987;435;35;"Left to My Own Devices - Single Version; 2001 Remaster";285;data/lyrics/Pet-shop-boys-left-to-my-own-devices.txt
 Pet Shop Boys;Actually;1987;435;35;I Don't Know What You Want but I Can't Give It Any More;265;
 Pet Shop Boys;Actually;1987;435;35;Flamboyant;230;data/lyrics/Pet-shop-boys-flamboyant.txt
 Pet Shop Boys;Actually;1987;435;35;Being Boring - 2001 Remaster;410;data/lyrics/Pet-shop-boys-being-boring.txt
 Pet Shop Boys;Actually;1987;435;35;Can You Forgive Her? - 2001 Remaster;234;data/lyrics/Pet-shop-boys-can-you-forgive-her.txt
 Pet Shop Boys;Actually;1987;435;35;West End Girls - 2001 Remaster;245;data/lyrics/Pet-shop-boys-west-end-girls.txt
+Pet Shop Boys;Actually;1987;435;35;"I Get Along - Radio Edit; 2003 Remaster";251;data/lyrics/Pet-shop-boys-i-get-along.txt
 Pet Shop Boys;Actually;1987;435;35;So Hard - 2001 Remaster;239;data/lyrics/Pet-shop-boys-so-hard.txt
 Pet Shop Boys;Actually;1987;435;35;Rent - 2003 Remaster;213;data/lyrics/Pet-shop-boys-rent.txt
 Pet Shop Boys;Actually;1987;435;35;Jealousy - 2003 Remaster;255;data/lyrics/Pet-shop-boys-jealousy.txt
@@ -7060,3 +7101,13 @@ Rufus;Ask Rufus;1977;499;9;Hollywood;249;data/lyrics/Rufus-hollywood.txt
 Rufus;Ask Rufus;1977;499;9;Magic In Your Eyes;232;data/lyrics/Rufus-magic-in-your-eyes.txt
 Rufus;Ask Rufus;1977;499;9;Better Days;256;data/lyrics/Rufus-better-days.txt
 Rufus;Ask Rufus;1977;499;9;Egyptian Song;312;data/lyrics/Rufus-egyptian-song.txt
+Arcade Fire;Funeral;2004;500;10;Neighborhood #1 (Tunnels);288;data/lyrics/Arcade-fire-neighborhood-1-tunnels.txt
+Arcade Fire;Funeral;2004;500;10;Neighborhood #2 (Laika);212;data/lyrics/Arcade-fire-neighborhood-2-laika.txt
+Arcade Fire;Funeral;2004;500;10;Une Annee Sans Lumiere;221;data/lyrics/Arcade-fire-une-annee-sans-lumiere.txt
+Arcade Fire;Funeral;2004;500;10;Neighborhood #3 (Power Out);313;data/lyrics/Arcade-fire-neighborhood-3-power-out.txt
+Arcade Fire;Funeral;2004;500;10;Neighborhood #4 (7 Kettles);290;data/lyrics/Arcade-fire-neighborhood-4-7-kettles.txt
+Arcade Fire;Funeral;2004;500;10;Crown of Love;282;data/lyrics/Arcade-fire-crown-of-love.txt
+Arcade Fire;Funeral;2004;500;10;Wake Up;335;data/lyrics/Arcade-fire-wake-up.txt
+Arcade Fire;Funeral;2004;500;10;Haiti;247;data/lyrics/Arcade-fire-haiti.txt
+Arcade Fire;Funeral;2004;500;10;Rebellion (Lies);311;data/lyrics/Arcade-fire-rebellion-lies.txt
+Arcade Fire;Funeral;2004;500;10;In the Backseat;380;data/lyrics/Arcade-fire-in-the-backseat.txt
