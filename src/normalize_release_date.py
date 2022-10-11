@@ -21,6 +21,8 @@ while True:
     if not line:break
 
     fields = line.split(';')
+    if (len(fields) != 8 and len(fields) != 7):
+        continue
     fields[2] = to_year(fields[2])
 
     with open(filename_to, 'a') as f:

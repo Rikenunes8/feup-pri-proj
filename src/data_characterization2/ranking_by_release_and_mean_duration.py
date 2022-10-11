@@ -6,7 +6,7 @@ filename = argv[1]
 
 df = pd.read_csv(filename, sep=';')
 
-df_groupby = df.groupby('album')[['track_duration (s)', 'album_release_date', 'album_rank']].mean()
+df_groupby = df.groupby('album')[['track_duration (s)', 'album_release_date', 'album_ranking']].mean()
 
 x = df_groupby['album_release_date'].apply(lambda x: int(x))
 y = df_groupby['track_duration (s)'].apply(lambda x: x/60)
