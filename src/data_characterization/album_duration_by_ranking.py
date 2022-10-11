@@ -24,6 +24,6 @@ p = np.poly1d(z)
 plt.scatter(x, y)
 plt.plot(x,p(x),"r--")
 plt.xlabel('Ranking')
-plt.xlabel('Album duration (min)')
+plt.ylabel('Album duration (min)')
 
 plt.savefig('analysis/album_duration_by_ranking.png')
