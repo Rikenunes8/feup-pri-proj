@@ -7,6 +7,7 @@ RS_HTML := rolling_stones.html
 RS_CSV := rolling_stones.csv
 RST_CSV := rolling_stones_tracks.csv
 RS_COMPLETE := all.csv
+LYRICS_DIR := $(DATA)/lyrics
 
 
 
@@ -50,6 +51,8 @@ analyze:
 	python3 src/data_characterization/song_distribution_by_year.py $(PROCESSED)$(RS_COMPLETE)
 	python3 src/data_characterization/lyrics_existence.py $(PROCESSED)$(RS_COMPLETE)
 	python3 src/data_characterization/ranking_by_release_and_mean_duration.py $(PROCESSED)$(RS_COMPLETE)
+	python3 src/data_characterization/make_wordcloud.py $(LYRICS_DIR)
+	python3 src/data_characterization/track_by_number_of_words.py $(LYRICS_DIR)
 
 
 
