@@ -10,4 +10,4 @@ has = df['lyrics'].shape[0] - hasnot
 
 plt.bar(['has', 'has not'], [has, hasnot])
 plt.ylabel('# of tracks')
-plt.savefig('analysis/tracks_lyrics_existence.png')
+plt.savefig('analysis/song_lyrics_existence.png')
