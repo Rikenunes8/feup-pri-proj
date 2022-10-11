@@ -5,8 +5,16 @@ import pandas as pd
 filename = argv[1]
 
 df = pd.read_csv(filename, sep=';')
-plt.hist(df['track_duration (s)'].values, 30)
+durations_min = df['track_duration (s)'].apply(lambda x: x/60).values
+
+plt.hist(durations_min, 30)
+plt.xlabel('Duration (min)')
+plt.ylabel('# of tracks')
 plt.savefig('analysis/song_distribution_by_duration.png')
-plt.yscale('log', nonposy='clip')
-plt.hist(df['track_duration (s)'].values, 30)
+
+plt.figure()
+plt.yscale('log')
+plt.hist(durations_min, 30)
+plt.xlabel('Duration (min)')
+plt.ylabel('# of tracks')
 plt.savefig('analysis/song_distribution_by_duration_log.png')
