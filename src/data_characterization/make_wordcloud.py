@@ -26,5 +26,5 @@ wordcloud = WordCloud().generate(text)
 
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
-plt.savefig("analysis/wordcloud.png")
+wordcloud.to_file("analysis/wordcloud.png")
 
