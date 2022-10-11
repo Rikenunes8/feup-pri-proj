@@ -41,7 +41,6 @@ plt.figure()
 plt.hist(data_len_log, bins=20)
 plt.xlabel("log10(# of words) in a track")
 plt.ylabel('# of tracks')
-plt.xscale('log')
 plt.savefig('analysis/track_by_number_of_words_log.png')
 
 plt.figure()
