@@ -26,7 +26,7 @@ collect: collect-tracks collect-lyrics
 
 collect-tracks:
 	mkdir -p data
-	
+
 	chmod +x src/collect_rs_html.sh
 	chmod +x src/collect_tracks.sh
 
@@ -35,6 +35,7 @@ collect-tracks:
 	bash src/collect_tracks.sh $(DATA)$(RS_CSV) $(DATA)$(RST_CSV)
 
 collect-lyrics:
+	mkdir -p data
 	chmod +x src/collect_lyrics.sh
 	bash src/collect_lyrics.sh $(DATA) $(DATA)$(RST_CSV) $(DATA)$(RS_COMPLETE)
 
