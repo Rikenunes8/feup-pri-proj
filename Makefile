@@ -22,24 +22,29 @@ clean-processed:
 clean-analysis:
 	rm -rf $(ANALYSIS)
 
-collect:
-	mkdir -p data
-	
+collect: collect-tracks collect-lyrics
+
+collect-tracks:
+	mkdir -p $(DATA)
+
 	chmod +x src/collect_rs_html.sh
 	chmod +x src/collect_tracks.sh
-	chmod +x src/collect_lyrics.sh
 
 	bash src/collect_rs_html.sh $(DATA)$(RS_HTML)
 	python3 src/rs_html_to_csv.py $(DATA)$(RS_HTML) $(DATA)$(RS_CSV)
 	bash src/collect_tracks.sh $(DATA)$(RS_CSV) $(DATA)$(RST_CSV)
+
+collect-lyrics:
+	mkdir -p $(DATA)
+	chmod +x src/collect_lyrics.sh
 	bash src/collect_lyrics.sh $(DATA) $(DATA)$(RST_CSV) $(DATA)$(RS_COMPLETE)
 
 process:
-	mkdir -p processed
+	mkdir -p $(PROCESSED)
 	python3 src/normalize_release_date.py $(DATA)$(RS_COMPLETE) $(PROCESSED)$(RS_COMPLETE)
 
 analyze:
-	mkdir -p analysis
+	mkdir -p $(ANALYSIS)
 	python3 src/data_characterization/album_distribution_by_duration.py $(PROCESSED)$(RS_COMPLETE)
 	python3 src/data_characterization/album_distribution_by_mean_song_duration.py $(PROCESSED)$(RS_COMPLETE)
 	python3 src/data_characterization/album_distribution_by_year.py $(PROCESSED)$(RS_COMPLETE)
