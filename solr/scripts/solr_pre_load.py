@@ -13,7 +13,7 @@ else:
 
 first = True
 counter = 0
-with open('../data/lyrics.json', 'w', encoding='utf-8') as jf:
+with open('../data/tracks.json', 'w', encoding='utf-8') as jf:
     jf.write('[\n')
     with open('../../processed/all.csv', 'r', encoding='utf-8') as f:
         f.readline()
