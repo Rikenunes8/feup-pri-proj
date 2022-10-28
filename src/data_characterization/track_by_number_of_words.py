@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import os
 import re
-from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 
@@ -38,32 +37,29 @@ for i, lyrics in song_lyrics.items():
 
 data_len_log = np.log10(data_len)
 
-plt.hist(data_len, range(0, 3000, 50))
+plt.hist(data_len, range(0, 1500, 50))
 plt.xlabel("# of words in a track")
 plt.ylabel('# of tracks')
-plt.show()
 plt.savefig('analysis/track_by_number_of_words.png')
 
-
+plt.figure()
 plt.hist(data_len_log, bins=20)
 plt.xlabel("log10(# of words) in a track")
 plt.ylabel('# of tracks')
 # plt.xscale('log', nonposx='clip')
-plt.show()
 plt.savefig('analysis/track_by_number_of_words_log.png')
 
-
+plt.figure()
 plt.boxplot(data_len, showfliers= True)
 plt.xticks([1], ['tracks'])
 plt.ylabel('# of words in a track')
-plt.show()
 plt.savefig('analysis/track_by_number_of_words_box.png')
 
+plt.figure()
 plt.boxplot(data_len, showfliers= True)
 plt.xticks([1], ['tracks'])
-plt.yscale('log', nonposy='clip')
+plt.yscale('log')
 plt.ylabel('log10(# of words) of words in a track')
 
-plt.show()
 plt.savefig('analysis/track_by_number_of_words_box_log.png')
 
