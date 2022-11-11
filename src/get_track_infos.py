@@ -45,6 +45,9 @@ def get_tracks(album_uri):
 
     return result
 
+def filter_separator(track):
+    return track.replace(';', '')
+
 
 load_dotenv()
 
@@ -72,8 +75,9 @@ closest_album = get_closest_album(albums, album_name, artist_name)
 album = closest_album['uri']
 # album = albums[0]['uri']
 album_items = get_tracks(album)
+
 albums_tracks = [[artist_name, album_name, albums[0]['release_date'], ranking, len(album_items),
-                  item['name'], round(item['duration_ms']/1000)] for item in album_items]
+                  filter_separator(item['name']), round(item['duration_ms']/1000)] for item in album_items]
 tracks = pd.DataFrame(albums_tracks, columns=columns)
 print(tracks)
 
