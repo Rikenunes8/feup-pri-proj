@@ -15,6 +15,23 @@
                     {
                         "class": "solr.ASCIIFoldingFilterFactory",
                         "preserveOriginal": "true"
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
+                    }
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": "true"
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
                     }
                 ]
             }
@@ -23,6 +40,17 @@
             "name": "lyricsType",
             "class": "solr.TextField",
             "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": "true"
+                    }
+                ]
+            },
+            "queryAnalyzer": {
                 "tokenizer": {
                     "class": "solr.StandardTokenizerFactory"
                 },
