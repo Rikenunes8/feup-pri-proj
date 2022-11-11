@@ -1,33 +1,88 @@
 {
-	"add-field-type": [
+    "add-field-type": [
         {
-            "name":"courseTitle",
-            "class":"solr.TextField",
-            "indexAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
+            "name": "intType",
+            "class": "solr.IntPointField"
+        },
+        {
+            "name": "textType",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
                 },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": "true"
+                    }
                 ]
-            },
-            "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
+            }
+        },
+        {
+            "name": "lyricsType",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
                 },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": "true"
+                    }
                 ]
             }
         }
     ],
     "add-field": [
         {
-            "name": "title",
-            "type": "courseTitle",
-            "indexed": true
+            "name": "artist",
+            "type": "textType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "album",
+            "type": "textType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "album_release_date",
+            "type": "intType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "album_ranking",
+            "type": "intType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "n_tracks",
+            "type": "intType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "track",
+            "type": "textType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "track_duration",
+            "type": "intType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "lyrics",
+            "type": "lyricsType",
+            "indexed": true,
+            "stored": true
         }
     ]
 }
