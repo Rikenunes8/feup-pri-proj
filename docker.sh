@@ -1,3 +1,5 @@
+#!/bin/bash
+
 docker stop pri_container
 docker rm pri_container
 docker build -t pri_tracks .
