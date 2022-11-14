@@ -50,15 +50,6 @@
                     },
                     {
                         "class": "solr.LowerCaseFilterFactory"
-                    },
-                    {
-                        "class": "solr.EnglishMinimalStemFilterFactory"
-                    },
-                    {
-                        "class": "solr.EnglishPossessiveFilterFactory"
-                    },
-                    {
-                        "class": "solr.PorterStemFilterFactory"
                     }
                 ]
             },
@@ -73,15 +64,6 @@
                     },
                     {
                         "class": "solr.LowerCaseFilterFactory"
-                    },
-                    {
-                        "class": "solr.EnglishMinimalStemFilterFactory"
-                    },
-                    {
-                        "class": "solr.EnglishPossessiveFilterFactory"
-                    },
-                    {
-                        "class": "solr.PorterStemFilterFactory"
                     }
                 ]
             }
