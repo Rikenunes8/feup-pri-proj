@@ -5,16 +5,22 @@ import numpy as np
 import json
 import requests
 import pandas as pd
+from sys import argv
 
-QRELS_FILE = 'solr/qrels/test_qrel.txt'
-QUERY_URL = 'http://localhost:8983/solr/tracks/select?indent=true&q.op=OR&q=artist%3AMarvin%20Gaye&fl=id'
+if len(argv) != 2: raise Exception("Identify the query number")
+query_n = int(argv[1])
+
+QRELS_FILE = 'solr/qrels/q'+str(query_n)+'_qrel.txt'
+QUERY_URL_FILE = 'solr/queries/q'+str(query_n)+'_query.txt'
 
 # Read qrels to extract relevant documents
 relevant = list(map(lambda el: el.strip(), open(QRELS_FILE).readlines()))
 # Get query results from Solr instance
-results = requests.get(QUERY_URL).json()['response']['docs']
-print(results)
+results = requests.get(open(QUERY_URL_FILE).readline()).json()['response']['docs']
 
+
+def relevant_results(results, relevant, idx):
+    return [doc for doc in results[:idx] if doc['id'] in relevant]
 
 # METRICS TABLE
 # Define custom decorator to automatically calculate metric based on key
@@ -25,11 +31,7 @@ metric = lambda f: metrics.setdefault(f.__name__, f)
 def ap(results, relevant):
     """Average Precision"""
     precision_values = [
-        len([
-            doc 
-            for doc in results[:idx]
-            if doc['id'] in relevant
-        ]) / idx 
+        len(relevant_results(results, relevant, idx)) / idx 
         for idx in range(1, len(results))
     ]
     return sum(precision_values)/len(precision_values)
@@ -37,7 +39,7 @@ def ap(results, relevant):
 @metric
 def p10(results, relevant, n=10):
     """Precision at N"""
-    return len([doc for doc in results[:n] if doc['id'] in relevant])/n
+    return len(relevant_results(results, relevant, n))/n
 
 def calculate_metric(key, results, relevant):
     return metrics[key](results, relevant)
@@ -50,13 +52,10 @@ evaluation_metrics = {
 
 # Calculate all metrics and export results as LaTeX table
 df = pd.DataFrame([['Metric','Value']] +
-    [
-        [evaluation_metrics[m], calculate_metric(m, results, relevant)]
-        for m in evaluation_metrics
-    ]
+    [[evaluation_metrics[m], calculate_metric(m, results, relevant)] for m in evaluation_metrics]
 )
 
-with open('solr/results/results.tex','w') as tf:
+with open('solr/results/metrics_results_'+str(query_n)+'.tex','w') as tf:
     tf.write(df.to_latex())
 
 
@@ -64,19 +63,12 @@ with open('solr/results/results.tex','w') as tf:
 # PRECISION-RECALL CURVE
 # Calculate precision and recall values as we move down the ranked list
 precision_values = [
-    len([
-        doc 
-        for doc in results[:idx]
-        if doc['id'] in relevant
-    ]) / idx 
+    len(relevant_results(results, relevant, idx)) / idx 
     for idx, _ in enumerate(results, start=1)
 ]
 
 recall_values = [
-    len([
-        doc for doc in results[:idx]
-        if doc['id'] in relevant
-    ]) / len(relevant)
+    len(relevant_results(results, relevant, idx)) / len(relevant)
     for idx, _ in enumerate(results, start=1)
 ]
 
@@ -96,4 +88,4 @@ for idx, step in enumerate(recall_values):
 
 disp = PrecisionRecallDisplay([precision_recall_match.get(r) for r in recall_values], recall_values)
 disp.plot()
-plt.savefig('solr/results/precision_recall.pdf')
+plt.savefig('solr/results/precision_recall_'+str(query_n)+'.svg')

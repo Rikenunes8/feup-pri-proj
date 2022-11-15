@@ -1,0 +1,1 @@
+http://localhost:8983/solr/tracks/select?defType=dismax&fq=%7B!frange%20l%3D120%20u%3D180%7Dtrack_duration&indent=true&q.op=OR&q=nirvana%201991&qf=artist%20album_release_date&rows=30
