@@ -16,10 +16,10 @@
 
 **Fields boosts**	The thing with ^ but for fields
 
-- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=sorrow%20pain&qf=track%5E2%20lyrics&rows=30
+- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=reget%5E3%20sorrow%20pain&qf=track%5E2%20lyrics&rows=30
 
 - defType: dismax
-- q: sorrow pain
+- q: regret^2 sorrow pain 
 - qf: track^2 lyrics
 - rows: 30
 
