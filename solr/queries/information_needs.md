@@ -2,12 +2,13 @@
 
 ### 1. I want 1991 Nirvana songs having between 2 and 3 minutes
 
-- http://localhost:8983/solr/tracks/select?defType=dismax&fq=%7B!frange%20l%3D120%20u%3D180%7Dtrack_duration&indent=true&q.op=OR&q=%2BNirvana%20%2B1991&qf=artist%20album_release_date
+- http://localhost:8983/solr/tracks/select?defType=dismax&fq=%7B!frange%20l%3D120%20u%3D180%7Dtrack_duration&indent=true&q.op=OR&q=nirvana%201991&qf=artist%20album_release_date&rows=30
 
 - defType: dismax
-- q: Nirvana 1991
+- q: nirvana 1991
 - qf: artist album_release_date
 - fq: {!frange l=120 u=180}track_duration
+- rows: 30
 
 
 
@@ -15,11 +16,12 @@
 
 **Fields boosts**	The thing with ^ but for fields
 
-- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=sorrow%20pain&qf=track%5E2%20lyrics
+- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=sorrow%20pain&qf=track%5E2%20lyrics&rows=30
 
 - defType: dismax
 - q: sorrow pain
 - qf: track^2 lyrics
+- rows: 30
 
 
 
