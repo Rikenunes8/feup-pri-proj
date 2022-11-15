@@ -1,1 +1,0 @@
-http://localhost:8983/solr/tracks/select?indent=true&q.op=AND&q=album_release_date%3A1991%0Aartist%3ANirvana
