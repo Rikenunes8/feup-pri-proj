@@ -1,10 +1,6 @@
 {
     "add-field-type": [
         {
-            "name": "intType",
-            "class": "solr.IntPointField"
-        },
-        {
             "name": "textType",
             "class": "solr.TextField",
             "indexAnalyzer": {
@@ -12,13 +8,8 @@
                     "class": "solr.StandardTokenizerFactory"
                 },
                 "filters": [
-                    {
-                        "class": "solr.ASCIIFoldingFilterFactory",
-                        "preserveOriginal": "true"
-                    },
-                    {
-                        "class": "solr.LowerCaseFilterFactory"
-                    }
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"}
                 ]
             },
             "queryAnalyzer": {
@@ -26,13 +17,8 @@
                     "class": "solr.StandardTokenizerFactory"
                 },
                 "filters": [
-                    {
-                        "class": "solr.ASCIIFoldingFilterFactory",
-                        "preserveOriginal": "true"
-                    },
-                    {
-                        "class": "solr.LowerCaseFilterFactory"
-                    }
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"}
                 ]
             }
         },
@@ -44,22 +30,14 @@
                     "class": "solr.StandardTokenizerFactory"
                 },
                 "filters": [
-                    {
-                        "class": "solr.ASCIIFoldingFilterFactory",
-                        "preserveOriginal": "true"
-                    },
-                    {
-                        "class": "solr.LowerCaseFilterFactory"
-                    },
-                    {
-                        "class": "solr.EnglishMinimalStemFilterFactory"
-                    },
-                    {
-                        "class": "solr.EnglishPossessiveFilterFactory"
-                    },
-                    {
-                        "class": "solr.PorterStemFilterFactory"
-                    }
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.EnglishMinimalStemFilterFactory"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"},
+                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
+                    {"class": "solr.ManagedSynonymGraphFilterFactory", "managed": "english"},
+                    {"class": "solr.FlattenGraphFilterFactory"}
                 ]
             },
             "queryAnalyzer": {
@@ -67,22 +45,13 @@
                     "class": "solr.StandardTokenizerFactory"
                 },
                 "filters": [
-                    {
-                        "class": "solr.ASCIIFoldingFilterFactory",
-                        "preserveOriginal": "true"
-                    },
-                    {
-                        "class": "solr.LowerCaseFilterFactory"
-                    },
-                    {
-                        "class": "solr.EnglishMinimalStemFilterFactory"
-                    },
-                    {
-                        "class": "solr.EnglishPossessiveFilterFactory"
-                    },
-                    {
-                        "class": "solr.PorterStemFilterFactory"
-                    }
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.EnglishMinimalStemFilterFactory"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"},
+                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
+                    {"class": "solr.ManagedSynonymGraphFilterFactory", "managed": "english"}
                 ]
             }
         }
@@ -102,19 +71,19 @@
         },
         {
             "name": "album_release_date",
-            "type": "intType",
+            "type": "pint",
             "indexed": true,
             "stored": true
         },
         {
             "name": "album_ranking",
-            "type": "intType",
+            "type": "pint",
             "indexed": true,
             "stored": true
         },
         {
             "name": "n_tracks",
-            "type": "intType",
+            "type": "pint",
             "indexed": true,
             "stored": true
         },
@@ -126,7 +95,7 @@
         },
         {
             "name": "track_duration",
-            "type": "intType",
+            "type": "pint",
             "indexed": true,
             "stored": true
         },
