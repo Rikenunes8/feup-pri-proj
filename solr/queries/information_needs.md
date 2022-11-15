@@ -79,7 +79,7 @@ Search for surpr* and happ* in the title
 
 **Phrase match w/ slop**     dismax query
 
-- http://localhost:8983/solr/tracks/select?debugQuery=false&defType=dismax&indent=true&q.op=OR&q=%22I%20like%20her%22&qf=tracks%20lyrics&qs=5&rows=100
+- http://localhost:8983/solr/tracks/select?debugQuery=false&defType=dismax&indent=true&q.op=OR&q=%22I%20like%20her%22&qf=tracks%20lyrics&qs=5
 
 - defType: dismax
 - q: "I like her"

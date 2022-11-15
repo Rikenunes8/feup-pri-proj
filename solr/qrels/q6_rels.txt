@@ -1,0 +1,1 @@
+http://localhost:8983/solr/tracks/select?debugQuery=false&indent=true&q.op=OR&q=track%3A%20surpr*%20%0Atrack%3A%20happ*&rows=100
