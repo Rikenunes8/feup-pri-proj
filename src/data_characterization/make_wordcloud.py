@@ -25,6 +25,7 @@ for filename in lyric_files:
 wordcloud = WordCloud().generate(text)
 
 plt.imshow(wordcloud, interpolation='bilinear')
+plt.title("Wordcloud of all lyrics")
 plt.axis("off")
 wordcloud.to_file("analysis/wordcloud.png")
 

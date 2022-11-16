@@ -23,6 +23,7 @@ p = np.poly1d(z)
 
 plt.scatter(x, y)
 plt.plot(x,p(x),"r--")
+plt.title('Album\'s number of songs by ranking')
 plt.xlabel('Ranking')
 plt.ylabel('# of tracks by album')
 

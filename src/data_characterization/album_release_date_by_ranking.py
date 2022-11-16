@@ -24,6 +24,7 @@ p = np.poly1d(z)
 
 plt.scatter(x, y)
 plt.plot(x,p(x),"r--")
+plt.title('Album release date by ranking')
 plt.xlabel('Ranking')
 plt.ylabel('Album release date')
 

@@ -14,6 +14,7 @@ t = df_groupby['album_ranking'].apply(lambda x: int(round(x, 0)))
 
 plt.figure(figsize=[10, 6.4])
 plt.scatter(x, y, c=t, cmap='viridis')
+plt.title('Album mean song duration by release date')
 plt.xlabel('Album release date')
 plt.ylabel('Album tracks mean duration (min)')
 cbar = plt.colorbar()

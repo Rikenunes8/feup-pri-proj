@@ -9,5 +9,6 @@ hasnot = df['lyrics'].isna().sum()
 has = df['lyrics'].shape[0] - hasnot
 
 plt.bar(['has', 'has not'], [has, hasnot])
+plt.title('Existence of track lyrics')
 plt.ylabel('# of tracks')
 plt.savefig('analysis/song_lyrics_existence.png')

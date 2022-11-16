@@ -23,6 +23,7 @@ p = np.poly1d(z)
 
 plt.scatter(x, y)
 plt.plot(x,p(x),"r--")
+plt.title('Album mean song duration by ranking')
 plt.xlabel('Ranking')
 plt.ylabel('Album mean track duration (min)')
 
