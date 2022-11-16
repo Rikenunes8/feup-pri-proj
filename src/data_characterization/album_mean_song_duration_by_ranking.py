@@ -27,4 +27,4 @@ plt.title('Album mean song duration by ranking')
 plt.xlabel('Ranking')
 plt.ylabel('Album mean track duration (min)')
 
-plt.savefig('analysis/album_mean_song_duration_by_ranking.png')
+plt.savefig('analysis/album_mean_song_duration_by_ranking.svg')

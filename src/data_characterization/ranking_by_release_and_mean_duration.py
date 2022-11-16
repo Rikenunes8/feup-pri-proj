@@ -20,4 +20,4 @@ plt.ylabel('Album tracks mean duration (min)')
 cbar = plt.colorbar()
 cbar.set_label('Album ranking', rotation=270, labelpad=20)
 
-plt.savefig('analysis/album_ranking_by_release_and_mean_duration.png')
+plt.savefig('analysis/album_ranking_by_release_and_mean_duration.svg')

@@ -27,4 +27,4 @@ plt.title('Album\'s number of songs by ranking')
 plt.xlabel('Ranking')
 plt.ylabel('# of tracks by album')
 
-plt.savefig('analysis/album_number_of_songs_by_ranking.png')
+plt.savefig('analysis/album_number_of_songs_by_ranking.svg')

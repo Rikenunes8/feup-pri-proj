@@ -28,4 +28,4 @@ plt.title('Album release date by ranking')
 plt.xlabel('Ranking')
 plt.ylabel('Album release date')
 
-plt.savefig('analysis/album_release_date_by_ranking.png')
+plt.savefig('analysis/album_release_date_by_ranking.svg')

@@ -27,4 +27,4 @@ plt.title('Album duration by ranking')
 plt.xlabel('Ranking')
 plt.ylabel('Album duration (min)')
 
-plt.savefig('analysis/album_duration_by_ranking.png')
+plt.savefig('analysis/album_duration_by_ranking.svg')
