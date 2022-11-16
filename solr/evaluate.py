@@ -7,7 +7,9 @@ import requests
 import pandas as pd
 from sys import argv
 
-if len(argv) != 2: raise Exception("Identify the query number")
+if len(argv) != 3: 
+    raise Exception("Identify the query number")
+    
 query_n = int(argv[1])
 
 QRELS_FILE = 'solr/qrels/q'+str(query_n)+'_qrel.txt'
@@ -34,7 +36,10 @@ def ap(results, relevant):
         len(relevant_results(results, relevant, idx)) / idx 
         for idx in range(1, len(results))
     ]
-    return sum(precision_values)/len(precision_values)
+    try:
+        return sum(precision_values)/len(precision_values)
+    except:
+        return 0
 
 @metric
 def p10(results, relevant, n=10):
@@ -55,7 +60,7 @@ df = pd.DataFrame([['Metric','Value']] +
     [[evaluation_metrics[m], calculate_metric(m, results, relevant)] for m in evaluation_metrics]
 )
 
-with open('solr/results/metrics_results_'+str(query_n)+'.tex','w') as tf:
+with open(f"solr/results/{argv[2]}metrics_results_"+str(query_n)+'.tex','w') as tf:
     tf.write(df.to_latex())
 
 
@@ -88,4 +93,5 @@ for idx, step in enumerate(recall_values):
 
 disp = PrecisionRecallDisplay([precision_recall_match.get(r) for r in recall_values], recall_values)
 disp.plot()
-plt.savefig('solr/results/precision_recall_'+str(query_n)+'.svg')
+plt.title('Precision-Recall Curve for query '+str(query_n))
+plt.savefig(f"solr/results/{argv[2]}precision_recall_"+str(query_n)+'.svg')
