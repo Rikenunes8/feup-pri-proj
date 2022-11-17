@@ -93,5 +93,6 @@ for idx, step in enumerate(recall_values):
 
 disp = PrecisionRecallDisplay([precision_recall_match.get(r) for r in recall_values], recall_values)
 disp.plot()
+plt.ylim(0, 1.05)
 plt.title('Precision-Recall Curve for query '+str(query_n))
 plt.savefig(f"solr/results/{argv[2]}precision_recall_"+str(query_n)+'.svg')
