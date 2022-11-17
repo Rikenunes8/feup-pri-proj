@@ -30,12 +30,13 @@
 **Independent boosts**	The thing with ^ but general, independent of the field
 boosts the album_ranking ?
 
-- http://localhost:8983/solr/tracks/select?bf=field(album_ranking)&debugQuery=false&defType=dismax&indent=true&q.op=OR&q=calm%20enjoy%20peace%20quiet&qf=track%20album%20artist%20album_release_data%20lyrics&rows=100
+- http://localhost:8983/solr/tracks/select?bf=field(album_ranking)&debugQuery=false&defType=dismax&indent=true&q.op=OR&q=calm%20enjoy%20peace%20quiet&qf=track%20album%20artist%20album_release_data%20lyrics&rows=30
 
 - defType: dismax
 - q: calm enjoy peace quiet
 - qf: track album artist album_realease_date lyrics
 - bf: field(album_ranking)
+- rows: 30
 
 
 
@@ -43,11 +44,12 @@ boosts the album_ranking ?
 
 **Term boosts**	    The thing with ^ but for words
 
-- http://localhost:8983/solr/tracks/select?debugQuery=false&defType=dismax&indent=true&q.op=OR&q=love%5E5%20-good%20bad%20-happy%20sad&qf=lyrics&rows=100
+- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=love%5E5%20-good%20bad%20-happy%20sad&qf=lyrics&rows=30
 
 - defType: dismax
 - q: love^5 -good bad -happy sad 
 - qf: lyrics
+- rows: 30
 
 
 
@@ -55,11 +57,12 @@ boosts the album_ranking ?
 
 **Proximity searches** the thing with "word1 word2"~< distance >
 
-- http://localhost:8983/solr/tracks/select?indent=true&q.op=AND&q=lyrics%3A%20%22life%20love%22~3
+- http://localhost:8983/solr/tracks/select?indent=true&q.op=AND&q=lyrics%3A%20"life%20love"~3&rows=30
 
 - defType: lucene
 - q: lyrics: "life love"~3
 - q.op: AND
+- rows: 30
 
 
 
@@ -68,10 +71,11 @@ boosts the album_ranking ?
 **Wildcards / Fuziness**	words with at the end, like surpr* or surprise~
 Search for surpr* and happ* in the title
 
-- http://localhost:8983/solr/tracks/select?debugQuery=false&indent=true&q.op=OR&q=track%3A%20surpr*%20%0Atrack%3A%20happ*&rows=100
+- http://localhost:8983/solr/tracks/select?debugQuery=false&indent=true&q.op=OR&q=track%3A%20surpr*%20%0Atrack%3A%20happ*&rows=30
 
 - defType: lucene
 - q: track: surpr* track: happ*
+- rows: 30
 
 
 
@@ -79,34 +83,21 @@ Search for surpr* and happ* in the title
 
 **Phrase match w/ slop**     dismax query
 
-- http://localhost:8983/solr/tracks/select?debugQuery=false&defType=dismax&indent=true&q.op=OR&q=%22I%20like%20her%22&qf=tracks%20lyrics&qs=5
+- http://localhost:8983/solr/tracks/select?debugQuery=false&defType=dismax&indent=true&q.op=OR&q=%22I%20like%20her%22&qf=tracks%20lyrics&qs=5&rows=30
 
 - defType: dismax
 - q: "I like her"
 - qf: tracks lyrics
 - qs: 5
+- rows: 30
 
 
 
 ### 8. I want the very best songs
 
-- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=rank%201&qf=album_ranking
+- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=rank%201&qf=album_ranking&rows=30
 
 - defType: dismax
-- q: 1 rank
+- q: rank 1
 - qf: album_ranking
-
-
-
-
-
-
-### I want the song that I remember has a line something like "the wish for crying"
-
-### I want a happy song
-
-### I want chrismtas  songs
-
-### I want sad songs
-
-### I want a good instrumental song
+- rows: 30
