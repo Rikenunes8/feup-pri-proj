@@ -30,8 +30,9 @@ for filename in lyric_files:
     i += 1
     print(f"{i}")
 
-    if i == 20:
-        break
+    # if i == 20:
+    #     pass
+    #     break
 
 
 kw_model = KeyBERT(model='all-mpnet-base-v2')
@@ -45,9 +46,9 @@ for i, lyrics in song_lyrics.items():
     lyrics = re.sub("\s+", " ", lyrics)
     keywords = kw_model.extract_keywords(lyrics, 
 
-                                     keyphrase_ngram_range=(1, 3), 
+                                     keyphrase_ngram_range=(1, 1), 
 
-                                    #  stop_words='english', 
+                                     stop_words='english', 
 
                                      highlight=False,
 
