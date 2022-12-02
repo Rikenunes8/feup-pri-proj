@@ -25,12 +25,18 @@ def map_spacy_solr(lang):
         'de': 'de',
         'it': 'it',
         'pt': 'pt',
-        'nl': 'nl'
+        'nl': 'nl',
+        'pl': 'pl',
+        'so': 'so',
+        'ca': 'ca',
+        'id': 'id',
     }
     if lang in mapping:
+        if lang not in ['en', 'es']:
+            print('Unusual lang ' + lang)
         return mapping[lang]
     else:
-        print("language not being mapped" + lang)
+        print("language not being mapped " + lang)
         return 'en'
 
 def get_lang(text):
