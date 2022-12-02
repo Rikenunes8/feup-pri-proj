@@ -66,19 +66,22 @@ def read_and_process_file(jf, line, counter):
     track_file = line[7]
     with lock:
         id = counter
-    try:
-        with open('./../../' + track_file, 'r', encoding='utf-8') as tf:
-            track_lyrics_from_file = tf.read()
-        normal_file_lyrics = re.sub('\[.*?\]:?', '', track_lyrics_from_file, flags=re.S)
-        # normal_file_lyrics = re.sub('\[.*?\]', '', file_lyrics, flags=re.S)
-        track_lyrics= re.sub("\s+", " ", normal_file_lyrics).strip()
-        spacy_lang = get_lang(track_lyrics)
-        spacy_lang_name = spacy_lang['language'] if spacy_lang['score'] > 0.9 else 'en'
-        solr_lang = map_spacy_solr(spacy_lang_name)
-    except Exception as e:
-        print('Exception in id ' + str(id) + 'track ' + track + ' in file ' + track_file, e)
-        track_lyrics=""
-        solr_lang = 'en'
+    if track_file == '':
+        solr_lang = ''
+    else :
+        try:
+
+            with open('./../../' + track_file, 'r', encoding='utf-8') as tf:
+                track_lyrics_from_file = tf.read()
+            normal_file_lyrics = re.sub('\[.*?\]:?', '', track_lyrics_from_file, flags=re.S)
+            # normal_file_lyrics = re.sub('\[.*?\]', '', file_lyrics, flags=re.S)
+            track_lyrics= re.sub("\s+", " ", normal_file_lyrics).strip()
+            spacy_lang = get_lang(track_lyrics)
+            spacy_lang_name = spacy_lang['language'] if spacy_lang['score'] > 0.9 else 'en'
+            solr_lang = map_spacy_solr(spacy_lang_name)
+        except Exception as e:
+            print('Exception in id ' + str(id) + 'track ' + track + ' in file ' + track_file, e)
+            solr_lang = 'en'
 
     track_obj = {
         "id": id,
