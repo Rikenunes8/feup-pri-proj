@@ -30,7 +30,7 @@ def map_spacy_solr(lang):
     if lang in mapping:
         return mapping[lang]
     else:
-        print("language not being mapped")
+        print("language not being mapped" + lang)
         return 'en'
 
 def get_lang(text):
