@@ -5,6 +5,7 @@ from bs4.element import Comment
 import requests
 import os
 import unidecode
+from utils import  normalize_lyrics
 
 if len(argv) != 4:
     raise Exception("wrong number of arguments")
@@ -71,6 +72,8 @@ def get_lyrics(artist, song):
 
 directory = dir + 'lyrics'
 lyrics = get_lyrics(artist, song)
+lyrics = normalize_lyrics(lyrics)
+
 
 path = dir + 'lyrics/' + filename_to_save + ".txt"
 with open(path, 'w', encoding='utf-8') as f:
