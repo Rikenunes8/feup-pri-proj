@@ -6,7 +6,7 @@ url = 'https://www.wordreference.com/sinonimos/'
 
 fw = open('synonyms_es.txt', 'a')
 
-with open('Spanish.txt', 'r', encoding='utf-8') as f:
+with open('Spanish_.txt', 'r', encoding='utf-8') as f:
     while True:
         word_original = f.readline()
         if not word_original:
