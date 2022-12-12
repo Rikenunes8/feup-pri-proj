@@ -7,6 +7,7 @@ from spacy.language import Language
 from spacy_langdetect import LanguageDetector
 from concurrent.futures import ThreadPoolExecutor, wait
 from multiprocessing import Lock
+import shutil
 
 def get_lang_detector(nlp, name):
     return LanguageDetector()
@@ -106,7 +107,8 @@ def read_and_process_file(jf, line, counter):
         "track": track,
         "track_duration": track_duration,
         "lyrics_es": track_lyrics if solr_lang == 'es' else '',
-        "lyrics_en": track_lyrics if solr_lang != 'es' else '',
+        "lyrics_en": track_lyrics if solr_lang == 'en' else '',
+        "lyrics_other": track_lyrics if solr_lang not in ['es', 'en'] else '',
         "language": solr_lang
     }
     with lock:
@@ -116,8 +118,10 @@ def read_and_process_file(jf, line, counter):
         jf.write(',\n'.encode('utf-8'))
 
 def translate_files():
+    tracks_multi_lang_path = '../data/tracks.json'
+    shutil.copyfile('../data/tracks_single_lyrics.json', tracks_multi_lang_path)
     executor = ThreadPoolExecutor(max_workers=1)
-    with open('../data/tracks.json', 'wb') as jf:
+    with open(tracks_multi_lang_path, 'wb') as jf:
         futures = []
         counter = 0
         jf.write('[\n'.encode('utf-8'))

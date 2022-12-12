@@ -130,6 +130,12 @@
             "type": "esLyricsType",
             "indexed": true,
             "stored": true
+        },
+        {
+            "name": "lyrics_other",
+            "type": "textType",
+            "indexed": true,
+            "stored": true
         }
     ]
 }
