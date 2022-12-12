@@ -42,8 +42,8 @@ def map_spacy_solr(lang):
         return 'en', ''
 
 def get_lang(text):
-        doc = nlp(text)
-        return doc._.language
+    doc = nlp(text)
+    return doc._.language
 
 try:
     nlp = spacy.load("en_core_web_sm")
@@ -105,7 +105,8 @@ def read_and_process_file(jf, line, counter):
         "n_tracks": n_tracks,
         "track": track,
         "track_duration": track_duration,
-        "lyrics_"+solr_lang: track_lyrics,
+        "lyrics_es": track_lyrics if solr_lang == 'es' else '',
+        "lyrics_en": track_lyrics if solr_lang != 'es' else '',
         "language": solr_lang
     }
     with lock:
