@@ -35,8 +35,7 @@
                     {"class": "solr.EnglishMinimalStemFilterFactory"},
                     {"class": "solr.EnglishPossessiveFilterFactory"},
                     {"class": "solr.PorterStemFilterFactory"},
-                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
-                    {"class": "solr.SynonymFilterFactory", "synonyms": "synonyms.txt", "ignoreCase": "true", "expand": "true"}
+                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"}
                 ]
             },
             "queryAnalyzer": {
@@ -50,7 +49,7 @@
                     {"class": "solr.EnglishPossessiveFilterFactory"},
                     {"class": "solr.PorterStemFilterFactory"},
                     {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
-                    {"class": "solr.SynonymFilterFactory", "synonyms": "synonyms.txt", "ignoreCase": "true", "expand": "true"}
+                    {"class": "solr.SynonymGraphFilterFactory", "synonyms": "/var/solr/data/tracks/synonyms_en.txt", "ignoreCase": "true", "expand": "true"}
                 ]
             }
         }
