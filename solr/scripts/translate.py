@@ -32,12 +32,14 @@ def map_spacy_solr(lang):
         'id': 'id',
     }
     if lang in mapping:
+        warning = ''
         if lang not in ['en', 'es']:
-            print('Unusual lang ' + lang)
-        return mapping[lang]
+            warning = 'Unusual lang: ' + lang
+            print(warning)
+        return mapping[lang], warning
     else:
         print("language not being mapped " + lang)
-        return 'en'
+        return 'en', ''
 
 def get_lang(text):
         doc = nlp(text)
@@ -57,6 +59,8 @@ except:
     print("python -m spacy download xx_ent_wiki_sm")
 
     
+warnings = []
+warning_lock = Lock()
 lock = Lock()
 get_lang("Isto é um teste")	
 
@@ -84,7 +88,10 @@ def read_and_process_file(jf, line, counter):
             track_lyrics= re.sub("\s+", " ", normal_file_lyrics).strip()
             spacy_lang = get_lang(track_lyrics)
             spacy_lang_name = spacy_lang['language'] if spacy_lang['score'] > 0.9 else 'en'
-            solr_lang = map_spacy_solr(spacy_lang_name)
+            solr_lang, warning_message = map_spacy_solr(spacy_lang_name)
+            if warning_message != "":
+                with warning_lock:
+                        warnings.append(f"For id {id}, warning: {warning_message}")
         except Exception as e:
             print('Exception in id ' + str(id) + 'track ' + track + ' in file ' + track_file, e)
             solr_lang = 'en'
@@ -98,7 +105,7 @@ def read_and_process_file(jf, line, counter):
         "n_tracks": n_tracks,
         "track": track,
         "track_duration": track_duration,
-        "lyrics": track_lyrics,
+        "lyrics_"+solr_lang: track_lyrics,
         "language": solr_lang
     }
     with lock:
@@ -128,6 +135,10 @@ def translate_files():
         wait(futures)
         jf.seek(-2, 1)
         jf.write('\n]\n'.encode('utf-8'))
+        
+    with open('../data/warnings.txt', 'w') as wf:
+        for w in warnings:
+            wf.write(w + '\n')
         
 
 if __name__ == '__main__':
