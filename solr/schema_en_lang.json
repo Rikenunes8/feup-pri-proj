@@ -23,7 +23,7 @@
             }
         },
         {
-            "name": "enLyricsType",
+            "name": "lyricsType",
             "class": "solr.TextField",
             "indexAnalyzer": {
                 "tokenizer": {
@@ -34,7 +34,11 @@
                     {"class": "solr.LowerCaseFilterFactory"},
                     {"class": "solr.EnglishMinimalStemFilterFactory"},
                     {"class": "solr.EnglishPossessiveFilterFactory"},
-                    {"class": "solr.PorterStemFilterFactory"}                ]
+                    {"class": "solr.PorterStemFilterFactory"},
+                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
+                    {"class": "solr.ManagedSynonymGraphFilterFactory", "managed": "english"},
+                    {"class": "solr.FlattenGraphFilterFactory"}
+                ]
             },
             "queryAnalyzer": {
                 "tokenizer": {
@@ -46,32 +50,8 @@
                     {"class": "solr.EnglishMinimalStemFilterFactory"},
                     {"class": "solr.EnglishPossessiveFilterFactory"},
                     {"class": "solr.PorterStemFilterFactory"},
-                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"}
-                ]
-            }
-        },
-        {
-            "name": "esLyricsType",
-            "class": "solr.TextField",
-            "indexAnalyzer": {
-                "tokenizer": {
-                    "class": "solr.StandardTokenizerFactory"
-                },
-                "filters": [
-                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
-                    {"class": "solr.LowerCaseFilterFactory"},
-                    {"class": "solr.SnowballPorterFilterFactory", "language": "Spanish"}
-                ]
-            },
-            "queryAnalyzer": {
-                "tokenizer": {
-                    "class": "solr.StandardTokenizerFactory"
-                },
-                "filters": [
-                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
-                    {"class": "solr.LowerCaseFilterFactory"},
-                    {"class": "solr.SnowballPorterFilterFactory", "language": "Spanish"},
-                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"}
+                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
+                    {"class": "solr.ManagedSynonymGraphFilterFactory", "managed": "english"}
                 ]
             }
         }
@@ -120,14 +100,8 @@
             "stored": true
         },
         {
-            "name": "lyrics_en",
-            "type": "enLyricsType",
-            "indexed": true,
-            "stored": true
-        },
-        {
-            "name": "lyrics_es",
-            "type": "esLyricsType",
+            "name": "lyrics",
+            "type": "lyricsType",
             "indexed": true,
             "stored": true
         }
