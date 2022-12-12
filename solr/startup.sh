@@ -9,7 +9,7 @@ solr start
 
 # Schema definition via API
 curl -X POST -H 'Content-type:application/json' \
-    --data-binary @/data/m2_schema.json \
+    --data-binary @/data/schema.json \
     http://localhost:8983/solr/tracks/schema
 
 # Populate collection
