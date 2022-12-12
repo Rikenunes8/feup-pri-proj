@@ -31,11 +31,7 @@
                 },
                 "filters": [
                     {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
-                    {"class": "solr.LowerCaseFilterFactory"},
-                    {"class": "solr.EnglishMinimalStemFilterFactory"},
-                    {"class": "solr.EnglishPossessiveFilterFactory"},
-                    {"class": "solr.PorterStemFilterFactory"},
-                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"}
+                    {"class": "solr.LowerCaseFilterFactory"}
                 ]
             },
             "queryAnalyzer": {
@@ -44,12 +40,7 @@
                 },
                 "filters": [
                     {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
-                    {"class": "solr.LowerCaseFilterFactory"},
-                    {"class": "solr.EnglishMinimalStemFilterFactory"},
-                    {"class": "solr.EnglishPossessiveFilterFactory"},
-                    {"class": "solr.PorterStemFilterFactory"},
-                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
-                    {"class": "solr.SynonymGraphFilterFactory", "synonyms": "/var/solr/data/tracks/synonyms_en.txt", "ignoreCase": "true", "expand": "true"}
+                    {"class": "solr.LowerCaseFilterFactory"}
                 ]
             }
         }
