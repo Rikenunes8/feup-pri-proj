@@ -9,11 +9,11 @@ filename_to = argv[2]
 def to_year(date):
     return date.split('-')[0]
 
-file = open(filename_from, 'r')
+file = open(filename_from, 'r', encoding='utf-8')
 
 line = file.readline()
 if not line:exit()
-with open(filename_to, 'w') as f:
+with open(filename_to, 'w', encoding='utf-8') as f:
         f.write(line)
 
 while True:
@@ -23,7 +23,7 @@ while True:
     fields = line.split(';')
     fields[2] = to_year(fields[2])
 
-    with open(filename_to, 'a') as f:
+    with open(filename_to, 'a',  encoding='utf-8') as f:
         f.write(';'.join(fields))
 
 file.close()

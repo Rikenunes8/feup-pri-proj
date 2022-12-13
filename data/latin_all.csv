@@ -72,59 +72,7 @@ Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Inolvidable;200;
 Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Veinte Años;244;
 Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Lágrimas Negras;332;
 Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Nieblas del Riachuelo;187;
-Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Corazón Loco;196;Traceback (most recent call last):
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
-    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
-  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno -3] Temporary failure in name resolution
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
-    httplib_response = self._make_request(
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._validate_conn(conn)
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
-    conn.connect()
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
-    self.sock = conn = self._new_conn()
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f83b29fc550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/requests/adapters.py", line 489, in send
-    resp = conn.urlopen(
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 787, in urlopen
-    retries = retries.increment(
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='genius.com', port=443): Max retries exceeded with url: /Bebo-cigala-corazon-loco-lyrics (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f83b29fc550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "src/get_track_lyrics.py", line 73, in <module>
-    lyrics = get_lyrics(artist, song)
-  File "src/get_track_lyrics.py", line 49, in get_lyrics
-    response = requests.get(url)
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/requests/api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/requests/sessions.py", line 587, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/requests/sessions.py", line 701, in send
-    r = adapter.send(request, **kwargs)
-  File "/home/eunice_amorim/.local/lib/python3.8/site-packages/requests/adapters.py", line 565, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='genius.com', port=443): Max retries exceeded with url: /Bebo-cigala-corazon-loco-lyrics (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f83b29fc550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Corazón Loco;196;
 Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Se Me Olvidó Que Te Olvidé;235;
 Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Vete de Mí;176;
 Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;La Bien Pagá;538;
@@ -437,14 +385,7 @@ Linda Ronstadt;Canciones De Mi Padre;1987;31;13;La Cigarra (The Cicada);229;data
 Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Tú Sólo Tú (You Only You);192;data/lyrics/Linda-ronstadt-tu-solo-tu-you-only-you.txt
 Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Y Andale (Get on With It);158;data/lyrics/Linda-ronstadt-y-andale-get-on-with-it.txt
 Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Rogaciano El Huapanguero (Rogiciano);186;data/lyrics/Linda-ronstadt-rogaciano-el-huapanguero-rogiciano.txt
-Linda Ronstadt;Canciones De Mi Padre;1987;31;Traceback (most recent call last):
-  File "src/get_track_lyrics.py", line 10, in <module>
-    raise Exception("wrong number of arguments")
-Exception: wrong number of arguments
-;13;La Charreada (The Charreada);225;Traceback (most recent call last):
-  File "src/get_track_lyrics.py", line 10, in <module>
-    raise Exception("wrong number of arguments")
-Exception: wrong number of arguments
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;
 Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Dos Arbolitos (Two Little Trees);156;data/lyrics/Linda-ronstadt-dos-arbolitos-two-little-trees.txt
 Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Corrido DeCananea (Ballad of Cananea);208;
 Linda Ronstadt;Canciones De Mi Padre;1987;31;13;La Barca De Guaymas (The Boat from Guaymas);205;data/lyrics/Linda-ronstadt-la-barca-de-guaymas-the-boat-from-guaymas.txt
