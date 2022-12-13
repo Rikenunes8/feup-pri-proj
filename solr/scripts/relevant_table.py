@@ -21,4 +21,5 @@ for i in range(1, N_QUERIES + 1):
 for x in all_rr:
     x = x + [' '] * (N_DOCUMENTS - len(x) + 1)
     print(' & '.join(x) + ' \\\\')
+    print('\\hline')
 

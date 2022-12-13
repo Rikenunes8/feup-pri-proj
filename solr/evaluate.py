@@ -37,8 +37,8 @@ metric = lambda f: metrics.setdefault(f.__name__, f)
 def ap(results, relevant):
     """Average Precision"""
     precision_values = [
-        len(relevant_results(results, relevant, idx)) / idx 
-        for idx in range(1, len(results))
+        len(relevant_results(results, relevant, (idx+1))) / (idx+1) 
+        for idx in range(len(results)) if results[idx]['id'] in relevant
     ]
     try:
         return sum(precision_values)/len(precision_values)
