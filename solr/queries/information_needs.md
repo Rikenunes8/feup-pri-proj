@@ -1,103 +1,43 @@
 # Information Needs
 
-### 1. I want 1991 Nirvana songs having between 2 and 3 minutes
+## SYSTEM:
 
-- http://localhost:8983/solr/tracks/select?defType=dismax&fq=%7B!frange%20l%3D120%20u%3D180%7Dtrack_duration&indent=true&q.op=OR&q=nirvana%201991&qf=artist%20album_release_date&rows=30
-
-- defType: dismax
-- q: nirvana 1991
-- qf: artist album_release_date
-- fq: {!frange l=120 u=180}track_duration
-- rows: 30
+defType: edismax
+qf: lyrics_en^4 lyrics_es^4 lyrics_other^4 artist^2 track^8 album album_release_date^0.1
+qs: 5
+rows: 20
 
 
+### 1. I want songs with a regretting tone
 
-### 2. I want songs with a regretting tone
-
-**Fields boosts**	The thing with ^ but for fields
-
-- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=reget%5E3%20sorrow%20pain&qf=track%5E2%20lyrics&rows=30
-
-- defType: dismax
 - q: regret^2 sorrow pain 
-- qf: track^2 lyrics
-- rows: 30
 
 
+### 2. I want an underrated relaxing song
 
-### 3. I want an underrated relaxing song
-
-**Independent boosts**	The thing with ^ but general, independent of the field
-boosts the album_ranking ?
-
-- http://localhost:8983/solr/tracks/select?bf=field(album_ranking)&debugQuery=false&defType=dismax&indent=true&q.op=OR&q=calm%20enjoy%20peace%20quiet&qf=track%20album%20artist%20album_release_data%20lyrics&rows=30
-
-- defType: dismax
 - q: calm enjoy peace quiet
-- qf: track album artist album_realease_date lyrics
-- bf: field(album_ranking)
-- rows: 30
 
 
+### 3. I want a song that speaks of love in a depressing way
 
-### 4. I want a song that speaks of love in a depressing way
-
-**Term boosts**	    The thing with ^ but for words
-
-- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=love%5E5%20-good%20bad%20-happy%20sad&qf=lyrics&rows=30
-
-- defType: dismax
 - q: love^5 -good bad -happy sad 
-- qf: lyrics
-- rows: 30
 
 
+### 4. I want a song that talks of life and love
 
-### 5. I want a song that talks of life and love
-
-**Proximity searches** the thing with "word1 word2"~< distance >
-
-- http://localhost:8983/solr/tracks/select?indent=true&q.op=AND&q=lyrics%3A%20"life%20love"~3&rows=30
-
-- defType: lucene
-- q: lyrics: "life love"~3
-- q.op: AND
-- rows: 30
+- q: lyrics_en: "life love"~3
 
 
+### 5. I want songs about surprise and happiness
 
-### 6. I want songs about surprise and happiness
-
-**Wildcards / Fuziness**	words with at the end, like surpr* or surprise~
-Search for surpr* and happ* in the title
-
-- http://localhost:8983/solr/tracks/select?debugQuery=false&indent=true&q.op=OR&q=track%3A%20surpr*%20%0Atrack%3A%20happ*&rows=30
-
-- defType: lucene
 - q: track: surpr* track: happ*
-- rows: 30
 
 
+### 6. I want a song with a sentence like "I like her"
 
-### 7. I want a song with a sentence like "I like her"
-
-**Phrase match w/ slop**     dismax query
-
-- http://localhost:8983/solr/tracks/select?debugQuery=false&defType=dismax&indent=true&q.op=OR&q=%22I%20like%20her%22&qf=tracks%20lyrics&qs=5&rows=30
-
-- defType: dismax
 - q: "I like her"
-- qf: tracks lyrics
-- qs: 5
-- rows: 30
 
 
+### 7. I want a song that talks about "amor" and "vida"
 
-### 8. I want the very best songs
-
-- http://localhost:8983/solr/tracks/select?defType=dismax&indent=true&q.op=OR&q=rank%201&qf=album_ranking&rows=30
-
-- defType: dismax
-- q: rank 1
-- qf: album_ranking
-- rows: 30
+q: amor vida
