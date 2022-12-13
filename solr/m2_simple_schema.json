@@ -21,6 +21,28 @@
                     {"class": "solr.LowerCaseFilterFactory"}
                 ]
             }
+        },
+        {
+            "name": "lyricsType",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"}
+                ]
+            }
         }
     ],
     "add-field": [
@@ -67,20 +89,8 @@
             "stored": true
         },
         {
-            "name": "lyrics_es",
-            "type": "textType",
-            "indexed": true,
-            "stored": true
-        },
-        {
-            "name": "lyrics_en",
-            "type": "textType",
-            "indexed": true,
-            "stored": true
-        },
-        {
-            "name": "lyrics_other",
-            "type": "textType",
+            "name": "lyrics",
+            "type": "lyricsType",
             "indexed": true,
             "stored": true
         }
