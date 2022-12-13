@@ -15,7 +15,7 @@ first = True
 counter = 0
 with open('../data/tracks.json', 'w', encoding='utf-8') as jf:
     jf.write('[\n')
-    with open('../../processed/all.csv', 'r', encoding='utf-8') as f:
+    with open('../../processed/all_with_latin.csv', 'r', encoding='utf-8') as f:
         f.readline()
 
         while True:
