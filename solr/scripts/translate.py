@@ -119,7 +119,7 @@ def read_and_process_file(jf, line, counter):
 
 def translate_files():
     tracks_multi_lang_path = '../data/tracks.json'
-    shutil.copyfile('../data/tracks_single_lyrics.json', tracks_multi_lang_path)
+    shutil.copyfile('../data/tracks_with_latin.json', tracks_multi_lang_path)
     executor = ThreadPoolExecutor(max_workers=1)
     with open(tracks_multi_lang_path, 'wb') as jf:
         futures = []

@@ -2,7 +2,9 @@ For id 2175, warning: Unusual lang: id
 For id 3084, warning: Unusual lang: id
 For id 3259, warning: Unusual lang: de
 For id 3523, warning: Unusual lang: pl
+For id 3585, warning: Unusual lang: fr
 For id 5208, warning: Unusual lang: so
+For id 5407, warning: Unusual lang: nl
 For id 5419, warning: Unusual lang: id
 For id 5910, warning: Unusual lang: ca
 For id 6664, warning: Unusual lang: fr
