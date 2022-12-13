@@ -119,13 +119,12 @@ def read_and_process_file(jf, line, counter):
 
 def translate_files():
     tracks_multi_lang_path = '../data/tracks.json'
-    shutil.copyfile('../data/tracks_with_latin.json', tracks_multi_lang_path)
     executor = ThreadPoolExecutor(max_workers=1)
     with open(tracks_multi_lang_path, 'wb') as jf:
         futures = []
         counter = 0
         jf.write('[\n'.encode('utf-8'))
-        with open('../../processed/all.csv', 'r', encoding='utf-8') as f:
+        with open('../../processed/all_with_latin.csv', 'r', encoding='utf-8') as f:
             f.readline()
 
             while True:
