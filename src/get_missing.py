@@ -2,6 +2,7 @@ import pandas as pd
 import sys
 from lyrics_extractor import SongLyrics
 from os import getenv, chdir
+import os
 from dotenv import load_dotenv
 from utils import normalize_lyrics
 
@@ -52,17 +53,28 @@ def get_file_name(artist, track):
 
 
 get_extract_lyrics()
-all_file = f"{all_dir}/all.csv"
+all_file = f"{all_dir}/all_with_latin.csv"
 df = pd.read_csv(all_file, sep=';')
 
 total = len(df[df['lyrics'].isna()].index)
 print(f"Going to process {total} songs")
 count = 0
+has_new_key = True
 for index, row in df[df['lyrics'].isna()].iterrows():
+    if not has_new_key:
+        break
     count += 1
     artist = row['artist']
     track = row['track']
     search = f"{track} by {artist}"
+    filename = get_file_name(artist, track)
+    file = f"{data_dir}/{filename}.txt"
+    if os.path.isfile(file):
+        df.at[index, 'lyrics'] = file
+        print("File already exists. Skipping")
+        continue
+
+
     while True:
         try:
             lyrics = extract_lyrics.get_lyrics(search)
@@ -71,7 +83,7 @@ for index, row in df[df['lyrics'].isna()].iterrows():
         except Exception as e:
             if e.args[0] == {'error': 'No results found'}:
                 print(f"Processed  {count}/{total} but found no lyrics for {search}")
-                continue
+                break
             else:
                 print(f"Unexpected error: {e}")
                 print("Probably ran out of api calls")
