@@ -1,6 +1,6 @@
 import pandas as pd
 
-PREFIX = 'm2_'
+PREFIX = 'simple1_'
 PATH = 'solr/results/m2/'
 N = 8
 
