@@ -39,3 +39,13 @@ Marco Antonio Solís;Trozos De Mi Alma
 Mercedes Sosa;Homenaje a Violeta Parra
 Paco De Lucia;Fuente Y Caudal
 Ricardo Arjona;Historias
+Ricky Martin;Vuelve
+Roberto Carlos;Un Gato En La Oscuridad
+Santana;Abraxas
+Selena;Amor Prohibido
+Shakira;Pies Descalzos
+Silvio Rodriguez;Unicornio
+Soda Stereo;Canción Animal (1990)
+Tito Puente & Eddie Palmieri;Obra Maestra
+Vicente Fernandez;El Ídolo De Mexico
+Willie Colón & Rubén Blades;Siembra (1978)

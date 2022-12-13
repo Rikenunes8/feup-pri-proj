@@ -28,8 +28,6 @@ print(total)
 
 text= "artist;album\n" + total[:-1]
 
-# path ="test.txt"
-# with open(path, 'w', encoding='utf-8') as f:
-#     f.write(text)
-# # titles = latin.find_all("div", {"class": "stylelistrow"})
-# # print(latin_page.prettify())
+path ="test.txt"
+with open(path, 'w', encoding='utf-8') as f:
+    f.write(text)
