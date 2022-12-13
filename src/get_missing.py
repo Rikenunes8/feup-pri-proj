@@ -16,13 +16,22 @@ else:
 chdir(src_dir)
 load_dotenv()
 chdir('..')
-API_KEY = getenv('SEARCH_ENGINE_KEY')
-ENGINE_ID = getenv('SEARCH_ENGINE_ID')
+API_KEYS_STRING = getenv('SEARCH_ENGINE_KEY')
+ENGINE_IDS_STRING = getenv('SEARCH_ENGINE_ID')
+api_keys = API_KEYS_STRING.split(' ')
+engine_ids = ENGINE_IDS_STRING.split(' ')
 all_dir = './processed'
 data_dir = './data/lyrics'
+extract_lyrics = None
 
-extract_lyrics = SongLyrics(API_KEY, ENGINE_ID)
-
+def get_extract_lyrics():
+    if len(api_keys) == 0 or len(engine_ids) == 0:
+        return False
+    API_KEY = api_keys.pop(0)
+    ENGINE_ID = engine_ids.pop(0)
+    global extract_lyrics
+    extract_lyrics = SongLyrics(API_KEY, ENGINE_ID)
+    return True
 
 def is_alpha(letter):
     try:
@@ -42,6 +51,7 @@ def get_file_name(artist, track):
     return final_string
 
 
+get_extract_lyrics()
 all_file = f"{all_dir}/all.csv"
 df = pd.read_csv(all_file, sep=';')
 
@@ -53,9 +63,24 @@ for index, row in df[df['lyrics'].isna()].iterrows():
     artist = row['artist']
     track = row['track']
     search = f"{track} by {artist}"
-    try:
-        lyrics = extract_lyrics.get_lyrics(search)
-        # lyrics = {'lyrics': 'No lyrics found'}
+    while True:
+        try:
+            lyrics = extract_lyrics.get_lyrics(search)
+            # lyrics = {'lyrics': 'No lyrics found'} 
+
+        except Exception as e:
+            if e.args[0] == {'error': 'No results found'}:
+                print(f"Processed  {count}/{total} but found no lyrics for {search}")
+                continue
+            else:
+                print(f"Unexpected error: {e}")
+                print("Probably ran out of api calls")
+                has_new_key = get_extract_lyrics()
+                if not has_new_key:
+                    print("No more api keys")
+                    break
+                continue
+
         if lyrics is not None:
             if not 'lyrics' in lyrics:
                 continue
@@ -67,20 +92,10 @@ for index, row in df[df['lyrics'].isna()].iterrows():
             with open(file, 'w', encoding='utf-8') as f:
                 f.write(lyrics)
             print(f"Processed  {count}/{total} and found lyrics for {search}.")
-
-        else:
-            print(f"Processed  {count}/{total} but found no lyrics for {search}")
-
-    except Exception as e:
-        if e.args[0] == {'error': 'No results found'}:
-            print(f"Processed  {count}/{total} but found no lyrics for {search}")
-            continue
-        else:
-            print(f"Unexpected error: {e}")
-            print("Probably ran out of api calls")
             break
-        print("Probably ran out of api calls")
-        break
+
+        else:
+            print(f"Processed  {count}/{total} but found no lyrics for {search}")
 
 print("Saving to file with new found paths")
 df.to_csv(all_file, sep=';', mode="w", encoding='utf8')
