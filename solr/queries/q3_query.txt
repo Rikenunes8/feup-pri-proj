@@ -1,1 +1,1 @@
-http://localhost:8983/solr/tracks/select?bf=field(album_ranking)&debugQuery=false&defType=dismax&indent=true&q.op=OR&q=calm%20enjoy%20peace%20quiet&qf=track%20album%20artist%20album_release_data%20lyrics&rows=30
+http://localhost:8983/solr/tracks/select?defType=edismax&indent=true&q.op=OR&q=love%5E5%20-good%20bad%20-happy%20sad&qf=lyrics_en%5E4%20lyrics_es%5E4%20lyrics_other%5E4%20artist%5E2%20track%5E8%20album%20album_release_date%5E0.1&qs=5&rows=20

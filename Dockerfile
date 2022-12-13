@@ -4,7 +4,7 @@ FROM solr:8.10
 COPY solr/data/tracks.json /data/tracks.json
 
 # Copy the schema file to the data directory
-COPY solr/schema.json /data/schema.json
+COPY solr/simple_schema.json /data/schema.json
 
 # Copy the synonyms file to the data directory
 COPY solr/synonyms/synonyms_en.txt /data/synonyms_en.txt
