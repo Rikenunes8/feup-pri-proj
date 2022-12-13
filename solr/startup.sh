@@ -5,9 +5,12 @@ precreate-core tracks
 # Start Solr in background mode so we can use the API to upload the schema
 solr start
 
+cp /data/synonyms_en.txt /var/solr/data/tracks/synonyms_en.txt
+cp /data/synonyms_es.txt /var/solr/data/tracks/synonyms_es.txt
+
 # Schema definition via API
 curl -X POST -H 'Content-type:application/json' \
-    --data-binary @/data/simple_schema.json \
+    --data-binary @/data/schema.json \
     http://localhost:8983/solr/tracks/schema
 
 # Populate collection

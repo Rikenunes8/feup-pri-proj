@@ -31,13 +31,7 @@
                 },
                 "filters": [
                     {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
-                    {"class": "solr.LowerCaseFilterFactory"},
-                    {"class": "solr.EnglishMinimalStemFilterFactory"},
-                    {"class": "solr.EnglishPossessiveFilterFactory"},
-                    {"class": "solr.PorterStemFilterFactory"},
-                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
-                    {"class": "solr.ManagedSynonymGraphFilterFactory", "managed": "english"},
-                    {"class": "solr.FlattenGraphFilterFactory"}
+                    {"class": "solr.LowerCaseFilterFactory"}
                 ]
             },
             "queryAnalyzer": {
@@ -46,12 +40,7 @@
                 },
                 "filters": [
                     {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
-                    {"class": "solr.LowerCaseFilterFactory"},
-                    {"class": "solr.EnglishMinimalStemFilterFactory"},
-                    {"class": "solr.EnglishPossessiveFilterFactory"},
-                    {"class": "solr.PorterStemFilterFactory"},
-                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
-                    {"class": "solr.ManagedSynonymGraphFilterFactory", "managed": "english"}
+                    {"class": "solr.LowerCaseFilterFactory"}
                 ]
             }
         }

@@ -1,0 +1,866 @@
+artist;album;album_release_date;album_ranking;n_tracks;track;track_duration (s);lyrics
+Alejandro Sanz;Más;1997-08-28;1;10;Y, ¿Si fuera ella?;323;data/lyrics/Alejandro-sanz-y-si-fuera-ella.txt
+Alejandro Sanz;Más;1997-08-28;1;10;Ese último momento;306;data/lyrics/Alejandro-sanz-ese-ultimo-momento.txt
+Alejandro Sanz;Más;1997-08-28;1;10;Corazón partío;343;data/lyrics/Alejandro-sanz-corazon-partio.txt
+Alejandro Sanz;Más;1997-08-28;1;10;Siempre es de noche;288;data/lyrics/Alejandro-sanz-siempre-es-de-noche.txt
+Alejandro Sanz;Más;1997-08-28;1;10;La margarita dijo no;295;data/lyrics/Alejandro-sanz-la-margarita-dijo-no.txt
+Alejandro Sanz;Más;1997-08-28;1;10;Hoy que no estás;311;data/lyrics/Alejandro-sanz-hoy-que-no-estas.txt
+Alejandro Sanz;Más;1997-08-28;1;10;Un charquito de estrellas;294;data/lyrics/Alejandro-sanz-un-charquito-de-estrellas.txt
+Alejandro Sanz;Más;1997-08-28;1;10;Amiga mía;291;data/lyrics/Alejandro-sanz-amiga-mia.txt
+Alejandro Sanz;Más;1997-08-28;1;10;Si hay Dios...;331;data/lyrics/Alejandro-sanz-si-hay-dios.txt
+Alejandro Sanz;Más;1997-08-28;1;10;Aquello que me diste;286;data/lyrics/Alejandro-sanz-aquello-que-me-diste.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Esta Tarde Vi Llover;166;data/lyrics/Armando-manzanero-esta-tarde-vi-llover.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Parece Que Fue Ayer;168;data/lyrics/Armando-manzanero-parece-que-fue-ayer.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Dime Amor;211;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Al Fin Soy Feliz;186;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Todavía;136;data/lyrics/Armando-manzanero-todavia.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Pero Qué Bella Es la Vida;162;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;No;119;data/lyrics/Armando-manzanero-no.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Yo por Permitirlo;138;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Cuando Llora Mi Guitarra;154;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Tiempo de Amar;118;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Adoro;147;data/lyrics/Armando-manzanero-adoro.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Deja;158;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Yo Te Quiero;155;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Tengo;144;data/lyrics/Armando-manzanero-tengo.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Te Recuerdo;181;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Contigo Aprendí;125;data/lyrics/Armando-manzanero-contigo-aprendi.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;El Último Verano;160;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Si Me Faltas Tú;170;data/lyrics/Armando-manzanero-si-me-faltas-tu.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Paso a Pasito;139;data/lyrics/Armando-manzanero-paso-a-pasito.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Felicidad;131;data/lyrics/Armando-manzanero-felicidad.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Somos Novios;159;data/lyrics/Armando-manzanero-somos-novios.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Voy a Apagar la Luz;111;data/lyrics/Armando-manzanero-voy-a-apagar-la-luz.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Contigo Amor;144;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Puedo Morir Mañana;182;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;La Casa;132;data/lyrics/Armando-manzanero-la-casa.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Mía;135;data/lyrics/Armando-manzanero-mia.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Por Fin Mañana;255;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Eres Tú;137;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Yo No Sé;141;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Dime Quién;117;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Pensando en Ti;179;data/lyrics/Armando-manzanero-pensando-en-ti.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Aquel Señor;134;data/lyrics/Armando-manzanero-aquel-senor.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Cariño Mío;129;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Como Yo Te Amé;213;data/lyrics/Armando-manzanero-como-yo-te-ame.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Cuando Estoy Contigo;148;data/lyrics/Armando-manzanero-cuando-estoy-contigo.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;El Ciego;127;data/lyrics/Armando-manzanero-el-ciego.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Hoy;112;data/lyrics/Armando-manzanero-hoy.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Ahora;165;data/lyrics/Armando-manzanero-ahora.txt
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;Yo Sé Que Te Amo;145;
+Armando Manzanero;Su Piano Y Su Música;2013-04-16;2;40;No Sé Tú;230;data/lyrics/Armando-manzanero-no-se-tu.txt
+Astor Piazzola;Adiós Nonino;2010-05-27;3;1;Adiós Nonino;274;
+Aventura;The Last;2009-06-09;4;18;Intro - The Last;84;
+Aventura;The Last;2009-06-09;4;18;Por un Segundo;255;data/lyrics/Aventura-por-un-segundo.txt
+Aventura;The Last;2009-06-09;4;18;Yo Quisiera Amarla;306;data/lyrics/Aventura-yo-quisiera-amarla.txt
+Aventura;The Last;2009-06-09;4;18;El Malo;239;data/lyrics/Aventura-el-malo.txt
+Aventura;The Last;2009-06-09;4;18;Dile al Amor;229;data/lyrics/Aventura-dile-al-amor.txt
+Aventura;The Last;2009-06-09;4;18;Su Veneno;241;data/lyrics/Aventura-su-veneno.txt
+Aventura;The Last;2009-06-09;4;18;Tu Jueguito;222;data/lyrics/Aventura-tu-jueguito.txt
+Aventura;The Last;2009-06-09;4;18;Spanish Fly (feat. Ludacris, Wyclef Jean);237;data/lyrics/Aventura-spanish-fly.txt
+Aventura;The Last;2009-06-09;4;18;Peligro;278;data/lyrics/Aventura-peligro.txt
+Aventura;The Last;2009-06-09;4;18;La Tormenta;275;data/lyrics/Aventura-la-tormenta.txt
+Aventura;The Last;2009-06-09;4;18;El Desprecio;276;data/lyrics/Aventura-el-desprecio.txt
+Aventura;The Last;2009-06-09;4;18;All Up 2 You (feat. Akon, Wisin & Yandel);218;data/lyrics/Aventura-all-up-2-you.txt
+Aventura;The Last;2009-06-09;4;18;Skit;245;data/lyrics/Aventura-skit.txt
+Aventura;The Last;2009-06-09;4;18;La Curita;201;data/lyrics/Aventura-la-curita.txt
+Aventura;The Last;2009-06-09;4;18;Princesita;258;data/lyrics/Aventura-princesita.txt
+Aventura;The Last;2009-06-09;4;18;Su Vida;274;data/lyrics/Aventura-su-vida.txt
+Aventura;The Last;2009-06-09;4;18;Soy Hombre (feat. Arturo Sandoval);240;data/lyrics/Aventura-soy-hombre.txt
+Aventura;The Last;2009-06-09;4;18;Gracias;453;data/lyrics/Aventura-gracias.txt
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Inolvidable;200;
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Veinte Años;244;
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Lágrimas Negras;332;
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Nieblas del Riachuelo;187;
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Corazón Loco;196;
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Se Me Olvidó Que Te Olvidé;235;
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Vete de Mí;176;
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;La Bien Pagá;538;
+Bebo & Cigala;Lágrimas Negras;2014-04-25;5;9;Eu Sei Que Vou Te Amar;258;
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Chan Chan;257;data/lyrics/Buena-vista-social-club-chan-chan.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;De Camino a La Vereda;303;data/lyrics/Buena-vista-social-club-de-camino-a-la-vereda.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;El Cuarto de Tula;445;data/lyrics/Buena-vista-social-club-el-cuarto-de-tula.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Pueblo Nuevo;365;data/lyrics/Buena-vista-social-club-pueblo-nuevo.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Dos Gardenias;183;data/lyrics/Buena-vista-social-club-dos-gardenias.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;¿Y Tú Qué Has Hecho?;193;data/lyrics/Buena-vista-social-club-y-tu-que-has-hecho.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Veinte Años;211;data/lyrics/Buena-vista-social-club-veinte-anos.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;El Carretero;209;data/lyrics/Buena-vista-social-club-el-carretero.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Candela;328;data/lyrics/Buena-vista-social-club-candela.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Amor de Loca Juventud;202;data/lyrics/Buena-vista-social-club-amor-de-loca-juventud.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Orgullecida;198;data/lyrics/Buena-vista-social-club-orgullecida.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Murmullo;230;data/lyrics/Buena-vista-social-club-murmullo.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;Buena Vista Social Club;291;data/lyrics/Buena-vista-social-club-buena-vista-social-club.txt
+Buena Vista Social Club;Buena Vista Social Club;1997-06-23;6;14;La Bayamesa;175;data/lyrics/Buena-vista-social-club-la-bayamesa.txt
+Café Tacvba;Re;1994-07-20;7;20;El aparato;198;data/lyrics/Cafe-tacvba-el-aparato.txt
+Café Tacvba;Re;1994-07-20;7;20;La ingrata;212;data/lyrics/Cafe-tacvba-la-ingrata.txt
+Café Tacvba;Re;1994-07-20;7;20;El ciclón;175;data/lyrics/Cafe-tacvba-el-ciclon.txt
+Café Tacvba;Re;1994-07-20;7;20;El borrego;128;data/lyrics/Cafe-tacvba-el-borrego.txt
+Café Tacvba;Re;1994-07-20;7;20;Esa noche;206;data/lyrics/Cafe-tacvba-esa-noche.txt
+Café Tacvba;Re;1994-07-20;7;20;24 horas;139;data/lyrics/Cafe-tacvba-24-horas.txt
+Café Tacvba;Re;1994-07-20;7;20;Ixtepec;200;data/lyrics/Cafe-tacvba-ixtepec.txt
+Café Tacvba;Re;1994-07-20;7;20;Trópico de cáncer;279;data/lyrics/Cafe-tacvba-tropico-de-cancer.txt
+Café Tacvba;Re;1994-07-20;7;20;El metro;226;data/lyrics/Cafe-tacvba-el-metro.txt
+Café Tacvba;Re;1994-07-20;7;20;El fin de la infancia;139;data/lyrics/Cafe-tacvba-el-fin-de-la-infancia.txt
+Café Tacvba;Re;1994-07-20;7;20;Madrugal;68;data/lyrics/Cafe-tacvba-madrugal.txt
+Café Tacvba;Re;1994-07-20;7;20;Pez;139;data/lyrics/Cafe-tacvba-pez.txt
+Café Tacvba;Re;1994-07-20;7;20;Verde;115;data/lyrics/Cafe-tacvba-verde.txt
+Café Tacvba;Re;1994-07-20;7;20;La negrita;185;data/lyrics/Cafe-tacvba-la-negrita.txt
+Café Tacvba;Re;1994-07-20;7;20;El Tlatoani del barrio;207;data/lyrics/Cafe-tacvba-el-tlatoani-del-barrio.txt
+Café Tacvba;Re;1994-07-20;7;20;Las flores;135;data/lyrics/Cafe-tacvba-las-flores.txt
+Café Tacvba;Re;1994-07-20;7;20;La pinta;169;data/lyrics/Cafe-tacvba-la-pinta.txt
+Café Tacvba;Re;1994-07-20;7;20;El baile y el salón;308;data/lyrics/Cafe-tacvba-el-baile-y-el-salon.txt
+Café Tacvba;Re;1994-07-20;7;20;El puñal y el corazón;261;data/lyrics/Cafe-tacvba-el-punal-y-el-corazon.txt
+Café Tacvba;Re;1994-07-20;7;20;El balcón;101;data/lyrics/Cafe-tacvba-el-balcon.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Intro Crónica De Un Nacimiento;96;data/lyrics/Calle-13-intro-cronica-de-un-nacimiento.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Que Lloren;279;data/lyrics/Calle-13-que-lloren.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;No Hay Nadie Como Tú (feat. Café Tacuba);293;data/lyrics/Calle-13-no-hay-nadie-como-tu.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Gringo Latin Funk;257;data/lyrics/Calle-13-gringo-latin-funk.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Ven Y Critícame;265;data/lyrics/Calle-13-ven-y-criticame.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Esto Con Eso;250;data/lyrics/Calle-13-esto-con-eso.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;La Perla (feat. Rubén Blades & La Chilinga);416;data/lyrics/Calle-13-la-perla.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Electro Movimiento;197;data/lyrics/Calle-13-electro-movimiento.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Intro Fiesta De Locos;18;data/lyrics/Calle-13-intro-fiesta-de-locos.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Fiesta De Locos;268;data/lyrics/Calle-13-fiesta-de-locos.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Los De Atrás Vienen Conmigo;216;data/lyrics/Calle-13-los-de-atras-vienen-conmigo.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Tal Para Cual;228;data/lyrics/Calle-13-tal-para-cual.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Interlude: Irie Rasa Man;23;data/lyrics/Calle-13-interlude-irie-rasa-man.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Bienvenidos A Mi Mundo;237;data/lyrics/Calle-13-bienvenidos-a-mi-mundo.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;John, El Esquizofrénico;274;data/lyrics/Calle-13-john-el-esquizofrenico.txt
+Calle 13;Los De Atras Vienen Conmigo;2008-07-21;8;16;Outro;47;data/lyrics/Calle-13-outro.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;La Gota Fria;215;data/lyrics/Carlos-vives-la-gota-fria.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Amor Sensible;267;data/lyrics/Carlos-vives-amor-sensible.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Alicia Adorada;256;data/lyrics/Carlos-vives-alicia-adorada.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;La Hamaca Grande;188;data/lyrics/Carlos-vives-la-hamaca-grande.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;El Cantor de Fonseca;188;data/lyrics/Carlos-vives-el-cantor-de-fonseca.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Matilde Lina;237;data/lyrics/Carlos-vives-matilde-lina.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Altos del Rosario;236;data/lyrics/Carlos-vives-altos-del-rosario.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Honda Herida;184;data/lyrics/Carlos-vives-honda-herida.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;La Cañaguatera;192;data/lyrics/Carlos-vives-la-canaguatera.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Lirio Rojo;169;data/lyrics/Carlos-vives-lirio-rojo.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;La Tijera;208;data/lyrics/Carlos-vives-la-tijera.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Compa'e Chipuco;196;data/lyrics/Carlos-vives-compae-chipuco.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Pedazo de Acordeon;246;data/lyrics/Carlos-vives-pedazo-de-acordeon.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;La Celosa;254;data/lyrics/Carlos-vives-la-celosa.txt
+Carlos Vives;Clasicos De La Provincia;1994-02-22;9;15;Contestacion a la Brasilera - Fragmento;53;data/lyrics/Carlos-vives-contestacion-a-la-brasilera.txt
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;Quimbara;292;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;Toro Mata;342;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;Vieja Luna;195;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;El Paso Del Mulo;280;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;Tengo El Idde;302;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;Lo Tuyo Es Mental;195;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;Canto A La Habana;331;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;No Mercedes;258;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;El Tumbao Y Celia;294;
+Celia Y Johnny;Celia Y Johnny;1974-01-01;10;10;El Pregón Del Pescador;304;
+Charly Garcia;Clics Modernos;1983-11-05;11;9;Nos Siguen Pegando Abajo;207;data/lyrics/Charly-garcia-nos-siguen-pegando-abajo.txt
+Charly Garcia;Clics Modernos;1983-11-05;11;9;No Soy Un Extraño;196;data/lyrics/Charly-garcia-no-soy-un-extrano.txt
+Charly Garcia;Clics Modernos;1983-11-05;11;9;Dos Cero Uno;128;data/lyrics/Charly-garcia-dos-cero-uno.txt
+Charly Garcia;Clics Modernos;1983-11-05;11;9;Nuevos Trapos;245;data/lyrics/Charly-garcia-nuevos-trapos.txt
+Charly Garcia;Clics Modernos;1983-11-05;11;9;Bancate Ese Defecto;295;data/lyrics/Charly-garcia-bancate-ese-defecto.txt
+Charly Garcia;Clics Modernos;1983-11-05;11;9;No Me Dejan Salir;263;data/lyrics/Charly-garcia-no-me-dejan-salir.txt
+Charly Garcia;Clics Modernos;1983-11-05;11;9;Los Dinosaurios;208;data/lyrics/Charly-garcia-los-dinosaurios.txt
+Charly Garcia;Clics Modernos;1983-11-05;11;9;Plateado Sobre Plateado (Huellas En El Mar);298;data/lyrics/Charly-garcia-plateado-sobre-plateado-huellas-en-el-mar.txt
+Charly Garcia;Clics Modernos;1983-11-05;11;9;Ojos De Video Tape;215;data/lyrics/Charly-garcia-ojos-de-video-tape.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Perros Salvajes;190;data/lyrics/Daddy-yankee-perros-salvajes.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Miss Show;169;data/lyrics/Daddy-yankee-miss-show.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Pon T Loca;179;data/lyrics/Daddy-yankee-pon-t-loca.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;El Amante;221;data/lyrics/Daddy-yankee-el-amante.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Pasarela;194;data/lyrics/Daddy-yankee-pasarela.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Po'Encima;153;
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;La Noche De Los Dos;223;data/lyrics/Daddy-yankee-la-noche-de-los-dos.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Llegamos A La Disco;453;data/lyrics/Daddy-yankee-llegamos-a-la-disco.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Switchea;185;data/lyrics/Daddy-yankee-switchea.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Limbo;225;data/lyrics/Daddy-yankee-limbo.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;La Calle Moderna;212;data/lyrics/Daddy-yankee-la-calle-moderna.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;After Party;225;data/lyrics/Daddy-yankee-after-party.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;La Maquina De Baile;164;data/lyrics/Daddy-yankee-la-maquina-de-baile.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Mas Que Un Amigo;245;data/lyrics/Daddy-yankee-mas-que-un-amigo.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Baby;183;data/lyrics/Daddy-yankee-baby.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Lovumba;218;data/lyrics/Daddy-yankee-lovumba.txt
+Daddy Yankee;Barrio Fino;2004-07-13;12;17;Ven Conmigo;220;data/lyrics/Daddy-yankee-ven-conmigo.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Hablando Del Amor;72;data/lyrics/Draco-rosa-hablando-del-amor.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Madre Tierra;215;data/lyrics/Draco-rosa-madre-tierra.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Llanto Subterraneo;232;data/lyrics/Draco-rosa-llanto-subterraneo.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Vagabundo;217;data/lyrics/Draco-rosa-vagabundo.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Penélope;284;data/lyrics/Draco-rosa-penelope.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Delirios;180;data/lyrics/Draco-rosa-delirios.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Para No Olvidar;256;data/lyrics/Draco-rosa-para-no-olvidar.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Blanca Mujer;231;data/lyrics/Draco-rosa-blanca-mujer.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Vertigo;164;data/lyrics/Draco-rosa-vertigo.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Vivir;261;data/lyrics/Draco-rosa-vivir.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Brujería;209;data/lyrics/Draco-rosa-brujeria.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;La Flor Del Frio;235;data/lyrics/Draco-rosa-la-flor-del-frio.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Amantes Hasta el Fin;303;data/lyrics/Draco-rosa-amantes-hasta-el-fin.txt
+Draco Rosa;Vagabundo;1996-06-18;13;14;Mientras Camino;38;
+Elvis Crespo;Suavemente;1998-04-14;14;10;Suavemente;267;data/lyrics/Elvis-crespo-suavemente.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;Nuestra Cancion;209;data/lyrics/Elvis-crespo-nuestra-cancion.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;Luna Llena;266;data/lyrics/Elvis-crespo-luna-llena.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;Me Arrepiento;226;data/lyrics/Elvis-crespo-me-arrepiento.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;Princesita;288;data/lyrics/Elvis-crespo-princesita.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;Tu Sonrisa;274;data/lyrics/Elvis-crespo-tu-sonrisa.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;Yo Me Moriré;212;data/lyrics/Elvis-crespo-yo-me-morire.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;Llorando;237;data/lyrics/Elvis-crespo-llorando.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;¿Por Qué?;265;data/lyrics/Elvis-crespo-por-que.txt
+Elvis Crespo;Suavemente;1998-04-14;14;10;Te Vas;259;data/lyrics/Elvis-crespo-te-vas.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Enamorado Por Primera Vez;269;data/lyrics/Enrique-iglesias-enamorado-por-primera-vez.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Al Despertar;255;data/lyrics/Enrique-iglesias-al-despertar.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Lluvia Cae;273;data/lyrics/Enrique-iglesias-lluvia-cae.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Tu Vacio;235;data/lyrics/Enrique-iglesias-tu-vacio.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Solo En Tí (Only You);211;data/lyrics/Enrique-iglesias-solo-en-ti-only-you.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Miente;216;data/lyrics/Enrique-iglesias-miente.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Viviré Y Moriré;244;data/lyrics/Enrique-iglesias-vivire-y-morire.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Volveré;277;data/lyrics/Enrique-iglesias-volvere.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;El Muro;253;data/lyrics/Enrique-iglesias-el-muro.txt
+Enrique Iglesias;Vivir;1997-01-21;15;10;Revolucíon;238;data/lyrics/Enrique-iglesias-revolucion.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Cadillacs (Version '93) - Remasterizado 2008;95;data/lyrics/Los-fabulosos-cadillacs-cadillacs.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Matador - Remasterizado 2008;276;data/lyrics/Los-fabulosos-cadillacs-matador.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Te Tiraré del Altar (Versión '93) - Remasterizado 2008;187;data/lyrics/Los-fabulosos-cadillacs-te-tirare-del-altar.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Quinto Centenario - Remasterizado 2008;235;data/lyrics/Los-fabulosos-cadillacs-quinto-centenario.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Mi Novia Se Cayó En Un Pozo Ciego (Versión '93) - Remasterizado 2008;160;data/lyrics/Los-fabulosos-cadillacs-mi-novia-se-cayo-en-un-pozo-ciego.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;El Satánico Dr. Cadillac (Versión '93) - Remasterizado 2008;257;data/lyrics/Los-fabulosos-cadillacs-el-satanico-dr-cadillac.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Gitana (Remix) - Remasterizado 2008;193;data/lyrics/Los-fabulosos-cadillacs-gitana.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Siguiendo la Luna - Remasterizado 2008;300;data/lyrics/Los-fabulosos-cadillacs-siguiendo-la-luna.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Manuel Santillán, el León (Versión Reggae) - Remasterizado 2008;240;data/lyrics/Los-fabulosos-cadillacs-manuel-santillan-el-leon.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Demasiada Presión - Remasterizado 2008;251;data/lyrics/Los-fabulosos-cadillacs-demasiada-presion.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Vasos Vacíos - Remasterizado 2008;281;data/lyrics/Los-fabulosos-cadillacs-vasos-vacios.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Revolution Rock - Remasterizado 2008;299;data/lyrics/Los-fabulosos-cadillacs-revolution-rock.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Yo No Me Sentaría en Tu Mesa - Remasterizado 2008;174;data/lyrics/Los-fabulosos-cadillacs-yo-no-me-sentaria-en-tu-mesa.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Yo Te Avisé - Remasterizado 2008;190;data/lyrics/Los-fabulosos-cadillacs-yo-te-avise.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;El Genio del Dub - Remasterizado 2008;324;data/lyrics/Los-fabulosos-cadillacs-el-genio-del-dub.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Silencio Hospital (Demo '85) - Remasterizado 2008;128;data/lyrics/Los-fabulosos-cadillacs-silencio-hospital.txt
+Los Fabulosos Cadillacs;Vasos Vacios;1993-06-18;16;17;Basta De Llamarme Así - Remasterizado 2008;216;data/lyrics/Los-fabulosos-cadillacs-basta-de-llamarme-asi.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Te Equivocaste Conmigo;275;data/lyrics/Franco-de-vita-te-equivocaste-conmigo.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Louis;310;data/lyrics/Franco-de-vita-louis.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Te Amo;227;data/lyrics/Franco-de-vita-te-amo.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Un Poco De Respeto;231;data/lyrics/Franco-de-vita-un-poco-de-respeto.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Aun Vivo;226;data/lyrics/Franco-de-vita-aun-vivo.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Promesas;258;data/lyrics/Franco-de-vita-promesas.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Soy Como Soy;256;data/lyrics/Franco-de-vita-soy-como-soy.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Esta Vez;232;data/lyrics/Franco-de-vita-esta-vez.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Loco De Atar;242;data/lyrics/Franco-de-vita-loco-de-atar.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Plaza Del Centro;261;data/lyrics/Franco-de-vita-plaza-del-centro.txt
+Franco De Vita;Al Norte Del Sur;1988;17;11;Al Norte Del Sur;160;data/lyrics/Franco-de-vita-al-norte-del-sur.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Con los Años Que Me Quedan;277;data/lyrics/Gloria-estefan-con-los-anos-que-me-quedan.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Mi Tierra;278;data/lyrics/Gloria-estefan-mi-tierra.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Ayer;315;data/lyrics/Gloria-estefan-ayer.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Mi Buen Amor;228;data/lyrics/Gloria-estefan-mi-buen-amor.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Tus Ojos;251;data/lyrics/Gloria-estefan-tus-ojos.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;No Hay Mal Que por Bien No Venga;327;data/lyrics/Gloria-estefan-no-hay-mal-que-por-bien-no-venga.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Si Senor!...;280;data/lyrics/Gloria-estefan-si-senor.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Volverás;233;data/lyrics/Gloria-estefan-volveras.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Montuno;296;data/lyrics/Gloria-estefan-montuno.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Hablemos el Mismo Idioma;284;data/lyrics/Gloria-estefan-hablemos-el-mismo-idioma.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Hablas de Mi;220;data/lyrics/Gloria-estefan-hablas-de-mi.txt
+Gloria Estefan;Mi Tierra;1993-06-03;18;12;Tradición;320;data/lyrics/Gloria-estefan-tradicion.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Pelo Suelto;207;data/lyrics/Gloria-trevi-pelo-suelto.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Virgen de las Vírgenes;209;data/lyrics/Gloria-trevi-virgen-de-las-virgenes.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Tu Ángel de la Guarda;240;data/lyrics/Gloria-trevi-tu-angel-de-la-guarda.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Jei! (Escucha);156;
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Ya No!;211;data/lyrics/Gloria-trevi-ya-no.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Jack El Reprobador;192;data/lyrics/Gloria-trevi-jack-el-reprobador.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Agárrate;181;data/lyrics/Gloria-trevi-agarrate.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Hoy Me Iré de Casa;260;data/lyrics/Gloria-trevi-hoy-me-ire-de-casa.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;La Pasabas Bien Conmigo;221;data/lyrics/Gloria-trevi-la-pasabas-bien-conmigo.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;La Primera Vez (Como Si Fuera);235;
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Amor Apache;211;data/lyrics/Gloria-trevi-amor-apache.txt
+Gloria Trevi;Tu Angel De La Guarda;1991-07-23;19;12;Siempre Yo;211;data/lyrics/Gloria-trevi-siempre-yo.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Duele Más;339;data/lyrics/Grupo-niche-duele-mas.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Hagamos Lo Que Diga El Corazón;303;data/lyrics/Grupo-niche-hagamos-lo-que-diga-el-corazon.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Una Aventura;316;data/lyrics/Grupo-niche-una-aventura.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Mi Pueblo;320;data/lyrics/Grupo-niche-mi-pueblo.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Cali Ají;277;data/lyrics/Grupo-niche-cali-aji.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Mexico, Mexico;327;data/lyrics/Grupo-niche-mexico-mexico.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Se Pareció Tanto a Ti;328;data/lyrics/Grupo-niche-se-parecio-tanto-a-ti.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;La Negra No Quiere;346;data/lyrics/Grupo-niche-la-negra-no-quiere.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Nuestro Sueño;359;data/lyrics/Grupo-niche-nuestro-sueno.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Bar y Copas;258;data/lyrics/Grupo-niche-bar-y-copas.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Sin Sentimientos;294;data/lyrics/Grupo-niche-sin-sentimientos.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Te Enseñare A Olvidar;310;data/lyrics/Grupo-niche-te-ensenare-a-olvidar.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Atrevida;277;data/lyrics/Grupo-niche-atrevida.txt
+Grupo Niche;Cielo De Tambores;1988;20;14;Busca Por Dentro;354;data/lyrics/Grupo-niche-busca-por-dentro.txt
+Hector Lavoe;Comedia;1978-01-01;21;7;El Cantante;627;data/lyrics/Hector-lavoe-el-cantante.txt
+Hector Lavoe;Comedia;1978-01-01;21;7;Comedia;211;data/lyrics/Hector-lavoe-comedia.txt
+Hector Lavoe;Comedia;1978-01-01;21;7;La Verdad;333;data/lyrics/Hector-lavoe-la-verdad.txt
+Hector Lavoe;Comedia;1978-01-01;21;7;Tiempos Pasados;269;data/lyrics/Hector-lavoe-tiempos-pasados.txt
+Hector Lavoe;Comedia;1978-01-01;21;7;Bandolera;575;data/lyrics/Hector-lavoe-bandolera.txt
+Hector Lavoe;Comedia;1978-01-01;21;7;Porque Te Conocí?;290;
+Hector Lavoe;Comedia;1978-01-01;21;7;Songoro Cosongo;470;data/lyrics/Hector-lavoe-songoro-cosongo.txt
+Irakere;Irakere;2014-02-18;22;8;Chequere son;412;
+Irakere;Irakere;2014-02-18;22;8;38 1/2;316;
+Irakere;Irakere;2014-02-18;22;8;En nosotros;267;
+Irakere;Irakere;2014-02-18;22;8;Juana 1600;358;
+Irakere;Irakere;2014-02-18;22;8;Moja el pan;235;
+Irakere;Irakere;2014-02-18;22;8;Este camino largo;409;
+Irakere;Irakere;2014-02-18;22;8;Xiomara Mayoral-Xiomara;336;
+Irakere;Irakere;2014-02-18;22;8;Iya;342;
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Mediterraneo;205;data/lyrics/Joan-manuel-serrat-mediterraneo.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Aquellas Pequeñas Cosas;110;data/lyrics/Joan-manuel-serrat-aquellas-pequenas-cosas.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;La Mujer Que Yo Quiero;229;data/lyrics/Joan-manuel-serrat-la-mujer-que-yo-quiero.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Pueblo Blanco;289;data/lyrics/Joan-manuel-serrat-pueblo-blanco.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Tio Alberto;201;data/lyrics/Joan-manuel-serrat-tio-alberto.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Que Va a Ser de Ti;278;data/lyrics/Joan-manuel-serrat-que-va-a-ser-de-ti.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Lucia;184;data/lyrics/Joan-manuel-serrat-lucia.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Vagabundear;158;data/lyrics/Joan-manuel-serrat-vagabundear.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Barquito de Papel;178;data/lyrics/Joan-manuel-serrat-barquito-de-papel.txt
+Joan Manuel Serrat;Mediterráneo;1971;23;10;Vencidos;200;data/lyrics/Joan-manuel-serrat-vencidos.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Secreto De Amor;273;data/lyrics/Joan-sebastian-secreto-de-amor.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Amorcito Mío;178;data/lyrics/Joan-sebastian-amorcito-mio.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Con Besos;166;data/lyrics/Joan-sebastian-con-besos.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Un Idiota;199;data/lyrics/Joan-sebastian-un-idiota.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Rima;193;data/lyrics/Joan-sebastian-rima.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;El Toro;196;data/lyrics/Joan-sebastian-el-toro.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Me Gustas;208;data/lyrics/Joan-sebastian-me-gustas.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Anoche Hablamos;210;data/lyrics/Joan-sebastian-anoche-hablamos.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Un Vaquero En La Ciudad;206;data/lyrics/Joan-sebastian-un-vaquero-en-la-ciudad.txt
+Joan Sebastian;Secreto De Amor;2000-04-05;24;10;Julián;203;data/lyrics/Joan-sebastian-julian.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;Ahora Que...;409;data/lyrics/Joaquin-sabina-ahora-que.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;19 Dias y 500 Noches;284;data/lyrics/Joaquin-sabina-19-dias-y-500-noches.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;Barbi Superestar;397;data/lyrics/Joaquin-sabina-barbi-superestar.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;Una Canción para la Magdalena;254;data/lyrics/Joaquin-sabina-una-cancion-para-la-magdalena.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;Dieguitos y Mafaldas;335;data/lyrics/Joaquin-sabina-dieguitos-y-mafaldas.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;A Mis Cuarenta y Diez;431;data/lyrics/Joaquin-sabina-a-mis-cuarenta-y-diez.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;El Caso de la Rubia Platino;290;data/lyrics/Joaquin-sabina-el-caso-de-la-rubia-platino.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;Donde Habita el Olvido;211;data/lyrics/Joaquin-sabina-donde-habita-el-olvido.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;Cerrado por Derribo;276;data/lyrics/Joaquin-sabina-cerrado-por-derribo.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;Pero Qué Hermosas Eran;448;data/lyrics/Joaquin-sabina-pero-que-hermosas-eran.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;De Purísima y Oro;291;data/lyrics/Joaquin-sabina-de-purisima-y-oro.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;"Como Te Digo una ""Co"" Te Digo la ""O""";521;data/lyrics/Joaquin-sabina-como-te-digo-una-co-te-digo-la-o.txt
+Joaquín Sabina;19 Dias Y 500 Noches;1999-08-10;25;13;Noches de Boda;283;data/lyrics/Joaquin-sabina-noches-de-boda.txt
+José José;Secretos;1985-07-15;26;10;Lo Dudo;220;data/lyrics/Jose-jose-lo-dudo.txt
+José José;Secretos;1985-07-15;26;10;El Amor Acaba;260;data/lyrics/Jose-jose-el-amor-acaba.txt
+José José;Secretos;1985-07-15;26;10;Voy a Llenarte Toda;325;data/lyrics/Jose-jose-voy-a-llenarte-toda.txt
+José José;Secretos;1985-07-15;26;10;Cuando Vayas Conmigo;235;data/lyrics/Jose-jose-cuando-vayas-conmigo.txt
+José José;Secretos;1985-07-15;26;10;Entre Ella y Tú;213;data/lyrics/Jose-jose-entre-ella-y-tu.txt
+José José;Secretos;1985-07-15;26;10;Lágrimas;312;data/lyrics/Jose-jose-lagrimas.txt
+José José;Secretos;1985-07-15;26;10;He Renunciado a Ti - Remasterizado;235;data/lyrics/Jose-jose-he-renunciado-a-ti.txt
+José José;Secretos;1985-07-15;26;10;Quiero Perderme Contigo;296;data/lyrics/Jose-jose-quiero-perderme-contigo.txt
+José José;Secretos;1985-07-15;26;10;Esta Noche Te Voy a Estrenar;308;data/lyrics/Jose-jose-esta-noche-te-voy-a-estrenar.txt
+José José;Secretos;1985-07-15;26;10;A Esa;184;data/lyrics/Jose-jose-a-esa.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Siempre en Mi Mente;206;data/lyrics/Juan-gabriel-siempre-en-mi-mente.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;María José;209;data/lyrics/Juan-gabriel-maria-jose.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Extraño Tus Ojos;350;data/lyrics/Juan-gabriel-extrano-tus-ojos.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Canta, Vive y Sueña;155;data/lyrics/Juan-gabriel-canta-vive-y-suena.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Lágrimas Tristes;184;data/lyrics/Juan-gabriel-lagrimas-tristes.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Dénme un Ride;173;data/lyrics/Juan-gabriel-denme-un-ride.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Adiós Cariño;172;data/lyrics/Juan-gabriel-adios-carino.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Mi Oración;218;data/lyrics/Juan-gabriel-mi-oracion.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Cómo Me Haces Falta Tú;166;data/lyrics/Juan-gabriel-como-me-haces-falta-tu.txt
+Juan Gabriel;Siempre En Mi Mente;1978-01-26;27;10;Adiós;251;data/lyrics/Juan-gabriel-adios.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;Rosalía;207;data/lyrics/Juan-luis-guerra-rosalia.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;Como Abeja al Panal;246;data/lyrics/Juan-luis-guerra-como-abeja-al-panal.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;Carta de Amor;280;data/lyrics/Juan-luis-guerra-carta-de-amor.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;Estrellitas y Duendes;266;data/lyrics/Juan-luis-guerra-estrellitas-y-duendes.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;A Pedir Su Mano;295;data/lyrics/Juan-luis-guerra-a-pedir-su-mano.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;La Bilirrubina;245;data/lyrics/Juan-luis-guerra-la-bilirrubina.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;Burbujas de Amor;251;data/lyrics/Juan-luis-guerra-burbujas-de-amor.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;Bachata Rosa;257;data/lyrics/Juan-luis-guerra-bachata-rosa.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;Reforéstame;247;data/lyrics/Juan-luis-guerra-reforestame.txt
+Juan Luis Guerra;Bachata Rosa;1990-01-01;28;10;Acompáñeme Civil;299;data/lyrics/Juan-luis-guerra-acompaneme-civil.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;A Dios Le Pido;205;data/lyrics/Juanes-a-dios-le-pido.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;Es Por Ti;251;data/lyrics/Juanes-es-por-ti.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;Un Día Normal;223;data/lyrics/Juanes-un-dia-normal.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;La Paga;205;data/lyrics/Juanes-la-paga.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;La Única;185;data/lyrics/Juanes-la-unica.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;Luna;213;data/lyrics/Juanes-luna.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;Día Lejano;213;data/lyrics/Juanes-dia-lejano.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;Mala Gente;197;data/lyrics/Juanes-mala-gente.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;Fotografía;238;data/lyrics/Juanes-fotografia.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;Desde Que Despierto Hasta Que Duermo;234;data/lyrics/Juanes-desde-que-despierto-hasta-que-duermo.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;La Historia De Juan;218;data/lyrics/Juanes-la-historia-de-juan.txt
+Juanes;Un Dia Normal;2002-01-01;29;12;La Noche;176;data/lyrics/Juanes-la-noche.txt
+Julio Iglesias;El Amor;1975;30;10;Abrazame;211;data/lyrics/Julio-iglesias-abrazame.txt
+Julio Iglesias;El Amor;1975;30;10;A Veces Tu, A Veces Yo;171;data/lyrics/Julio-iglesias-a-veces-tu-a-veces-yo.txt
+Julio Iglesias;El Amor;1975;30;10;Tema de Amor (Love's Theme);187;data/lyrics/Julio-iglesias-tema-de-amor-loves-theme.txt
+Julio Iglesias;El Amor;1975;30;10;Quien;219;data/lyrics/Julio-iglesias-quien.txt
+Julio Iglesias;El Amor;1975;30;10;Cuidado Amor;240;data/lyrics/Julio-iglesias-cuidado-amor.txt
+Julio Iglesias;El Amor;1975;30;10;Quiero;169;data/lyrics/Julio-iglesias-quiero.txt
+Julio Iglesias;El Amor;1975;30;10;El Amor;168;data/lyrics/Julio-iglesias-el-amor.txt
+Julio Iglesias;El Amor;1975;30;10;Mi Dulce Señor;214;
+Julio Iglesias;El Amor;1975;30;10;Dejala;166;data/lyrics/Julio-iglesias-dejala.txt
+Julio Iglesias;El Amor;1975;30;10;Candilejas;253;data/lyrics/Julio-iglesias-candilejas.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Por Un Amor (For a Love);181;data/lyrics/Linda-ronstadt-por-un-amor-for-a-love.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Los Laureles (The Laurels);150;data/lyrics/Linda-ronstadt-los-laureles-the-laurels.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Hay Unos Ojos (There Are Some Eyes);168;data/lyrics/Linda-ronstadt-hay-unos-ojos.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;La Cigarra (The Cicada);229;data/lyrics/Linda-ronstadt-la-cigarra-the-cicada.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Tú Sólo Tú (You Only You);192;data/lyrics/Linda-ronstadt-tu-solo-tu-you-only-you.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Y Andale (Get on With It);158;data/lyrics/Linda-ronstadt-y-andale-get-on-with-it.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Rogaciano El Huapanguero (Rogiciano);186;data/lyrics/Linda-ronstadt-rogaciano-el-huapanguero-rogiciano.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Dos Arbolitos (Two Little Trees);156;data/lyrics/Linda-ronstadt-dos-arbolitos-two-little-trees.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;Corrido DeCananea (Ballad of Cananea);208;
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;La Barca De Guaymas (The Boat from Guaymas);205;data/lyrics/Linda-ronstadt-la-barca-de-guaymas-the-boat-from-guaymas.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;La Calandria (The Lark);184;data/lyrics/Linda-ronstadt-la-calandria-the-lark.txt
+Linda Ronstadt;Canciones De Mi Padre;1987;31;13;El Sol Que Tú Eres (The Sun That You Are) - 1999 Remaster;184;data/lyrics/Linda-ronstadt-el-sol-que-tu-eres.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;Jefe De Jefes;215;data/lyrics/Los-tigres-del-norte-jefe-de-jefes.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El Sucesor;183;data/lyrics/Los-tigres-del-norte-el-sucesor.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;Por Debajo Del Agua;198;data/lyrics/Los-tigres-del-norte-por-debajo-del-agua.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El Dolor De Un Padre;218;data/lyrics/Los-tigres-del-norte-el-dolor-de-un-padre.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;También Las Mujeres Pueden;219;data/lyrics/Los-tigres-del-norte-tambien-las-mujeres-pueden.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El Rengo Del Gallo Giro;187;data/lyrics/Los-tigres-del-norte-el-rengo-del-gallo-giro.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;Carne Quemada;176;data/lyrics/Los-tigres-del-norte-carne-quemada.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;Mis Dos Patrias;213;data/lyrics/Los-tigres-del-norte-mis-dos-patrias.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El Prisionero;202;data/lyrics/Los-tigres-del-norte-el-prisionero.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El Mojado Acaudalado;223;data/lyrics/Los-tigres-del-norte-el-mojado-acaudalado.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;Ni Aquí Ni Allá;215;data/lyrics/Los-tigres-del-norte-ni-aqui-ni-alla.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El Tarasco;222;data/lyrics/Los-tigres-del-norte-el-tarasco.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;La Paloma;186;data/lyrics/Los-tigres-del-norte-la-paloma.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;Jesús Amado;189;data/lyrics/Los-tigres-del-norte-jesus-amado.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;Lo Que Sembré Allá En La Sierra;181;data/lyrics/Los-tigres-del-norte-lo-que-sembre-alla-en-la-sierra.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El Plantón;206;data/lyrics/Los-tigres-del-norte-el-planton.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;Las Novias Del Traficante;195;data/lyrics/Los-tigres-del-norte-las-novias-del-traficante.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El General;206;data/lyrics/Los-tigres-del-norte-el-general.txt
+Los Tigres Del Norte;Jefe De Jefes;2006-03-07;32;19;El Mojado Acaudalado - Acustico Version;277;data/lyrics/Los-tigres-del-norte-el-mojado-acaudalado.txt
+Luis Miguel;Romance;1991-11-19;33;12;No Me Platiques Más;211;data/lyrics/Luis-miguel-no-me-platiques-mas.txt
+Luis Miguel;Romance;1991-11-19;33;12;Inolvidable;258;data/lyrics/Luis-miguel-inolvidable.txt
+Luis Miguel;Romance;1991-11-19;33;12;La Puerta;199;data/lyrics/Luis-miguel-la-puerta.txt
+Luis Miguel;Romance;1991-11-19;33;12;La Barca;210;data/lyrics/Luis-miguel-la-barca.txt
+Luis Miguel;Romance;1991-11-19;33;12;Te Extraño;266;data/lyrics/Luis-miguel-te-extrano.txt
+Luis Miguel;Romance;1991-11-19;33;12;Usted;223;data/lyrics/Luis-miguel-usted.txt
+Luis Miguel;Romance;1991-11-19;33;12;Contigo En La Distancia;204;data/lyrics/Luis-miguel-contigo-en-la-distancia.txt
+Luis Miguel;Romance;1991-11-19;33;12;Mucho Corazón;204;data/lyrics/Luis-miguel-mucho-corazon.txt
+Luis Miguel;Romance;1991-11-19;33;12;La Mentira;226;data/lyrics/Luis-miguel-la-mentira.txt
+Luis Miguel;Romance;1991-11-19;33;12;Cuando Vuelva a Tu Lado;229;data/lyrics/Luis-miguel-cuando-vuelva-a-tu-lado.txt
+Luis Miguel;Romance;1991-11-19;33;12;No Sé Tú;230;data/lyrics/Luis-miguel-no-se-tu.txt
+Luis Miguel;Romance;1991-11-19;33;12;Cómo;195;data/lyrics/Luis-miguel-como.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;De Pies A Cabeza;276;data/lyrics/Mana-de-pies-a-cabeza.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;Oye Mi Amor;263;data/lyrics/Mana-oye-mi-amor.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;Cachito;286;data/lyrics/Mana-cachito.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;Vivir Sin Aire;291;data/lyrics/Mana-vivir-sin-aire.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;¿Dónde Jugarán Los Niños?;254;data/lyrics/Mana-donde-jugaran-los-ninos.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;El Desierto;251;data/lyrics/Mana-el-desierto.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;La Chula;250;data/lyrics/Mana-la-chula.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;Cómo Te Deseo;270;data/lyrics/Mana-como-te-deseo.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;Te Lloré Un Río;293;data/lyrics/Mana-te-llore-un-rio.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;Cómo Diablos;235;data/lyrics/Mana-como-diablos.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;Huele A Tristeza;287;data/lyrics/Mana-huele-a-tristeza.txt
+Maná;¿Dónde Jugarán Los Niños?;1992;34;12;Me Vale;271;data/lyrics/Mana-me-vale.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Clandestino;149;data/lyrics/Manu-chao-clandestino.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Desaparecido;227;data/lyrics/Manu-chao-desaparecido.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Bongo Bong;158;data/lyrics/Manu-chao-bongo-bong.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Je ne t'aime plus;123;data/lyrics/Manu-chao-je-ne-taime-plus.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Mentira;277;data/lyrics/Manu-chao-mentira.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Lágrimas de oro;178;data/lyrics/Manu-chao-lagrimas-de-oro.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Mama Call;141;data/lyrics/Manu-chao-mama-call.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Luna y sol;187;data/lyrics/Manu-chao-luna-y-sol.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Por el suelo;141;data/lyrics/Manu-chao-por-el-suelo.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Welcome to Tijuana;244;data/lyrics/Manu-chao-welcome-to-tijuana.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Día luna...Día pena;90;
+Manu Chao;Clandestino;1998-10-06;35;16;Malegría;175;data/lyrics/Manu-chao-malegria.txt
+Manu Chao;Clandestino;1998-10-06;35;16;La vie à 2;181;data/lyrics/Manu-chao-la-vie-a-2.txt
+Manu Chao;Clandestino;1998-10-06;35;16;Minha galera;142;data/lyrics/Manu-chao-minha-galera.txt
+Manu Chao;Clandestino;1998-10-06;35;16;La despedida;190;data/lyrics/Manu-chao-la-despedida.txt
+Manu Chao;Clandestino;1998-10-06;35;16;El viento;149;data/lyrics/Manu-chao-el-viento.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Se Me Sigue Olvidando;294;data/lyrics/Marc-anthony-se-me-sigue-olvidando.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Te Conozco Bien;314;data/lyrics/Marc-anthony-te-conozco-bien.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Hasta Ayer;279;data/lyrics/Marc-anthony-hasta-ayer.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Nadie Como Ella;296;data/lyrics/Marc-anthony-nadie-como-ella.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Te Amare;288;data/lyrics/Marc-anthony-te-amare.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Llegaste A Mi;296;data/lyrics/Marc-anthony-llegaste-a-mi.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Y Sigues Siendo Tu;275;data/lyrics/Marc-anthony-y-sigues-siendo-tu.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Por Amar Se Da Todo;299;data/lyrics/Marc-anthony-por-amar-se-da-todo.txt
+Marc Anthony;Todo a Su Tiempo;1995-01-01;36;9;Vieja Mesa;264;data/lyrics/Marc-anthony-vieja-mesa.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;Si No Te Hubieras Ido;288;data/lyrics/Marco-antonio-solis-si-no-te-hubieras-ido.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;Amor En Silencio;235;data/lyrics/Marco-antonio-solis-amor-en-silencio.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;Se Va Muriendo Mi Alma;271;data/lyrics/Marco-antonio-solis-se-va-muriendo-mi-alma.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;Mi Eterno Amor Secreto;224;data/lyrics/Marco-antonio-solis-mi-eterno-amor-secreto.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;Sigue Sin Mí;239;data/lyrics/Marco-antonio-solis-sigue-sin-mi.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;Si Te Pudiera Mentir;262;data/lyrics/Marco-antonio-solis-si-te-pudiera-mentir.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;La Ultima Parte;276;data/lyrics/Marco-antonio-solis-la-ultima-parte.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;Invéntame;209;data/lyrics/Marco-antonio-solis-inventame.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;A Que Me Quedo Contigo;257;data/lyrics/Marco-antonio-solis-a-que-me-quedo-contigo.txt
+Marco Antonio Solís;Trozos De Mi Alma;2003-01-01;37;10;El Peor De Mis Fracasos;254;data/lyrics/Marco-antonio-solis-el-peor-de-mis-fracasos.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Aquellas Pequeñas Cosas (with Joan Manuel Serrat);158;data/lyrics/Mercedes-sosa-aquellas-pequenas-cosas.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Barro Tal Vez (with Luis Alberto Spinetta);226;data/lyrics/Mercedes-sosa-barro-tal-vez.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Sea (with Jorge Drexler);219;data/lyrics/Mercedes-sosa-sea.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Coração Vagabundo (with Caetano Veloso);228;data/lyrics/Mercedes-sosa-coracao-vagabundo.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;La Maza (with Shakira);258;data/lyrics/Mercedes-sosa-la-maza.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Zamba para Olvidarte (with Diego Torres);302;data/lyrics/Mercedes-sosa-zamba-para-olvidarte.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Agua, Fuego, Tierra y Viento (with Soledad);221;data/lyrics/Mercedes-sosa-agua-fuego-tierra-y-viento.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Celador De Sueños (with Gustavo Santaolalla & Orozco - Barrientos);218;data/lyrics/Mercedes-sosa-celador-de-suenos.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Sabiéndose de los Descalzos (with Julieta Venegas);174;data/lyrics/Mercedes-sosa-sabiendose-de-los-descalzos.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Himno de Mi Corazón (with León Gieco);250;data/lyrics/Mercedes-sosa-himno-de-mi-corazon.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Novicia (with Victor Heredia);284;data/lyrics/Mercedes-sosa-novicia.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Zamba De Los Adioses (with Dúo Nuevo Cuyo);255;data/lyrics/Mercedes-sosa-zamba-de-los-adioses.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Nada (with Maria Graña);230;data/lyrics/Mercedes-sosa-nada.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Esa Musiquita (with Teresa Parodi);188;data/lyrics/Mercedes-sosa-esa-musiquita.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Romance De La Luna Tucumana (with Juan Quintero & Luna Monti);257;data/lyrics/Mercedes-sosa-romance-de-la-luna-tucumana.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Deja la Vida Volar (with Pedro Aznar);235;data/lyrics/Mercedes-sosa-deja-la-vida-volar.txt
+Mercedes Sosa;Homenaje a Violeta Parra;1993-01-01;38;17;Pájaro De Rodillas (with Nacha Roldán);223;data/lyrics/Mercedes-sosa-pajaro-de-rodillas.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Patio Custodio (Bulería);285;data/lyrics/Paco-de-lucia-patio-custodio-buleria.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cositas Buenas (Tangos);263;data/lyrics/Paco-de-lucia-cositas-buenas-tangos.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Antonia (Bulería Por Soleá);388;data/lyrics/Paco-de-lucia-antonia-buleria-por-solea.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Dengue (Rumba);243;data/lyrics/Paco-de-lucia-el-dengue-rumba.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Volar (Bulería);331;data/lyrics/Paco-de-lucia-volar-buleria.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Tesorillo (Tientos);279;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Que Venga El Alba (Bulería);252;data/lyrics/Paco-de-lucia-que-venga-el-alba-buleria.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Casa Bernardo (Rumba);254;data/lyrics/Paco-de-lucia-casa-bernardo-rumba.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Zorongo Gitano;176;data/lyrics/Paco-de-lucia-zorongo-gitano.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Sevillanas Del Siglo XVIII;189;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Las Morillas De Jaen;174;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Anda Jaleo;240;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Los Mozos De Monleon;180;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Los Reyes De La Baraja;170;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Los Cuatro Muleros;168;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Nana De Sevilla;189;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cafe De Chinitas;226;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Vito;171;data/lyrics/Paco-de-lucia-el-vito.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Los Peregrinitos;209;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Las Tres Hojas;146;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Malagueña;209;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;A Tu Vera;180;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Maria De La O;139;data/lyrics/Paco-de-lucia-maria-de-la-o.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Moliendo Cafe;146;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tangos De La Vieja Rica;188;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Sevillanas Populares;160;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Ojos Verdes;166;data/lyrics/Paco-de-lucia-ojos-verdes.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Luna Y El Toro;170;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Nina De Puerta Oscura;178;data/lyrics/Paco-de-lucia-la-nina-de-puerta-oscura.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Carcel De Oro;119;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;No Me Digas Que No;179;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Emigrante;184;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Los Pescadores De Perlas;169;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tango De La Rosa;187;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Si No Me More;189;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Amor De Laura;137;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Luna Sobre Las Ruinas Del Castillo;154;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Celos;150;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Virgen De La Macarena;237;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Que Sera, Sera;146;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Yo Que No Vivo Sin Ti;141;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Reserva El Ultimo Baile Para Mi;141;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Besame Mucho;192;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Perfidia;159;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Almoraima;324;data/lyrics/Paco-de-lucia-almoraima.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cueva Del Gato;343;data/lyrics/Paco-de-lucia-cueva-del-gato.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Cobre;189;data/lyrics/Paco-de-lucia-el-cobre.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;A La Perla De Cadiz;266;data/lyrics/Paco-de-lucia-a-la-perla-de-cadiz.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Ole;257;data/lyrics/Paco-de-lucia-ole.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Plaza Alta;369;data/lyrics/Paco-de-lucia-plaza-alta.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Rio Ancho;268;data/lyrics/Paco-de-lucia-rio-ancho.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Llanos Del Real;218;data/lyrics/Paco-de-lucia-llanos-del-real.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Que Viene El Coco;166;data/lyrics/Paco-de-lucia-que-viene-el-coco.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Zarzamora;146;data/lyrics/Paco-de-lucia-la-zarzamora.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Canción Del Rio;203;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Al Conquero;146;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Los Piconeros;156;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Roja De Celos;181;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Pepa Banderas;147;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Inclusero;185;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Limosna De Amores;153;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Romance Gitano;179;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Te Lo Juro Yo;157;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Abril En Sevilla;164;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Monasterio De Sal;284;data/lyrics/Paco-de-lucia-monasterio-de-sal.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Gitanos Andaluces;295;data/lyrics/Paco-de-lucia-gitanos-andaluces.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Castro Marin;253;data/lyrics/Paco-de-lucia-castro-marin.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Herencia;336;data/lyrics/Paco-de-lucia-herencia.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Convite;309;data/lyrics/Paco-de-lucia-convite.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Palenque;442;data/lyrics/Paco-de-lucia-palenque.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Huida;239;data/lyrics/Paco-de-lucia-huida.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Concierto De Aranjuez: 1. Allegro Con Spirito;346;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Concierto De Aranjuez: 2. Adagio;692;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Concierto De Aranjuez: 3. Allegro Gentile;326;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Iberia: 1. Triana;299;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Iberia: 2. Albaicin;447;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Iberia: 3. Puerto;224;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Jerez En Fiestas;231;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;En La Alcazaba;297;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Gaditanas;222;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tientos Del Amanecer;251;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Guajira Flamenca;228;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Real De La Feria;168;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Taconeo Gitano;180;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Sortilegio;257;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Seguiriya Tradicional;247;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Entre Arrayanes;225;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Fuente De Carmona;258;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Caleta;219;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cielito Lindo;158;data/lyrics/Paco-de-lucia-cielito-lindo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Alma Llanera;176;data/lyrics/Paco-de-lucia-alma-llanera.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Mañana de Carnaval;165;data/lyrics/Paco-de-lucia-manana-de-carnaval.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Jarabe Tapatio;143;data/lyrics/Paco-de-lucia-el-jarabe-tapatio.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Flor De La Canela;152;data/lyrics/Paco-de-lucia-la-flor-de-la-canela.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;A Pesar De Todo;144;data/lyrics/Paco-de-lucia-a-pesar-de-todo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Siboney;165;data/lyrics/Paco-de-lucia-siboney.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Granada;164;data/lyrics/Paco-de-lucia-granada.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Fina Estampa;105;data/lyrics/Paco-de-lucia-fina-estampa.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Virgen De Amor;143;data/lyrics/Paco-de-lucia-virgen-de-amor.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Malaguena Salerosa;149;data/lyrics/Paco-de-lucia-malaguena-salerosa.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tomo Y Obligo;129;data/lyrics/Paco-de-lucia-tomo-y-obligo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Percusion Flamenca;225;data/lyrics/Paco-de-lucia-percusion-flamenca.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Barrio La Vina;208;data/lyrics/Paco-de-lucia-barrio-la-vina.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Doblan Campanas;347;data/lyrics/Paco-de-lucia-doblan-campanas.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Farruca De Lucia;278;data/lyrics/Paco-de-lucia-farruca-de-lucia.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tientos De El Mentidero;210;data/lyrics/Paco-de-lucia-tientos-de-el-mentidero.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Farolillo De Feria;249;data/lyrics/Paco-de-lucia-farolillo-de-feria.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;De Madruga;195;data/lyrics/Paco-de-lucia-de-madruga.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cuando Canta El Gallo;232;data/lyrics/Paco-de-lucia-cuando-canta-el-gallo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Punta Del Faro;241;data/lyrics/Paco-de-lucia-punta-del-faro.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Canastera;250;data/lyrics/Paco-de-lucia-canastera.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Guajiras De Lucia;194;data/lyrics/Paco-de-lucia-guajiras-de-lucia.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Con El Pensamiento;279;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Tempul;219;data/lyrics/Paco-de-lucia-el-tempul.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Al Puerto;289;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Maria De Los Dolores;207;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Taconeo Gitano;180;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Callecita Que Subes;296;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Recuerdos;187;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Impetu;179;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Rinconcillo;171;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Aires De Linares;364;data/lyrics/Paco-de-lucia-aires-de-linares.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Mi Inspiración;188;data/lyrics/Paco-de-lucia-mi-inspiracion.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Guajiras De Lucia;200;data/lyrics/Paco-de-lucia-guajiras-de-lucia.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Mantilla De Feria;195;data/lyrics/Paco-de-lucia-mantilla-de-feria.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Tempul;206;data/lyrics/Paco-de-lucia-el-tempul.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Panaderos Flamencos;155;data/lyrics/Paco-de-lucia-panaderos-flamencos.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Generalife Bajo La Luna;278;data/lyrics/Paco-de-lucia-generalife-bajo-la-luna.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Fiesta En Moguer;194;data/lyrics/Paco-de-lucia-fiesta-en-moguer.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Lamento Minero;259;data/lyrics/Paco-de-lucia-lamento-minero.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Celosa;186;data/lyrics/Paco-de-lucia-celosa.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Entre Dos Aguas;362;data/lyrics/Paco-de-lucia-entre-dos-aguas.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Aires Choqueros;256;data/lyrics/Paco-de-lucia-aires-choqueros.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Reflejo De Luna;234;data/lyrics/Paco-de-lucia-reflejo-de-luna.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Solera;222;data/lyrics/Paco-de-lucia-solera.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Fuente Y Caudal;314;data/lyrics/Paco-de-lucia-fuente-y-caudal.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cepa Andaluza;348;data/lyrics/Paco-de-lucia-cepa-andaluza.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Los Pinares;215;data/lyrics/Paco-de-lucia-los-pinares.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Plaza De San Juan;192;data/lyrics/Paco-de-lucia-plaza-de-san-juan.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Estiba;351;data/lyrics/Paco-de-lucia-la-estiba.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Beyond The Mirage;370;data/lyrics/Paco-de-lucia-beyond-the-mirage.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Midsummer Night;277;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Manhã De Carnaval;372;data/lyrics/Paco-de-lucia-manha-de-carnaval.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Letter From India;234;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Espiritu;330;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Le monastère dans les montagnes;374;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Azzura;478;data/lyrics/Paco-de-lucia-azzura.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cardeosa;396;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Gitanos Trianeros;222;data/lyrics/Paco-de-lucia-gitanos-trianeros.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Llanto A Cadiz;206;data/lyrics/Paco-de-lucia-llanto-a-cadiz.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Recuerdo A Patino;188;data/lyrics/Paco-de-lucia-recuerdo-a-patino.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Punta Umbria;203;data/lyrics/Paco-de-lucia-punta-umbria.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Jerezana;183;data/lyrics/Paco-de-lucia-jerezana.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Viva La Union;282;data/lyrics/Paco-de-lucia-viva-la-union.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Llora La Siguiriya;195;data/lyrics/Paco-de-lucia-llora-la-siguiriya.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;En La Caleta;203;data/lyrics/Paco-de-lucia-en-la-caleta.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Impetu;176;data/lyrics/Paco-de-lucia-impetu.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Tajo;212;data/lyrics/Paco-de-lucia-el-tajo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Mi Nino Curro - Live In America / 1993;510;data/lyrics/Paco-de-lucia-mi-nino-curro.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Barrosa - Live In America / 1993;295;data/lyrics/Paco-de-lucia-la-barrosa.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Alcazar De Sevilla - Live In America / 1993;534;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Peroche - Live In America / 1993;388;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tio Sabas - Live In America / 1993;395;data/lyrics/Paco-de-lucia-tio-sabas.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Soniquete - Live In America / 1993;409;data/lyrics/Paco-de-lucia-soniquete.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Zyryab - Live In America / 1993;773;data/lyrics/Paco-de-lucia-zyryab.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Buana Buana King Kong - Live In America / 1993;315;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Palenque - Live In Spain / 1984;493;data/lyrics/Paco-de-lucia-palenque.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Alta Mar - Live In Spain / 1984;700;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Solo Quiero Caminar - Live In Spain / 1984;589;data/lyrics/Paco-de-lucia-solo-quiero-caminar.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Chiquito - Live In Spain / 1984;357;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Gitanos Andaluces - Live In Italy / 1984;327;data/lyrics/Paco-de-lucia-gitanos-andaluces.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Rio De La Miel;307;data/lyrics/Paco-de-lucia-rio-de-la-miel.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Villa Vieja;410;data/lyrics/Paco-de-lucia-la-villa-vieja.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Calle Municion;335;data/lyrics/Paco-de-lucia-calle-municion.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Me Regale;334;data/lyrics/Paco-de-lucia-me-regale.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Luzia;338;data/lyrics/Paco-de-lucia-luzia.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Manteca Colora;296;data/lyrics/Paco-de-lucia-manteca-colora.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Chorruelo;356;data/lyrics/Paco-de-lucia-el-chorruelo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Camaron;367;data/lyrics/Paco-de-lucia-camaron.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Amapola;174;data/lyrics/Paco-de-lucia-amapola.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Pajaro Chogui;155;data/lyrics/Paco-de-lucia-pajaro-chogui.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Yo Vendo Unos Ojos Negros;120;data/lyrics/Paco-de-lucia-yo-vendo-unos-ojos-negros.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Guadalajara;153;data/lyrics/Paco-de-lucia-guadalajara.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Limeña;149;data/lyrics/Paco-de-lucia-limena.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Las Mañanitas;158;data/lyrics/Paco-de-lucia-las-mananitas.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Alma, Corazon Y Vida;183;data/lyrics/Paco-de-lucia-alma-corazon-y-vida.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Quizas Quizas Quizas;192;data/lyrics/Paco-de-lucia-quizas-quizas-quizas.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tico Tico;135;data/lyrics/Paco-de-lucia-tico-tico.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Lamento Borincano;146;data/lyrics/Paco-de-lucia-lamento-borincano.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Y Todo A Media Luz;179;data/lyrics/Paco-de-lucia-y-todo-a-media-luz.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Paloma;136;data/lyrics/Paco-de-lucia-la-paloma.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Alegrias - En Vivo Desde El Teatro Real / 1975;315;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tarantas - En Vivo Desde El Teatro Real / 1975;364;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Granainas - En Vivo Desde El Teatro Real / 1975;382;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Zapateado - En Vivo Desde El Teatro Real / 1975;259;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Solea - En Vivo Desde El Teatro Real / 1975;320;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Fandangos - En Vivo Desde El Teatro Real / 1975;257;data/lyrics/Paco-de-lucia-fandangos.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Guajiras - En Vivo Desde El Teatro Real / 1975;296;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Rumba - En Vivo Desde El Teatro Real / 1975;534;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Danza De Los Vecinos;190;data/lyrics/Paco-de-lucia-danza-de-los-vecinos.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Danza Ritual Del Fuego;263;data/lyrics/Paco-de-lucia-danza-ritual-del-fuego.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Introduccion Y Pantomima;180;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Pano Moruno;88;data/lyrics/Paco-de-lucia-el-pano-moruno.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Danza Del Molinero;184;data/lyrics/Paco-de-lucia-danza-del-molinero.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Danza;204;data/lyrics/Paco-de-lucia-danza.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Escena;86;data/lyrics/Paco-de-lucia-escena.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cancion Del Fuego Fatuo;245;data/lyrics/Paco-de-lucia-cancion-del-fuego-fatuo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Danza Del Terror;109;data/lyrics/Paco-de-lucia-danza-del-terror.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Danza De La Molinera;242;data/lyrics/Paco-de-lucia-danza-de-la-molinera.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Rondeñas;258;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Aires Andaluces;128;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Piropo Gaditano;246;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cielo Sevillano;132;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Esencia Gitana;217;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Por Donde Caminas;315;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tema De Amor De La Pelicula La Sabina;155;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tema de Celos;83;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tema Andaluz;110;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Sevillanas A Dos Guitarras;192;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Gabarre;291;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Plaza Real;268;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Niquelao;305;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Vito;206;data/lyrics/Paco-de-lucia-el-vito.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Mi Inspiración;197;data/lyrics/Paco-de-lucia-mi-inspiracion.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Malaguena De Lecuona;272;data/lyrics/Paco-de-lucia-malaguena-de-lecuona.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Serrana De Malaga;251;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Rumba Improvisada;245;data/lyrics/Paco-de-lucia-rumba-improvisada.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Temas Del Pueblo;279;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Plazuela;231;data/lyrics/Paco-de-lucia-plazuela.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Zarda De Monty;179;data/lyrics/Paco-de-lucia-zarda-de-monty.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Andalucia De Lecuona;258;data/lyrics/Paco-de-lucia-andalucia-de-lecuona.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Fuente Nueva;210;
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Canada;316;data/lyrics/Paco-de-lucia-la-canada.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Mi Nino Curro;209;data/lyrics/Paco-de-lucia-mi-nino-curro.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Barrosa;278;data/lyrics/Paco-de-lucia-la-barrosa.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cana De Azucar;259;data/lyrics/Paco-de-lucia-cana-de-azucar.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;El Panuelo;327;data/lyrics/Paco-de-lucia-el-panuelo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Callejon Del Muro;238;data/lyrics/Paco-de-lucia-callejon-del-muro.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Casilda;226;data/lyrics/Paco-de-lucia-casilda.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Gloria Al Nino Ricardo;308;data/lyrics/Paco-de-lucia-gloria-al-nino-ricardo.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Solo Quiero Caminar;376;data/lyrics/Paco-de-lucia-solo-quiero-caminar.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;La Tumbona;259;data/lyrics/Paco-de-lucia-la-tumbona.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Convite;236;data/lyrics/Paco-de-lucia-convite.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Montiño;243;data/lyrics/Paco-de-lucia-montino.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Chanela;236;data/lyrics/Paco-de-lucia-chanela.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Monasterio De Sal;293;data/lyrics/Paco-de-lucia-monasterio-de-sal.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Pinonate;285;data/lyrics/Paco-de-lucia-pinonate.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Palenque;292;data/lyrics/Paco-de-lucia-palenque.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Soniquete;453;data/lyrics/Paco-de-lucia-soniquete.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Tio Sabas;303;data/lyrics/Paco-de-lucia-tio-sabas.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Chick;225;data/lyrics/Paco-de-lucia-chick.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Compadres;314;data/lyrics/Paco-de-lucia-compadres.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Zyryab;375;data/lyrics/Paco-de-lucia-zyryab.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Cancion De Amor;259;data/lyrics/Paco-de-lucia-cancion-de-amor.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Playa Del Carmen;267;data/lyrics/Paco-de-lucia-playa-del-carmen.txt
+Paco De Lucia;Fuente Y Caudal;1997-09-23;39;256;Almonte;332;data/lyrics/Paco-de-lucia-almonte.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Si Yo Fuera;269;data/lyrics/Ricardo-arjona-si-yo-fuera.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Señora de las Cuatro Décadas;306;data/lyrics/Ricardo-arjona-senora-de-las-cuatro-decadas.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Casa de Locos;179;data/lyrics/Ricardo-arjona-casa-de-locos.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Historia de Taxi;405;data/lyrics/Ricardo-arjona-historia-de-taxi.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;La Noche Te Trae Sorpresas;251;data/lyrics/Ricardo-arjona-la-noche-te-trae-sorpresas.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Amor de Tele;200;data/lyrics/Ricardo-arjona-amor-de-tele.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Te Conozco;252;data/lyrics/Ricardo-arjona-te-conozco.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Historia del Portero;312;data/lyrics/Ricardo-arjona-historia-del-portero.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Realmente No Estoy Tan Solo;233;data/lyrics/Ricardo-arjona-realmente-no-estoy-tan-solo.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Del Otro Lado del Sol;285;data/lyrics/Ricardo-arjona-del-otro-lado-del-sol.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Me Están Jodiendo la Vida;270;data/lyrics/Ricardo-arjona-me-estan-jodiendo-la-vida.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Ayúdame Freud;403;data/lyrics/Ricardo-arjona-ayudame-freud.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Libre;211;data/lyrics/Ricardo-arjona-libre.txt
+Ricardo Arjona;Historias;1994-04-14;40;14;Chicos de Plástico;258;data/lyrics/Ricardo-arjona-chicos-de-plastico.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Por Arriba, Por Abajo;188;data/lyrics/Ricky-martin-por-arriba-por-abajo.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Vuelve;308;data/lyrics/Ricky-martin-vuelve.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Lola, Lola;286;data/lyrics/Ricky-martin-lola-lola.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Casi un Bolero;280;data/lyrics/Ricky-martin-casi-un-bolero.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Corazonado;299;data/lyrics/Ricky-martin-corazonado.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;La Bomba;274;data/lyrics/Ricky-martin-la-bomba.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Hagamos El Amor;191;data/lyrics/Ricky-martin-hagamos-el-amor.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;La Copa de la Vida (La Canción Oficial de la Copa Mundial, Francia '98) - Spanish Version;268;data/lyrics/Ricky-martin-la-copa-de-la-vida.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Perdido Sin Ti;250;data/lyrics/Ricky-martin-perdido-sin-ti.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Asi Es La Vida;240;data/lyrics/Ricky-martin-asi-es-la-vida.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Marcia Baila;239;data/lyrics/Ricky-martin-marcia-baila.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;No Importa la Distancia (Go the Distance);291;data/lyrics/Ricky-martin-no-importa-la-distancia-go-the-distance.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Gracias Por Pensar En Mi (A Via Lactea);351;data/lyrics/Ricky-martin-gracias-por-pensar-en-mi-a-via-lactea.txt
+Ricky Martin;Vuelve;1998-02-10;41;14;Casi Un Bolero - Instrumental;279;data/lyrics/Ricky-martin-casi-un-bolero.txt
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Un Gato en la Oscuridad - Un Gato en Blu;245;
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Amada Amante;260;data/lyrics/Roberto-carlos-amada-amante.txt
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Jesucristo (Jesús Cristo);197;data/lyrics/Roberto-carlos-jesucristo-jesus-cristo.txt
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Yo Te Amo, Yo Te Amo, Yo Te Amo (Eu Te Amo, Te Amo, Te Amo);240;
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Rosa, Rosita (Rosinha);179;data/lyrics/Roberto-carlos-rosa-rosita-rosinha.txt
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Mi Cacharrito (Road Hog);150;data/lyrics/Roberto-carlos-mi-cacharrito-road-hog.txt
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Una Palabra Amiga;192;
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Nunca Más Te Dejaré Triste Amor;212;
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Ciudad;224;
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;La Palabra Adiós;181;
+Roberto Carlos;Un Gato En La Oscuridad;1964;42;11;Detalles (Detalhes);308;data/lyrics/Roberto-carlos-detalles-detalhes.txt
+Santana;Abraxas;1970-09-23;43;9;Singing Winds, Crying Beasts;291;data/lyrics/Santana-singing-winds-crying-beasts.txt
+Santana;Abraxas;1970-09-23;43;9;Black Magic Woman / Gypsy Queen;320;data/lyrics/Santana-black-magic-woman-gypsy-queen.txt
+Santana;Abraxas;1970-09-23;43;9;Oye Como Va;257;data/lyrics/Santana-oye-como-va.txt
+Santana;Abraxas;1970-09-23;43;9;Incident at Neshabur;298;data/lyrics/Santana-incident-at-neshabur.txt
+Santana;Abraxas;1970-09-23;43;9;Se a Cabo;170;data/lyrics/Santana-se-a-cabo.txt
+Santana;Abraxas;1970-09-23;43;9;Mother's Daughter;265;data/lyrics/Santana-mothers-daughter.txt
+Santana;Abraxas;1970-09-23;43;9;Samba Pa Ti;285;data/lyrics/Santana-samba-pa-ti.txt
+Santana;Abraxas;1970-09-23;43;9;Hope You're Feeling Better;251;data/lyrics/Santana-hope-youre-feeling-better.txt
+Santana;Abraxas;1970-09-23;43;9;El Nicoya;89;data/lyrics/Santana-el-nicoya.txt
+Selena;Amor Prohibido;1994;44;12;Amor Prohibido;173;data/lyrics/Selena-amor-prohibido.txt
+Selena;Amor Prohibido;1994;44;12;No Me Queda Más;201;data/lyrics/Selena-no-me-queda-mas.txt
+Selena;Amor Prohibido;1994;44;12;Cobarde;172;data/lyrics/Selena-cobarde.txt
+Selena;Amor Prohibido;1994;44;12;Fotos Y Recuerdos;157;data/lyrics/Selena-fotos-y-recuerdos.txt
+Selena;Amor Prohibido;1994;44;12;El Chico Del Apartamento 512;209;data/lyrics/Selena-el-chico-del-apartamento-512.txt
+Selena;Amor Prohibido;1994;44;12;Bidi Bidi Bom Bom - 1994 Version;211;data/lyrics/Selena-bidi-bidi-bom-bom.txt
+Selena;Amor Prohibido;1994;44;12;Techno Cumbia;227;data/lyrics/Selena-techno-cumbia.txt
+Selena;Amor Prohibido;1994;44;12;Tus Desprecios;205;data/lyrics/Selena-tus-desprecios.txt
+Selena;Amor Prohibido;1994;44;12;Si Una Vez;167;data/lyrics/Selena-si-una-vez.txt
+Selena;Amor Prohibido;1994;44;12;Ya No;235;data/lyrics/Selena-ya-no.txt
+Selena;Amor Prohibido;1994;44;12;Donde Quiera Que Estés;273;data/lyrics/Selena-donde-quiera-que-estes.txt
+Selena;Amor Prohibido;1994;44;12;Spoken Liner Notes By The Band And Family;1443;
+Shakira;Pies Descalzos;1995-10-06;45;11;Estoy Aquí;232;data/lyrics/Shakira-estoy-aqui.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Antologia;254;data/lyrics/Shakira-antologia.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Un Poco de Amor;241;data/lyrics/Shakira-un-poco-de-amor.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Quiero;250;data/lyrics/Shakira-quiero.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Te Necesito;240;data/lyrics/Shakira-te-necesito.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Vuelve;234;data/lyrics/Shakira-vuelve.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Te Espero Sentada;205;data/lyrics/Shakira-te-espero-sentada.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Pies Descalzos, Sueños Blancos;206;data/lyrics/Shakira-pies-descalzos-suenos-blancos.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Pienso en Ti;146;data/lyrics/Shakira-pienso-en-ti.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Donde Estas Corazon;232;data/lyrics/Shakira-donde-estas-corazon.txt
+Shakira;Pies Descalzos;1995-10-06;45;11;Se Quiere, Se Mata;218;data/lyrics/Shakira-se-quiere-se-mata.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;Por Quien Merece Amor;370;data/lyrics/Silvio-rodriguez-por-quien-merece-amor.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;La Gaviota;283;data/lyrics/Silvio-rodriguez-la-gaviota.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;Son Desangrado;303;data/lyrics/Silvio-rodriguez-son-desangrado.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;Pioneros;122;data/lyrics/Silvio-rodriguez-pioneros.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;Hoy mi Deber;187;data/lyrics/Silvio-rodriguez-hoy-mi-deber.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;La Primera Mentira;206;data/lyrics/Silvio-rodriguez-la-primera-mentira.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;Canción Urgente para Nicaragua;178;data/lyrics/Silvio-rodriguez-cancion-urgente-para-nicaragua.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;El Sol no da de Beber;357;data/lyrics/Silvio-rodriguez-el-sol-no-da-de-beber.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;La Maza;348;data/lyrics/Silvio-rodriguez-la-maza.txt
+Silvio Rodriguez;Unicornio;1982-01-01;46;10;Unicornio;309;data/lyrics/Silvio-rodriguez-unicornio.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;(En) El Séptimo Día - Remasterizado 2007;263;
+Soda Stereo;Canción Animal;1990-10-09;47;10;Un Millón De Años Luz - Remasterizado 2007;304;data/lyrics/Soda-stereo-un-millon-de-anos-luz.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;Canción Animal - Remasterizado 2007;247;data/lyrics/Soda-stereo-cancion-animal.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;1990 (Mil Nueve Noventa) - Remasterizado 2007;219;data/lyrics/Soda-stereo-1990.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;Sueles Dejarme Solo - Remasterizado 2007;227;data/lyrics/Soda-stereo-sueles-dejarme-solo.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;De Música Ligera - Remasterizado 2007;213;data/lyrics/Soda-stereo-de-musica-ligera.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;Hombre Al Agua - Remasterizado 2007;355;data/lyrics/Soda-stereo-hombre-al-agua.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;Entre Caníbales - Remasterizado 2007;247;data/lyrics/Soda-stereo-entre-canibales.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;Té Para 3 - Remasterizado 2007;145;data/lyrics/Soda-stereo-te-para-3.txt
+Soda Stereo;Canción Animal;1990-10-09;47;10;Cae El Sol - Remasterizado 2007;263;data/lyrics/Soda-stereo-cae-el-sol.txt
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Hay Que Trabajar;346;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Envuelvete Conmigo;273;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Déjame Soñar;302;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Salsumba;251;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Celia Y Tito;359;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Nuestro Amor;265;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;El Bribon Del Aguacero;282;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Son Con Son;314;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Bolero Medley: Mirame Mas / Ay Carino;356;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;El #100;358;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Woodyn' You;349;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Asia Mood;282;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;I Concentrate On You;382;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Tito's Idea;227;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Nica's Tempo;465;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Para El Rey;452;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Mambo Sentimental;206;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Joy Spring;384;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;Yeah!;446;
+Tito Puente & Eddie Palmieri;Obra Maestra;2000-01-01;48;20;8 Timbales;191;
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;Si Acaso Vuelves;184;data/lyrics/Vicente-fernandez-si-acaso-vuelves.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;Que Te Vaya Bonito;182;data/lyrics/Vicente-fernandez-que-te-vaya-bonito.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;Amor Indio;157;data/lyrics/Vicente-fernandez-amor-indio.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;El Rey;157;data/lyrics/Vicente-fernandez-el-rey.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;Yo Quiero Ser Tu Amante;211;data/lyrics/Vicente-fernandez-yo-quiero-ser-tu-amante.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;Tu Amor Soñado;151;data/lyrics/Vicente-fernandez-tu-amor-sonado.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;El Arracadas;186;data/lyrics/Vicente-fernandez-el-arracadas.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;El Precio;170;data/lyrics/Vicente-fernandez-el-precio.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;No Vas a Creer;164;data/lyrics/Vicente-fernandez-no-vas-a-creer.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;Las Llaves de Mi Alma;176;data/lyrics/Vicente-fernandez-las-llaves-de-mi-alma.txt
+Vicente Fernandez;El Ídolo De Mexico;1972;49;11;Volvió por Ella;193;data/lyrics/Vicente-fernandez-volvio-por-ella.txt

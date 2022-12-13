@@ -7,6 +7,7 @@ from spacy.language import Language
 from spacy_langdetect import LanguageDetector
 from concurrent.futures import ThreadPoolExecutor, wait
 from multiprocessing import Lock
+import shutil
 
 def get_lang_detector(nlp, name):
     return LanguageDetector()
@@ -25,17 +26,25 @@ def map_spacy_solr(lang):
         'de': 'de',
         'it': 'it',
         'pt': 'pt',
-        'nl': 'nl'
+        'nl': 'nl',
+        'pl': 'pl',
+        'so': 'so',
+        'ca': 'ca',
+        'id': 'id',
     }
     if lang in mapping:
-        return mapping[lang]
+        warning = ''
+        if lang not in ['en', 'es']:
+            warning = 'Unusual lang: ' + lang
+            print(warning)
+        return mapping[lang], warning
     else:
-        print("language not being mapped" + lang)
-        return 'en'
+        print("language not being mapped " + lang)
+        return 'en', ''
 
 def get_lang(text):
-        doc = nlp(text)
-        return doc._.language
+    doc = nlp(text)
+    return doc._.language
 
 try:
     nlp = spacy.load("en_core_web_sm")
@@ -51,6 +60,8 @@ except:
     print("python -m spacy download xx_ent_wiki_sm")
 
     
+warnings = []
+warning_lock = Lock()
 lock = Lock()
 get_lang("Isto é um teste")	
 
@@ -78,7 +89,10 @@ def read_and_process_file(jf, line, counter):
             track_lyrics= re.sub("\s+", " ", normal_file_lyrics).strip()
             spacy_lang = get_lang(track_lyrics)
             spacy_lang_name = spacy_lang['language'] if spacy_lang['score'] > 0.9 else 'en'
-            solr_lang = map_spacy_solr(spacy_lang_name)
+            solr_lang, warning_message = map_spacy_solr(spacy_lang_name)
+            if warning_message != "":
+                with warning_lock:
+                        warnings.append(f"For id {id}, warning: {warning_message}")
         except Exception as e:
             print('Exception in id ' + str(id) + 'track ' + track + ' in file ' + track_file, e)
             solr_lang = 'en'
@@ -92,7 +106,9 @@ def read_and_process_file(jf, line, counter):
         "n_tracks": n_tracks,
         "track": track,
         "track_duration": track_duration,
-        "lyrics": track_lyrics,
+        "lyrics_es": track_lyrics if solr_lang == 'es' else '',
+        "lyrics_en": track_lyrics if solr_lang == 'en' else '',
+        "lyrics_other": track_lyrics if solr_lang not in ['es', 'en'] else '',
         "language": solr_lang
     }
     with lock:
@@ -102,8 +118,10 @@ def read_and_process_file(jf, line, counter):
         jf.write(',\n'.encode('utf-8'))
 
 def translate_files():
+    tracks_multi_lang_path = '../data/tracks.json'
+    shutil.copyfile('../data/tracks_single_lyrics.json', tracks_multi_lang_path)
     executor = ThreadPoolExecutor(max_workers=1)
-    with open('../data/tracks.json', 'wb') as jf:
+    with open(tracks_multi_lang_path, 'wb') as jf:
         futures = []
         counter = 0
         jf.write('[\n'.encode('utf-8'))
@@ -122,6 +140,10 @@ def translate_files():
         wait(futures)
         jf.seek(-2, 1)
         jf.write('\n]\n'.encode('utf-8'))
+        
+    with open('../data/warnings.txt', 'w') as wf:
+        for w in warnings:
+            wf.write(w + '\n')
         
 
 if __name__ == '__main__':

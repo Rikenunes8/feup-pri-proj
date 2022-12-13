@@ -1,0 +1,143 @@
+{
+    "add-field-type": [
+        {
+            "name": "textType",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"}
+                ]
+            }
+        },
+        {
+            "name": "enLyricsType",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.EnglishMinimalStemFilterFactory"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.EnglishMinimalStemFilterFactory"},
+                    {"class": "solr.EnglishPossessiveFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"},
+                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
+                    {"class": "solr.SynonymGraphFilterFactory", "synonyms": "/var/solr/data/tracks/synonyms_en.txt", "ignoreCase": "true", "expand": "true"}
+                ]
+            }
+        },
+        {
+            "name": "esLyricsType",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.SnowballPorterFilterFactory", "language": "Spanish"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory","preserveOriginal": "true"},
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.SnowballPorterFilterFactory", "language": "Spanish"},
+                    {"class": "solr.RemoveDuplicatesTokenFilterFactory"},
+                    {"class": "solr.SynonymGraphFilterFactory", "synonyms": "/var/solr/data/tracks/synonyms_es.txt", "ignoreCase": "true", "expand": "true"}
+                ]
+            }
+        }
+    ],
+    "add-field": [
+        {
+            "name": "artist",
+            "type": "textType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "album",
+            "type": "textType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "album_release_date",
+            "type": "pint",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "album_ranking",
+            "type": "pint",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "n_tracks",
+            "type": "pint",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "track",
+            "type": "textType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "track_duration",
+            "type": "pint",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "lyrics_en",
+            "type": "enLyricsType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "lyrics_es",
+            "type": "esLyricsType",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "lyrics_other",
+            "type": "textType",
+            "indexed": true,
+            "stored": true
+        }
+    ]
+}
