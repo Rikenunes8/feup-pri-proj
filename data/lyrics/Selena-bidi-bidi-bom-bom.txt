@@ -21,8 +21,7 @@ No lo puedo controlar (Bidi, bidi, bom, bom, ooh)
 Oh, y se emociona (Y se emociona)
 Ya no razona
 Y me empieza a cantar (Cantar)
-Me canta así (Así), así (Así)
-[Coro]
+Me canta así (Así), así (Así)[Coro]
 Bidi, bidi, bom, bom (Bidi, bidi, bom, bom)
 Bidi, bidi, bom, bom (Bidi, bidi, bom, bom)
 Bidi, bidi, bidi, bidi, bidi, bom, bom
@@ -33,7 +32,8 @@ Cada vez que lo oigo hablar (Cada vez, cada vez, ooh)
 Whoa
 Me tiemblan hasta las piernas (Las piernas)
 Y el corazón igual
-(Bidi, bidi, bom, bom, ooh)[Pre-Coro]
+(Bidi, bidi, bom, bom, ooh)
+[Pre-Coro]
 Y se emociona (Y se emociona)
 Ya no razona
 No lo puedo controlar (Bidi, bidi, bom, bom, ooh)
@@ -46,8 +46,7 @@ Me canta así (Así), así (Así)
 Bidi, bidi, bom, bom (Bidi, bidi, bom, bom)
 Bidi, bidi, bom, bom (Bidi, bidi, bom, bom)
 Bidi, bidi, bidi, bidi, bidi, bom, bom
-Bidi, bidi, bidi, bidi, bidi, bidi, bom
-[Puente]
+Bidi, bidi, bidi, bidi, bidi, bidi, bom[Puente]
 Hey, yeah
 Paripititumon, hey, hey
 Cuando escucho esta canción
