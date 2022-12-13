@@ -110,4 +110,4 @@ for index, row in df[df['lyrics'].isna()].iterrows():
             print(f"Processed  {count}/{total} but found no lyrics for {search}")
 
 print("Saving to file with new found paths")
-df.to_csv(all_file, sep=';', mode="w", encoding='utf8')
+df.to_csv(all_file, sep=';', mode="w", index=False, encoding='utf8')

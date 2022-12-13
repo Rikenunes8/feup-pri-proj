@@ -63,4 +63,4 @@ for index, row in df[df['lyrics'].isna()].iterrows():
         print(f"File should be {file}")
 
 print(f"Saving to file with new found paths: {found_lyrics}")
-df.to_csv(all_file, sep=';', mode="w", encoding='utf8')
+df.to_csv(all_file, sep=';', mode="w", index=False, encoding='utf8')
