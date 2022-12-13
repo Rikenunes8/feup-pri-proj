@@ -7,7 +7,7 @@ page2 = requests.get("https://www.listchallenges.com/billboard-the-50-greatest-l
 pages = [page1, page2]
 
 total = ""
-
+r = 1
 for page in pages:
     latin_page = BeautifulSoup(page.content, 'html.parser')
     for i in latin_page.find_all("div", {"class": "item-name"}):
@@ -19,15 +19,12 @@ for page in pages:
             name.insert(0, name[0])
         if name[0][-1] == ' ':
             name[0] = name[0][:-1]
-        name = name[0] + ";" + name[1] + '\n'
+        name = name[1] + ";" + name[0] + ";" + str(r) +'\n'
+        r+=1
         total = total + name
 
-print(total)
+text= "album;artist;ranking\n" + total[:-1]
 
-
-
-text= "artist;album\n" + total[:-1]
-
-path ="test.txt"
+path ="./data/latin.csv"
 with open(path, 'w', encoding='utf-8') as f:
     f.write(text)
