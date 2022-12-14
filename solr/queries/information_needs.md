@@ -30,7 +30,7 @@ rows: 20
 
 ### 5. I want songs about surprise and happiness
 
-- q: track: surpr* track: happ*
+- q: surprise happiness
 
 
 ### 6. I want a song with a sentence like "I like her"
@@ -38,6 +38,6 @@ rows: 20
 - q: "I like her"
 
 
-### 7. I want a song that talks about "amor" and "vida"
+### 7. I want a Spanish song that talks about love and life
 
 q: amor vida
